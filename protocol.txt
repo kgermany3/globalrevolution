@@ -1,0 +1,160 @@
+Here is the protocol, of sorts, that servers must follow if they are to
+communicate with the online trade system.  It is modified slightly from
+the protocol used by Netplay 2.0, with some unnecessary features
+removed.  The protocol is independent of any particular implementation of it.
+It does assume the following, though:
+
+Communication protocol: TCP
+Character encoding: Unicode UTF-8
+
+Below is a list of commands that a user can send to the server.  All
+commands must include a newline character (0x0A) at the end.  This
+also applies to any data that the server sends as well.  The data stream,
+then, essentially becomes a series of lines of text.
+
+-------------------
+
+<register>name=A pass=B email=C</register>
+
+Adds the user with name A, password B, and e-mail address C to the
+server's list of registered users. When the server receives this command,
+it must send one of the following:
+
+<register>complete</register> - the user was added successfully.
+<register>failed</register> - the user couldn't be added, mainly because
+the user already exists.
+
+The server may require accounts added to it to be validated by e-mail first.
+
+-------------------
+
+<authentication>X</authentication>
+
+Verifies that the server supports this protocol.  X is the "game code"
+for this game.  If the server supports the game code X, it must send
+"<auth>success</auth>" to the sender.  Otherwise, it must send
+"<auth>fail</auth>" to the sender and closes the connection.
+(It is equivalent to Netplay's "authenfication" command, but with
+correct spelling.)
+
+-------------------
+
+<name>request</name>
+
+When the server receives this request, it must return "<name>X</name>"
+to the sender, where X is the logged-in user's username.
+
+-------------------
+
+<character>retrieve_online_lite</character>
+
+Retrieves a list of all online users.  It is similar to Netplay 2.0's 
+retrieve_online command, but modified for this protocol.  When the
+server receives this command, it must send data consisting of:
+
+<character>retrieve_online_lite num=X</character> [+ newline]
+
+where X is the number of online users.  Then, for each online user:
+
+<character>X|Y</character> [+ newline]
+
+where X is the user's ID, and Y is the user's name.
+
+-------------------
+
+<login>name=A pass=B</login>
+
+Represents a request to connect to the server with A as the username
+and B as the password.  The server can return one of the following:
+
+<login>allow id=X</login> - The connection succeeded and the 
+connected user's ID becomes equal to X.  The client can use this ID
+to retrieve additional information about the connected user.  The server
+must now add the user to the list of online users and send the response
+"<start>id=X</start>" to all users, where X is the user's ID.
+<login>need_validation</login> - The connection failed because the
+account is awaiting validation by e-mail.
+<login>wrongpass</login> - The connection failed because the password
+is incorrect.
+<login>loggedin</login> - The user is already logged in.
+<login>unavail</login> - The user does not exist.
+
+-----------------
+
+<close></close>
+
+Closes the connection to the server.  If the user is logged in, the server
+sends the response "<close>id=X</close>" to all users, where X is the
+ID of the logged-in user, then the server removes the user
+from the list of online users before closing the connection.  This is a
+modified version of Netplay's "close" command in that it removes the
+parameter for the logged in user.
+
+-----------------
+
+<data>msgid=A recipient=C data=D</data>
+
+Represents a block of data as a context-specific message to be sent to 
+another player.  A is the message ID, C is the recipient's ID, and D 
+represents data of any size, in Base 64 encoding (without 
+whitespace or newline characters).
+
+When the server receives this command, it must send it to the client
+indicated in _recipient_, but only if the sender is logged in.  Otherwise it
+sends to the sender:
+
+<result>missing</result> -- if the recipient can't be found or is no longer
+online
+<result>not_connected</result> -- if the sender is not logged in.
+
+The response that the server sends to the recipient has the following form:
+
+<data>msgid=A sender=B recipient=C data=D</data>
+
+B here is the sender's ID.
+
+When the recipient receives this command, it must send a <result> 
+command with the parameter "ack" or "nack" (using the sender, B,
+as the parameter for _recipient_).  In making its decision on whether to 
+accept the message, the recipient may check the sender's ID and the 
+data block attached to it.
+
+-----------------
+
+<result>ack recipient=B data=C</result>
+
+Represents a response to a message.  B is the recipient's ID, and 
+C represents data of any size, in Base 64 encoding (without 
+whitespace or newline characters).
+
+When the server receives this command, it must send it to the client
+indicated in _recipient_, but only if the sender is logged in. The 
+response that the server sends to the recipient has the following form:
+
+<result>ack sender=B recipient=C data=D</result>
+
+B here is the sender's ID.
+
+This "result" command has the parameter "ack", meaning acknowledge, 
+indicating that the recipient has responded to the message successfully.
+
+-----------------
+
+<result>nack recipient=B data=C</result>
+
+Similar to above, but the parameter is "nack", meaning negative
+acknowledge.  This response is sent by the recipient when the message
+is invalid or inappropriate for the current situation, such as receiving
+a request to trade when the player is already trading with another
+player.
+
+---------------
+
+Input Validation
+
+Because these characters have special meaning in the protocol, clients 
+should ensure that names, passwords, and e-mail addresses don't 
+include the following characters:  | \ / < > " = as well as carriage 
+return (0x0D), newline (0x0A), and null (0x00).
+
+

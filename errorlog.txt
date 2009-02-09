@@ -1,0 +1,2555 @@
+Exception: RuntimeError
+Message: Script error within event 12, map 25 (Test Map 2):
+Section065:352:in `initialize'Party 1 has no Pokemon.
+Section017:238:in `pbExecuteScript'
+Section087:286:in `new'
+Section087:286:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Reached end of file unexpectedly. There were too few entries in the last section, expected 12 entries.
+Please check the format of the section numbered 028.
+File PBS/encounters.txt, line 192
+ONIX,15
+
+Compiler:917:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Reached end of file unexpectedly. There were too few entries in the last section, expected 12 entries.
+Please check the format of the section numbered 028.
+File PBS/encounters.txt, line 191
+ONIX,15
+
+Compiler:917:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Reached end of file unexpectedly. There were too few entries in the last section, expected 12 entries.
+Please check the format of the section numbered 028.
+File PBS/encounters.txt, line 189
+ONIX,25
+
+Compiler:917:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: NoMethodError
+Message: undefined method `name' for nil:NilClass
+PokemonEditor:1525:in `serializeConnectionData'
+PokemonEditor:1523:in `each'
+PokemonEditor:1523:in `serializeConnectionData'
+PokemonEditor:1522:in `open'
+PokemonEditor:1522:in `serializeConnectionData'
+PokemonEditor:1927:in `pbMapScreenLoop'
+PokemonEditor:1921:in `loop'
+PokemonEditor:1936:in `pbMapScreenLoop'
+PokemonEditor:1946:in `pbEditorScreen'
+PokemonEditor:1943:in `pbCriticalCode'
+Exception: NoMethodError
+Message: undefined method `name' for nil:NilClass
+PokemonEditor:1525:in `serializeConnectionData'
+PokemonEditor:1523:in `each'
+PokemonEditor:1523:in `serializeConnectionData'
+PokemonEditor:1522:in `open'
+PokemonEditor:1522:in `serializeConnectionData'
+PokemonEditor:1927:in `pbMapScreenLoop'
+PokemonEditor:1921:in `loop'
+PokemonEditor:1936:in `pbMapScreenLoop'
+PokemonEditor:1946:in `pbEditorScreen'
+PokemonEditor:1943:in `pbCriticalCode'
+Exception: SyntaxError
+Message: (eval):2:in `pbExecuteScript'compile error
+(eval):2: syntax error
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Undefined Trainer constant name: LEADER_Danny
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 140
+LEADER_Danny
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: LEADER_Danny
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 140
+LEADER_Danny
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: LEADER
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 140
+LEADER
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined encounter type METAPOD,6,9, expected one of the following:
+["Land", "Cave", "Water", "RockSmash", "OldRod", "GoodRod", "SuperRod", "HeadbuttLow", "HeadbuttHigh", "LandMorning", "LandDay", "LandNight", "BugContest"]
+File PBS/encounters.txt, line 352
+METAPOD,6,9
+
+Compiler:937:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined encounter type METAPOD,6,9, expected one of the following:
+["Land", "Cave", "Water", "RockSmash", "OldRod", "GoodRod", "SuperRod", "HeadbuttLow", "HeadbuttHigh", "LandMorning", "LandDay", "LandNight", "BugContest"]
+File PBS/encounters.txt, line 350
+METAPOD,6,9
+
+Compiler:937:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined encounter type PIKACHU,6,9, expected one of the following:
+["Land", "Cave", "Water", "RockSmash", "OldRod", "GoodRod", "SuperRod", "HeadbuttLow", "HeadbuttHigh", "LandMorning", "LandDay", "LandNight", "BugContest"]
+File PBS/encounters.txt, line 350
+PIKACHU,6,9
+
+Compiler:937:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER,"BROCK",_I("Congratulations! You have defeated me.\nI am proud to present you this Boulderbadge!")
+                                                                                                                                     ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER,"BROCK",_I("Congratulations! You have defeated me.\nI am proud to present you this Boulderbadge!")
+                                                                                                                                     ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER,"BROCK",_I("Congratulations! You have defeated me.\nI am proud to present you this Boulderbadge!")false=0)
+                                                                                                                                          ^
+(eval):1: Can't assign to false
+pbTrainerBattle(PBTrainers::LEADER,"BROCK",_I("Congratulations! You have defeated me.\nI am proud to present you this Boulderbadge!")false=0)
+                                                                                                                                           ^
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER,"BROCK",_I("Congratulations! You have defeated me.\nI am proud to present you this Boulderbadge!")false=0)
+                                                                                                                                             ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 4, map 50 (Pewter Gym):
+(eval):1:in `pbExecuteScript'uninitialized constant Interpreter::Badges
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerIntro(:Bug Catcher)
+                           ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerIntro(:Bug Catcher)
+                           ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 8, map 31 (Viridian Forest):
+Section109:2005:in `const_set'wrong constant name Bug Catcher
+Section017:238:in `pbExecuteScript'
+Section109:2005:in `pbTrainerTypeEditorNew'
+Section087:150:in `pbTrainerTypeCheck'
+Section077:1710:in `pbTrainerIntro'
+(eval):1:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 8, map 31 (Viridian Forest):
+Section109:2005:in `const_set'wrong constant name Bug Catcher
+Section017:238:in `pbExecuteScript'
+Section109:2005:in `pbTrainerTypeEditorNew'
+Section087:150:in `pbTrainerTypeCheck'
+Section077:1710:in `pbTrainerIntro'
+(eval):1:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Compiler:120:in `scan'
+Compiler:120:in `csvfield!'
+Compiler:386:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:675:in `pbCompileItems'
+Compiler:674:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Exception: RuntimeError
+Message: Script error within event 2, map 22 (Moonstone Cave):
+(eval):1:in `pbReceiveItem'wrong number of arguments(0 for 1)
+Section017:238:in `pbExecuteScript'
+(eval):1:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):2:in `pbExecuteScript'compile error
+(eval):2: syntax error
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerIntro(:Super Nerd)
+                          ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerIntro(:Super Nerd)
+                          ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+Change Items: [POTION] +1
+             ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+Kernel: pbItem: Potion, 1
+       ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'uninitialized constant Interpreter::Potion
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'uninitialized constant Interpreter::POTION
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'undefined method `PBItems' for Kernel:Module
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'undefined method `pbAddItem' for Kernel:Module
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'undefined method `pbAddItem' for #<Interpreter:0x553b670>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 6, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'uninitialized constant Interpreter::Potion
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 6, map 29 (Route 1):
+(eval):1:in `pbExecuteScript'uninitialized constant Interpreter::POTION
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 6, map 29 (Route 1):
+(eval):1:in `pbItemBall'wrong number of arguments(0 for 1)
+Section017:238:in `pbExecuteScript'
+(eval):1:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'uninitialized constant Interpreter::POTION
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):3:in `pbExecuteScript'compile error
+(eval):3: syntax error
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'PBItems is not a class/module
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbReceiveItem'wrong number of arguments(2 for 1)
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):3:in `pbExecuteScript'compile error
+(eval):3: syntax error
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'uninitialized constant Interpreter::POTION
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'uninitialized constant Interpreter::POTION
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):2:in `pbExecuteScript'compile error
+(eval):2: syntax error
+Kernel.pbReceiveItem(Potion),1
+                             ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbReceiveItem'wrong number of arguments(2 for 1)
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: RuntimeError
+Message: Script error within event 4, map 57 (Cerulean Gym):
+(eval):1:in `pbExecuteScript'uninitialized constant PBTrainers::Cerulean_Leader
+Section017:238:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 57 (Cerulean Gym):
+(eval):1:in `pbExecuteScript'uninitialized constant PBTrainers::Cerulen_Leder
+Section017:238:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Cerulen Leder
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 265
+Cerulen Leder
+
+Compiler:780:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Cerulen_Leder
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 265
+Cerulen_Leder
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Cerulen_Leder
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 265
+Cerulen_Leder
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Cerulen_Leder
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 265
+Cerulen_Leder
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Script error within event 4, map 57 (Cerulean Gym):
+(eval):1:in `pbExecuteScript'uninitialized constant PBTrainers::Cerulen_Leder
+Section017:238:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 57 (Cerulean Gym):
+(eval):1:in `pbExecuteScript'uninitialized constant PBTrainers::Leader
+Section017:238:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: RuntimeError
+Message: Script error within event 4, map 58 (Bike Shop):
+(eval):1:in `pbExecuteScript'undefined method `bicycle=' for #<PokeBattle_Trainer:0x5616700>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 58 (Bike Shop):
+(eval):1:in `pbExecuteScript'undefined method `pbItemReceive' for Kernel:Module
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'uninitialized constant PBItems::Potion
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'undefined local variable or method `pbItems' for #<Interpreter:0x4ff7558>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):3:in `pbExecuteScript'compile error
+(eval):3: syntax error
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):3:in `pbExecuteScript'compile error
+(eval):3: syntax error
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'undefined method `pbStoreItem' for Kernel:Module
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'undefined method `pbStoreItem' for Kernel:Module
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'undefined method `pbStoreItem' for PokemonBag:Class
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'undefined method `pbStoreItem' for #<Interpreter:0x5469670>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'undefined method `pbReceiveItem' for #<Interpreter:0x5565040>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbReceiveItem'wrong number of arguments(3 for 0)
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbReceiveItem'wrong number of arguments(3 for 2)
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+(eval):2:in `pbExecuteScript'uninitialized constant Interpreter::POTION
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+Section083:943:in `pbReceiveItem'undefined method `pbChooseBuyItem' for nil:NilClass
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+Section083:945:in `pbReceiveItem'undefined local variable or method `quantity' for #<Interpreter:0x5540068>
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 4, map 29 (Route 1):
+Section083:945:in `pbReceiveItem'undefined local variable or method `quantity' for #<Interpreter:0x55c3468>
+Section017:238:in `pbExecuteScript'
+(eval):2:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 18, map 61 (Mt. Moon):
+(eval):1:in `pbExecuteScript'uninitialized constant PBItems::PARALYZHEAL
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: North side of first map must connect with south side of second map
+File PBS/connections.txt, line 12
+
+
+Compiler:727:in `pbCompileConnections'
+Compiler:711:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Compiler:711:in `pbCompileConnections'
+Compiler:2538:in `pbCompileAllData'
+Compiler:2616
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: SyntaxError
+Message: (eval):101:in `pbCompileTrainers'compile error
+(eval):96: syntax error
+Lt.=94
+    ^
+Compiler:1148:in `pbCompileTrainers'
+Compiler:2556:in `eval'
+Compiler:1148:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: SyntaxError
+Message: (eval):101:in `pbCompileTrainers'compile error
+(eval):96: syntax error
+Lt.=94
+    ^
+Compiler:1148:in `pbCompileTrainers'
+Compiler:2556:in `eval'
+Compiler:1148:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Sailor
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 442
+Sailor
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Sailor
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 442
+Sailor
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Mariner
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 442
+Mariner
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Sailor
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 442
+Sailor
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Sailor
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 442
+Sailor
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Script error within event 3, map 78 (SS Anne B1):
+(eval):1:in `pbExecuteScript'undefined method `pbDeleteItem' for #<Interpreter:0x53e5eb0>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 3, map 78 (SS Anne B1):
+(eval):1:in `pbExecuteScript'undefined local variable or method `bag' for #<Interpreter:0x54b0a28>
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: HIKER
+File PBS/trainers.txt, line 263
+HIKER
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Hiker
+File PBS/trainers.txt, line 263
+Hiker
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Leader
+File PBS/trainers.txt, line 263
+Leader
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Leader
+File PBS/trainers.txt, line 264
+Leader
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Swimmer
+File PBS/trainers.txt, line 266
+Swimmer
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Swimmer
+File PBS/trainers.txt, line 266
+Swimmer
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Swimmer
+File PBS/trainers.txt, line 263
+Swimmer
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: 
+File PBS/trainers.txt, line 
+
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: 
+File PBS/trainers.txt, line 
+
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: 
+File PBS/trainers.txt, line 
+
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Expected a species name: Swimmer
+File PBS/trainers.txt, line 266
+Swimmer
+
+Compiler:1204:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: TENTACOOL,17
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 493
+TENTACOOL,17
+
+Compiler:780:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Characters/trainer099
+BitmapCache:83:in `load_bitmap'
+BitmapCache:133:in `picture'
+Sprite_Picture:41:in `update'
+Spriteset_Map:240:in `_animationSprite_update'
+Spriteset_Map:239:in `each'
+Spriteset_Map:239:in `_animationSprite_update'
+AnimationSprite:91:in `update'
+Scene_Map:49:in `updateSpritesets'
+Scene_Map:43:in `each'
+Scene_Map:43:in `updateSpritesets'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Characters/Ruby
+BitmapCache:83:in `load_bitmap'
+BitmapCache:118:in `character'
+Sprite_Character:48:in `update_or'
+PerspectiveTilemap:406:in `shadow_update'
+Shadow:169:in `update'
+Spriteset_Map:221:in `_animationSprite_update'
+Spriteset_Map:213:in `each'
+Spriteset_Map:213:in `_animationSprite_update'
+AnimationSprite:91:in `update'
+Scene_Map:49:in `updateSpritesets'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Characters/trainer099
+BitmapCache:83:in `load_bitmap'
+BitmapCache:133:in `picture'
+Sprite_Picture:41:in `update'
+Spriteset_Map:240:in `_animationSprite_update'
+Spriteset_Map:239:in `each'
+Spriteset_Map:239:in `_animationSprite_update'
+AnimationSprite:91:in `update'
+Scene_Map:49:in `updateSpritesets'
+Scene_Map:43:in `each'
+Scene_Map:43:in `updateSpritesets'
+Exception: RuntimeError
+Message: Undefined value PkMnTRAINER_Male3 in PBTrainers (section File PBS/metadata.txt, section 0, key PlayerD
+PkMnTRAINER_Male3,Gold,onbikegold,trbackd,Gold,Gold,Gold
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:656:in `pbCompileMetadata'
+Compiler:629:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Exception: RuntimeError
+Message: Undefined value PkMnTRAINER_Male3 in PBTrainers (section File PBS/metadata.txt, section 0, key PlayerD
+PkMnTRAINER_Male3,Gold,onbikegold,trbackd,Gold,Gold,Gold
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:656:in `pbCompileMetadata'
+Compiler:629:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Exception: RuntimeError
+Message: In encounters.txt, expected a species entry line,
+got "086" instead (probably too few entries in an encounter type).
+Please check the format of the section numbered 087,
+which is just before this line.
+File PBS/encounters.txt, line 431
+086
+
+Compiler:900:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: In encounters.txt, expected a species entry line,
+got "086" instead (probably too few entries in an encounter type).
+Please check the format of the section numbered 087,
+which is just before this line.
+File PBS/encounters.txt, line 431
+086
+
+Compiler:900:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: In encounters.txt, expected a species entry line,
+got "086" instead (probably too few entries in an encounter type).
+Please check the format of the section numbered 087,
+which is just before this line.
+File PBS/encounters.txt, line 431
+086
+
+Compiler:900:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: In encounters.txt, expected a species entry line,
+got "086" instead (probably too few entries in an encounter type).
+Please check the format of the section numbered 087,
+which is just before this line.
+File PBS/encounters.txt, line 431
+086
+
+Compiler:900:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Script error within event 5, map 27 (Oaks Lab):
+(eval):1:in `pbReceiveItem'wrong number of arguments(2 for 1)
+Section017:238:in `pbExecuteScript'
+(eval):1:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: uninitialized constant PokemonMenu::PokemonTrainerCard
+PokemonMenu:180:in `pbStartPokemonMenu'
+PokemonMenu:178:in `logonerr'
+PokemonMenu:178:in `pbStartPokemonMenu'
+PokemonMenu:132:in `loop'
+PokemonMenu:233:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: uninitialized constant PokemonMenu::PokemonTrainerCard
+PokemonMenu:180:in `pbStartPokemonMenu'
+PokemonMenu:178:in `logonerr'
+PokemonMenu:178:in `pbStartPokemonMenu'
+PokemonMenu:132:in `loop'
+PokemonMenu:233:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: uninitialized constant PokemonMenu::PokemonBadgeScene
+PokemonMenu:190:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: uninitialized constant PokemonMenu::BadgeCase
+PokemonMenu:191:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: uninitialized constant PokemonMenu::Badges
+PokemonMenu:191:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<PokemonBadgeScene:0x5555f40>
+PokemonBadgeCase:48:in `pbDrawBadgeFront'
+PokemonBadgeCase:46:in `each'
+PokemonBadgeCase:46:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:77:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<PokemonBadgeScene:0x5613088>
+PokemonBadgeCase:45:in `pbDrawBadgeFront'
+PokemonBadgeCase:43:in `each'
+PokemonBadgeCase:43:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:74:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<PokemonBadgeScene:0x5708f80>
+PokemonBadgeCase:40:in `pbDrawBadgeFront'
+PokemonBadgeCase:38:in `each'
+PokemonBadgeCase:38:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:69:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<PokemonBadgeScene:0x56b7830>
+PokemonBadgeCase:40:in `pbDrawBadgeFront'
+PokemonBadgeCase:38:in `each'
+PokemonBadgeCase:38:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:69:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<PokemonBadgeScene:0x5511700>
+PokemonBadgeCase:40:in `pbDrawBadgeFront'
+PokemonBadgeCase:38:in `each'
+PokemonBadgeCase:38:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:69:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<PokemonBadgeScene:0x5726ff8>
+PokemonBadgeCase:40:in `pbDrawBadgeFront'
+PokemonBadgeCase:38:in `each'
+PokemonBadgeCase:38:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:69:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `textPositions' for #<PokemonBadgeScene:0x5617030>
+PokemonBadgeCase:37:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:70:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Exception: NameError
+Message: undefined local variable or method `pubid' for #<PokemonBadgeScene:0x55de3f0>
+PokemonBadgeCase:39:in `pbDrawBadgeFront'
+PokemonBadgeCase:21:in `pbStartScene'
+PokemonBadgeCase:77:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Lady
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 597
+Lady
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined value RICHBOY in PBTrainers (section File PBS/bttrainers.txt, section Trainer, key Type
+RICHBOY
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:540:in `pbCompileBTTrainers'
+Compiler:536:in `each'
+Compiler:536:in `pbCompileBTTrainers'
+Compiler:532:in `pbEachFileSectionEx'
+Compiler:1755:in `each_line'
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Rich_Boy
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 597
+Rich_Boy
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined value LADY in PBTrainers (section File PBS/bttrainers.txt, section Trainer, key Type
+LADY
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:540:in `pbCompileBTTrainers'
+Compiler:536:in `each'
+Compiler:536:in `pbCompileBTTrainers'
+Compiler:532:in `pbEachFileSectionEx'
+Compiler:1755:in `each_line'
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Lady
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 608
+Lady
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Lady
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 608
+Lady
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 12
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 11
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 11
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 602
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 602
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 602
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined Trainer constant name: Leader_Roxanne
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 602
+Leader_Roxanne
+
+Compiler:782:in `pbGetConst'
+Compiler:815:in `parseTrainer'
+Compiler:1173:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: NameError
+Message: uninitialized constant PokemonMenu::PokemonBadges
+PokemonMenu:191:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `pbTrainerCard' for #<PokemonBadgeScene:0x4bd08e8>
+PokemonBadgeCase:85:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `pbTrainerCard' for #<PokemonBadgeScene:0x56f0518>
+PokemonBadgeCase:85:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `pbBadges' for #<PokemonBadgeScene:0x5765f38>
+PokemonBadgeCase:98:in `pbStartScreen'
+PokemonMenu:193:in `pbStartPokemonMenu'
+PokemonMenu:192:in `pbFadeOutIn'
+PokemonMenu:192:in `pbStartPokemonMenu'
+PokemonMenu:189:in `logonerr'
+PokemonMenu:189:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Pictures/badges.png
+BitmapCache:243:in `load_bitmap'
+SpriteWindow:187:in `pbDrawImagePositions'
+SpriteWindow:186:in `each'
+SpriteWindow:186:in `pbDrawImagePositions'
+PokemonTrainerCard:64:in `pbDrawTrainerCardFront'
+PokemonTrainerCard:21:in `pbStartScene'
+PokemonTrainerCard:87:in `pbStartScreen'
+PokemonMenu:184:in `pbStartPokemonMenu'
+PokemonMenu:183:in `pbFadeOutIn'
+PokemonMenu:183:in `pbStartPokemonMenu'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Pictures/badges.png
+BitmapCache:243:in `load_bitmap'
+SpriteWindow:187:in `pbDrawImagePositions'
+SpriteWindow:186:in `each'
+SpriteWindow:186:in `pbDrawImagePositions'
+PokemonTrainerCard:64:in `pbDrawTrainerCardFront'
+PokemonTrainerCard:21:in `pbStartScene'
+PokemonTrainerCard:87:in `pbStartScreen'
+PokemonMenu:184:in `pbStartPokemonMenu'
+PokemonMenu:183:in `pbFadeOutIn'
+PokemonMenu:183:in `pbStartPokemonMenu'
+Exception: RuntimeError
+Message: Undefined item constant name: DEFENSE CURL
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 6
+GEODUDE,12,TACKLE,DEFENSE CURL,ROCK THROW, ROCK TOMB
+
+Compiler:780:in `pbGetConst'
+Compiler:790:in `parseItem'
+Compiler:1217:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined item constant name: DEFENCE CURL
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 6
+GEODUDE,12,TACKLE,DEFENCE CURL,ROCK THROW, ROCK TOMB
+
+Compiler:780:in `pbGetConst'
+Compiler:790:in `parseItem'
+Compiler:1217:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined item constant name: DEFENCE_CURL
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 6
+GEODUDE,12,TACKLE,DEFENCE_CURL,ROCK_THROW,ROCK_TOMB
+
+Compiler:782:in `pbGetConst'
+Compiler:790:in `parseItem'
+Compiler:1217:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined item constant name: DEFENSE_CURL
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 6
+GEODUDE,12,TACKLE,DEFENSE_CURL,ROCK_THROW,ROCK_TOMB
+
+Compiler:782:in `pbGetConst'
+Compiler:790:in `parseItem'
+Compiler:1217:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined item constant name: HARDEN
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 6
+GEODUDE,12,TACKLE,HARDEN,ROCK_THROW,ROCK_TOMB
+
+Compiler:782:in `pbGetConst'
+Compiler:790:in `parseItem'
+Compiler:1217:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined species constant name: PELLIPER
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/encounters.txt, line 556
+PELLIPER,25,30
+
+Compiler:782:in `pbGetConst'
+Compiler:801:in `parseSpecies'
+Compiler:908:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerBattlePBTrainers::LEADER_Roxanne,"Roxanne",_I("So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge."),false)
+                                                    ^
+(eval):1: syntax error
+pbTrainerBattlePBTrainers::LEADER_Roxanne,"Roxanne",_I("So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge."),false)
+                                                                                                                                                                                                                                                                                                   ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerBattlePBTrainers::LEADER_Roxanne,"Roxanne",_I("So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge."),false)
+                                                    ^
+(eval):1: syntax error
+pbTrainerBattlePBTrainers::LEADER_Roxanne,"Roxanne",_I("So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge."),false)
+                                                                                                                                                                                                                                                                                                   ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):1:in `pbExecuteScript'compile error
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER_Roxanne,"Roxanne",_I(""So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge"),false)
+                                                            ^
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER_Roxanne,"Roxanne",_I(""So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge"),false)
+                                                                      ^
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER_Roxanne,"Roxanne",_I(""So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge"),false)
+                                                                                  ^
+(eval):1: syntax error
+pbTrainerBattle(PBTrainers::LEADER_Roxanne,"Roxanne",_I(""So... I lost... It seems that I still have much more to learn... I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge"),false)
+                                                                                                                                       ^
+(eval):1: unterminated string meets end of file
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Undefined species constant name: FARFETCH'D
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/encounters.txt, line 837
+FARFETCH'D,16
+
+Compiler:780:in `pbGetConst'
+Compiler:801:in `parseSpecies'
+Compiler:908:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined species constant name: SABELEYE
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/encounters.txt, line 919
+SABELEYE,9,10
+
+Compiler:782:in `pbGetConst'
+Compiler:801:in `parseSpecies'
+Compiler:908:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
