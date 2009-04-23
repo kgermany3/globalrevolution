@@ -9,7 +9,7 @@ TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
 WildVictoryME=Victory-Wild_Pokemon.mid
 TrainerBattleBGM=Pkmn_FRLG_Battle_RS_Trainer.mid
 StorageCreator=LANETTE
-Home=25,11,6,8
+Home=38,8,8
 TextSkin=rstextskin.png
 WildBattleBGM=Wildp.mid
 [001]
