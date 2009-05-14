@@ -2553,3 +2553,33 @@ Compiler:801:in `parseSpecies'
 Compiler:908:in `pbCompileEncounters'
 Compiler:2568:in `pbCompileAllData'
 Compiler:2616
+Exception: RuntimeError
+Message: Field  is not a positive integer
+File PBS/metadata.txt, section 0, key Home
+38,8,8
+
+Compiler:173:in `csvPosInt!'
+Compiler:367:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:656:in `pbCompileMetadata'
+Compiler:629:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Compiler:477:in `pbCompilerEachCommentedLine'
+Exception: RuntimeError
+Message: Field  is not a positive integer
+File PBS/metadata.txt, section 0, key Home
+38,8,8
+
+Compiler:173:in `csvPosInt!'
+Compiler:367:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:656:in `pbCompileMetadata'
+Compiler:629:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Compiler:477:in `pbCompilerEachCommentedLine'
