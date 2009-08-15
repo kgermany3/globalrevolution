@@ -2,10 +2,8 @@
 PlayerA=PkMnTRAINER_Male1,Red,onbikered,trback000,Red,Red,Red
 PlayerB=PkMnTRAINER_Female1,Sapphire,onbikesapphire,trback001,Sapphire,Sapphire,Sapphire
 PlayerC=PkMnTRAINER_Male2,Ruby,onbikeruby,trback099,Red,Red,Red
-PlayerD=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
-PlayerE=PkMnTRAINER_Female2,Crystal,onbikecrystal,trback100,Crystal,Crystal,Crystal
-PlayerF=PkMnTRAINER_Female3,Leaf,onbikeleaf,trback102,Leaf,Leaf,Leaf
 TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
+PlayerD=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
 WildVictoryME=Victory-Wild_Pokemon.mid
 TrainerBattleBGM=Pkmn_FRLG_Battle_RS_Trainer.mid
 StorageCreator=LANETTE
@@ -28,6 +26,12 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+[008]
+# Oldale Town
+Bicycle=true
+Outdoor=true
+HealingSpot=8,10,19
+ShowArea=true
 [010]
 # Route 24
 Bicycle=true
@@ -41,23 +45,23 @@ MapPosition=0,13,6
 EscapePoint=1,52,2
 [012]
 # Littleroot Town
-HealingSpot=12,13,18
-Outdoor=true
-ShowArea=true
 Bicycle=true
+Outdoor=true
+HealingSpot=12,13,18
+ShowArea=true
 [013]
 # Prof.Birch's Lab
 Outdoor=false
 ShowArea=false
 [014]
 # Route 101
+Bicycle=true
 Outdoor=true
 ShowArea=true
-Bicycle=true
 [015]
 # Twinleaf Town
-Outdoor=true
 Bicycle=true
+Outdoor=true
 ShowArea=true
 [016]
 # Route 201
@@ -67,9 +71,9 @@ ShowArea=true
 [017]
 # Lake Verity
 Weather=Rain,50
+Bicycle=true
 Outdoor=true
 ShowArea=true
-Bicycle=true
 [018]
 # Mt Moon Basement
 Bicycle=true
@@ -108,8 +112,8 @@ ShowArea=true
 # Pallet Town
 Bicycle=true
 Outdoor=true
-ShowArea=true
 HealingSpot=28,16,38
+ShowArea=true
 [029]
 # Route 1
 Bicycle=true
@@ -119,14 +123,25 @@ ShowArea=true
 # Viridian City
 Bicycle=true
 Outdoor=true
-ShowArea=true
 HealingSpot=30,26,29
+ShowArea=true
+[031]
+# Viridian Forest
+Bicycle=true
+Outdoor=true
+ShowArea=true
 [032]
 # Pewter City
 Bicycle=true
 Outdoor=true
-ShowArea=true
 HealingSpot=32,18,27
+ShowArea=true
+[034]
+# Rustboro City
+Bicycle=true
+Outdoor=true
+HealingSpot=34,16,38
+ShowArea=true
 [036]
 # New Bark Town
 Bicycle=true
@@ -147,8 +162,8 @@ HealingSpot=25,35,23
 Bicycle=true
 MapPosition=0,19,6
 Outdoor=true
-ShowArea=true
 HealingSpot=52,20,23
+ShowArea=true
 [062]
 # Route 25
 Bicycle=true
@@ -160,28 +175,14 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
-[067]
-# Route 6
-Bicycle=true
-Outdoor=true
-ShowArea=true
-[086]
-# Route 11
-Bicycle=true
-Outdoor=true
-ShowArea=true
 [064]
 # Vermillion City
 Bicycle=true
 Outdoor=true
+HealingSpot=64,22,9
 ShowArea=true
-HealingSpot=64,22,09
-[087]
-# Diglett's Cave
-ShowArea=true
-Bicycle=true
-[090]
-# Route 104
+[067]
+# Route 6
 Bicycle=true
 Outdoor=true
 ShowArea=true
@@ -194,15 +195,24 @@ ShowArea=true
 # Petalburg City
 Bicycle=true
 Outdoor=true
-ShowArea=true
 HealingSpot=83,20,16
-[092]
-# Petalburg Forest
+ShowArea=true
+[086]
+# Route 11
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[087]
+# Diglett's Cave
 Bicycle=true
 ShowArea=true
+[090]
+# Route 104
+Bicycle=true
 Outdoor=true
-[104]
-# Route 106
+ShowArea=true
+[092]
+# Petalburg Forest
 Bicycle=true
 Outdoor=true
 ShowArea=true
@@ -210,8 +220,24 @@ ShowArea=true
 # Dewford Town
 Bicycle=true
 Outdoor=true
+HealingSpot=98,2,11
 ShowArea=true
-HealingSpot=98,02,11
+[100]
+# Slateport City
+Bicycle=true
+Outdoor=true
+HealingSpot=100,19,20
+ShowArea=true
+[104]
+# Route 106
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[105]
+# Route 109
+Bicycle=true
+Outdoor=true
+ShowArea=true
 [106]
 # Route 30
 Bicycle=true
@@ -224,11 +250,6 @@ Outdoor=true
 ShowArea=true
 [108]
 # Violet City
-Bicycle=true
-Outdoor=true
-ShowArea=true
-[031]
-# Viridian Forest
 Bicycle=true
 Outdoor=true
 ShowArea=true
@@ -247,9 +268,10 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
-[105]
-# Route 109
+[122]
+# Route 9
 Bicycle=true
+MapPosition=0,21,6
 Outdoor=true
 ShowArea=true
 [125]
@@ -262,29 +284,7 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
-[008]
-# Oldale Town
-Bicycle=true
-Outdoor=true
-ShowArea=true
-HealingSpot=08,10,19
-[034]
-# Rustboro City
-Bicycle=true
-Outdoor=true
-ShowArea=true
-HealingSpot=34,16,38
-[100]
-# Slateport City
-Bicycle=true
-Outdoor=true
-ShowArea=true
-HealingSpot=100,19,20
 [140]
 # Granite Cave
 Bicycle=true
 ShowArea=true
-
-
-
-
