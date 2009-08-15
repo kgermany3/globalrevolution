@@ -10,14 +10,6 @@
 24,North,0,32,South,12
 # Vermillion City (64) - Route 6 (67)
 64,North,19,67,South,0
-# Route 5 (63) - Cerulean City (52)
-63,North,0,52,South,0
-# Route 24 (10) - Cerulean City (52)
-10,South,0,52,North,12
-# Cerulean (52) - Route 4 (25)
-52,West,10,25,East,0
-# Route 25 (62) - Route 24 (10)
-62,West,0,10,East,0
 # New Bark Town (36) - Cherrygrove City (2)
 36,0,4,2,81,0
 # Cherrygrove City (2) - Route 29 (20)
@@ -42,7 +34,7 @@
 90,North,0,34,South,0
 # Route 106 (104) - Dewford Town (98)
 104,South,55,98,North,0
-# Cherrrgrove City (2) - Route 30 (106)
+# Cherrygrove City (2) - Route 30 (106)
 2,North,0,106,South,0
 # Route 30 (106) - Route 31 (107)
 106,North,0,107,South,20
@@ -62,3 +54,13 @@
 124,South,4,125,North,0
 # Route 39 (125) - Olivine City (126)
 125,South,0,126,North,0
+# Route 25 (62) - Route 9 (122)
+62,3,65,122,0,0
+# Route 9 (122) - Route 5 (63)
+122,West,27,63,East,0
+# Route 9 (122) - Cerulean City (52)
+122,West,0,52,East,13
+# Route 9 (122) - Route 4 (25)
+122,0,0,25,90,3
+# Route 9 (122) - Route 24 (10)
+122,0,0,10,28,65
