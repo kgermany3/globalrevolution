@@ -150,11 +150,19 @@ player.
 
 ---------------
 
+Liveness Checks
+
+The server may occasionally ping clients to check for their liveness
+by sending a single newline character without any content.  Clients
+must ignore these liveness checks when they receive them.
+
+---------------
+
 Input Validation
 
 Because these characters have special meaning in the protocol, clients 
 should ensure that names, passwords, and e-mail addresses don't 
-include the following characters:  | \ / < > " = as well as carriage 
+include the following characters:  | \ / < > " ; = as well as carriage 
 return (0x0D), newline (0x0A), and null (0x00).
 
 
