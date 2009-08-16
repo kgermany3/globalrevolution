@@ -1,354 +1,467 @@
-ï»¿1,POUND,POUND,00,40,NORMAL,Physical,100,35,0,00,0,abef,Tough,"Pounds the foe with forelegs or tail."
-2,KARATECHOP,KARATE CHOP,2B,50,FIGHTING,Physical,100,25,0,00,0,abef,Tough,"A chopping attack with a high critical-hit ratio."
-3,DOUBLESLAP,DOUBLESLAP,1D,15,NORMAL,Physical,85,10,0,00,0,abef,Tough,"Repeatedly slaps the foe 2 to 5 times."
-4,COMETPUNCH,COMET PUNCH,1D,18,NORMAL,Physical,85,15,0,00,0,abef,Tough,"Repeatedly punches the foe 2 to 5 times."
-5,MEGAPUNCH,MEGA PUNCH,00,80,NORMAL,Physical,85,20,0,00,0,abef,Tough,"A strong punch thrown with incredible power."
-6,PAYDAY,PAY DAY,22,40,NORMAL,Physical,100,20,100,00,0,bef,Smart,"Throws coins at the foe. Money is recovered after."
-7,FIREPUNCH,FIRE PUNCH,04,75,FIRE,Physical,100,15,10,00,0,abe,Beauty,"A fiery punch that may burn the foe."
-8,ICEPUNCH,ICE PUNCH,05,75,ICE,Physical,100,15,10,00,0,abe,Beauty,"An icy punch that may freeze the foe."
-9,THUNDERPUNCH,THUNDERPUNCH,06,75,ELECTRIC,Physical,100,15,10,00,0,abe,Cool,"An electrified punch that may paralyze the foe."
-10,SCRATCH,SCRATCH,00,40,NORMAL,Physical,100,35,0,00,0,abef,Tough,"Scratches the foe with sharp claws."
-11,VICEGRIP,VICEGRIP,00,55,NORMAL,Physical,100,30,0,00,0,abef,Tough,"Grips the foe with large and powerful pincers."
-12,GUILLOTINE,GUILLOTINE,26,1,NORMAL,Physical,30,5,0,00,0,abe,Cool,"A powerful pincer attack that may cause fainting."
-13,RAZORWIND,RAZOR WIND,27,80,NORMAL,Special,100,10,0,08,0,bef,Cool,"A 2-turn move that strikes the foe on the 2nd turn."
-14,SWORDSDANCE,SWORDS DANCE,32,0,NORMAL,Status,0,30,0,10,0,d,Beauty,"A fighting dance that sharply raises ATTACK."
-15,CUT,CUT,00,50,NORMAL,Physical,95,30,0,00,0,abef,Cool,"Cuts the foe with sharp scythes, claws, etc."
-16,GUST,GUST,95,40,FLYING,Special,100,35,0,00,0,bef,Smart,"Strikes the foe with a gust of wind whipped up by wings."
-17,WINGATTACK,WING ATTACK,00,60,FLYING,Physical,100,35,0,00,0,abef,Cool,"Strikes the foe with wings spread wide."
-18,WHIRLWIND,WHIRLWIND,1C,0,NORMAL,Status,100,20,0,00,-6,be,Smart,"Blows away the foe with wind and ends the battle."
-19,FLY,FLY,9B,70,FLYING,Physical,95,15,0,00,0,abef,Smart,"Flies up on the first turn, then strikes the next turn."
-20,BIND,BIND,2A,15,NORMAL,Physical,75,20,100,00,0,abef,Tough,"Binds and squeezes the foe for 2 to 5 turns."
-21,SLAM,SLAM,00,80,NORMAL,Physical,75,20,0,00,0,abef,Tough,"Slams the foe with a long tail, vine, etc."
-22,VINEWHIP,VINE WHIP,00,35,GRASS,Physical,100,10,0,00,0,abef,Cool,"Strikes the foe with slender, whiplike vines."
-23,STOMP,STOMP,96,65,NORMAL,Physical,100,20,30,00,0,abe,Tough,"Stomps the enemy with a big foot. May cause flinching."
-24,DOUBLEKICK,DOUBLE KICK,2C,30,FIGHTING,Physical,100,30,0,00,0,abef,Cool,"A double-kicking attack that strikes the foe twice."
-25,MEGAKICK,MEGA KICK,00,120,NORMAL,Physical,75,5,0,00,0,abef,Cool,"An extremely powerful kick with intense force."
-26,JUMPKICK,JUMP KICK,2D,70,FIGHTING,Physical,95,25,0,00,0,abef,Cool,"A strong jumping kick. May miss and hurt the kicker."
-27,ROLLINGKICK,ROLLING KICK,1F,60,FIGHTING,Physical,85,15,30,00,0,abef,Cool,"A fast kick delivered from a rapid spin."
-28,SANDATTACK,SAND-ATTACK,17,0,GROUND,Status,100,15,0,00,0,bce,Cute,"Reduces the foe's accuracy by hurling sand in its face."
-29,HEADBUTT,HEADBUTT,1F,70,NORMAL,Physical,100,15,30,00,0,abe,Tough,"A ramming attack that may cause flinching."
-30,HORNATTACK,HORN ATTACK,00,65,NORMAL,Physical,100,25,0,00,0,abef,Cool,"Jabs the foe with sharp horns."
-31,FURYATTACK,FURY ATTACK,1D,15,NORMAL,Physical,85,20,0,00,0,abef,Cool,"Jabs the foe 2 to 5 times with sharp horns, etc."
-32,HORNDRILL,HORN DRILL,26,1,NORMAL,Physical,30,5,0,00,0,abe,Cool,"A one-hit KO attack that uses a horn like a drill."
-33,TACKLE,TACKLE,00,35,NORMAL,Physical,95,35,0,00,0,abef,Tough,"Charges the foe with a full- body tackle."
-34,BODYSLAM,BODY SLAM,06,85,NORMAL,Physical,100,15,30,00,0,abe,Tough,"A full-body slam that may cause paralysis."
-35,WRAP,WRAP,2A,15,NORMAL,Physical,85,20,100,00,0,abef,Tough,"Wraps and squeezes the foe 2 to 5 times with vines, etc."
-36,TAKEDOWN,TAKE DOWN,30,90,NORMAL,Physical,85,20,0,00,0,abef,Tough,"A reckless charge attack that also hurts the user."
-37,THRASH,THRASH,1B,90,NORMAL,Physical,100,20,100,04,0,abef,Tough,"A rampage of 2 to 3 turns that confuses the user."
-38,DOUBLEEDGE,DOUBLE-EDGE,C6,120,NORMAL,Physical,100,15,0,00,0,abef,Tough,"A life-risking tackle that also hurts the user."
-39,TAILWHIP,TAIL WHIP,13,0,NORMAL,Status,100,30,0,08,0,bce,Cute,"Wags the tail to lower the foe's DEFENSE."
-40,POISONSTING,POISON STING,02,15,POISON,Physical,100,35,30,00,0,be,Smart,"A toxic attack with barbs, etc., that may poison."
-41,TWINEEDLE,TWINEEDLE,4D,25,BUG,Physical,100,20,20,00,0,be,Cool,"Stingers on the forelegs jab the foe twice."
-42,PINMISSILE,PIN MISSILE,1D,14,BUG,Physical,85,20,0,00,0,bef,Cool,"Sharp pins are fired to strike 2 to 5 times."
-43,LEER,LEER,13,0,NORMAL,Status,100,30,0,08,0,bce,Cool,"Frightens the foe with a leer to lower DEFENSE."
-44,BITE,BITE,1F,60,DARK,Physical,100,25,30,00,0,abe,Tough,"Bites with vicious fangs. May cause flinching."
-45,GROWL,GROWL,12,0,NORMAL,Status,100,40,0,08,0,bce,Cute,"Growls cutely to reduce the foe's ATTACK."
-46,ROAR,ROAR,1C,0,NORMAL,Status,100,20,0,00,-6,be,Cool,"Makes the foe flee to end the battle."
-47,SING,SING,01,0,NORMAL,Status,55,15,0,00,0,bce,Cute,"A soothing song lulls the foe into a deep slumber."
-48,SUPERSONIC,SUPERSONIC,31,0,NORMAL,Status,55,20,0,00,0,bce,Smart,"Emits bizarre sound waves that may confuse the foe."
-49,SONICBOOM,SONICBOOM,82,1,NORMAL,Special,90,20,0,00,0,bef,Cool,"Launches shock waves that always inflict 20 HP damage."
-50,DISABLE,DISABLE,56,0,NORMAL,Status,55,20,0,00,0,be,Smart,"Psychically disables one of the foe's moves."
-51,ACID,ACID,45,40,POISON,Special,100,30,10,08,0,be,Smart,"Sprays a hide-melting acid. May lower DEFENSE."
-52,EMBER,EMBER,04,40,FIRE,Special,100,25,10,00,0,be,Beauty,"A weak fire attack that may inflict a burn."
-53,FLAMETHROWER,FLAMETHROWER,04,95,FIRE,Special,100,15,10,00,0,be,Beauty,"A powerful fire attack that may inflict a burn."
-54,MIST,MIST,2E,0,ICE,Status,0,30,0,10,0,d,Beauty,"Creates a mist that stops reduction of abilities."
-55,WATERGUN,WATER GUN,00,40,WATER,Special,100,25,0,00,0,bef,Cute,"Squirts water to attack the foe."
-56,HYDROPUMP,HYDRO PUMP,00,120,WATER,Special,80,5,0,00,0,bef,Beauty,"Blasts water at high power to strike the foe."
-57,SURF,SURF,00,95,WATER,Special,100,15,0,08,0,bef,Beauty,"Creates a huge wave, then crashes it down on the foe."
-58,ICEBEAM,ICE BEAM,05,95,ICE,Special,100,10,10,00,0,be,Beauty,"Blasts the foe with an icy beam that may freeze it."
-59,BLIZZARD,BLIZZARD,05,120,ICE,Special,70,5,10,08,0,be,Beauty,"Hits the foe with an icy storm that may freeze it."
-60,PSYBEAM,PSYBEAM,4C,65,PSYCHIC,Special,100,20,10,00,0,be,Beauty,"Fires a peculiar ray that may confuse the foe."
-61,BUBBLEBEAM,BUBBLEBEAM,46,65,WATER,Special,100,20,10,00,0,be,Beauty,"Forcefully sprays bubbles that may lower SPEED."
-62,AURORABEAM,AURORA BEAM,44,65,ICE,Special,100,20,10,00,0,be,Beauty,"Fires a rainbow-colored beam that may lower ATTACK."
-63,HYPERBEAM,HYPER BEAM,50,150,NORMAL,Special,90,5,0,00,0,bef,Cool,"Powerful, but leaves the user immobile the next turn."
-64,PECK,PECK,00,35,FLYING,Physical,100,35,0,00,0,abef,Cool,"Attacks the foe with a jabbing beak, etc."
-65,DRILLPECK,DRILL PECK,00,80,FLYING,Physical,100,20,0,00,0,abef,Cool,"A corkscrewing attack with the beak acting as a drill."
-66,SUBMISSION,SUBMISSION,30,80,FIGHTING,Physical,80,25,0,00,0,abef,Cool,"A reckless body slam that also hurts the user."
-67,LOWKICK,LOW KICK,C4,1,FIGHTING,Physical,100,20,0,00,0,abef,Tough,"A kick that inflicts more damage on heavier foes."
-68,COUNTER,COUNTER,59,1,FIGHTING,Physical,100,20,0,01,-5,ae,Tough,"Retaliates any physical hit with double the power."
-69,SEISMICTOSS,SEISMIC TOSS,57,1,FIGHTING,Physical,100,20,0,00,0,abef,Tough,"Inflicts damage identical to the user's level."
-70,STRENGTH,STRENGTH,00,80,NORMAL,Physical,100,15,0,00,0,abef,Tough,"Builds enormous power, then slams the foe."
-71,ABSORB,ABSORB,03,20,GRASS,Special,100,20,0,00,0,be,Smart,"An attack that absorbs half the damage inflicted."
-72,MEGADRAIN,MEGA DRAIN,03,40,GRASS,Special,100,10,0,00,0,be,Smart,"An attack that absorbs half the damage inflicted."
-73,LEECHSEED,LEECH SEED,54,0,GRASS,Status,90,10,0,00,0,bce,Smart,"Plants a seed on the foe to steal HP on every turn."
-74,GROWTH,GROWTH,0D,0,NORMAL,Status,0,40,0,10,0,d,Beauty,"Forces the body to grow and heightens SP. ATK."
-75,RAZORLEAF,RAZOR LEAF,2B,55,GRASS,Physical,95,25,0,08,0,bef,Cool,"Cuts the enemy with leaves. High critical-hit ratio."
-76,SOLARBEAM,SOLARBEAM,97,120,GRASS,Special,100,10,0,00,0,bef,Cool,"Absorbs light in one turn, then attacks next turn."
-77,POISONPOWDER,POISONPOWDER,42,0,POISON,Status,75,35,0,00,0,bce,Smart,"Scatters a toxic powder that may poison the foe."
-78,STUNSPORE,STUN SPORE,43,0,GRASS,Status,75,30,0,00,0,bce,Smart,"Scatters a powder that may paralyze the foe."
-79,SLEEPPOWDER,SLEEP POWDER,01,0,GRASS,Status,75,15,0,00,0,bce,Smart,"Scatters a powder that may cause the foe to sleep."
-80,PETALDANCE,PETAL DANCE,1B,70,GRASS,Special,100,20,100,04,0,abef,Beauty,"A rampage of 2 to 3 turns that confuses the user."
-81,STRINGSHOT,STRING SHOT,14,0,BUG,Status,95,40,0,08,0,bce,Smart,"Binds the foe with string to reduce its SPEED."
-82,DRAGONRAGE,DRAGON RAGE,29,1,DRAGON,Special,100,10,0,00,0,bef,Cool,"Launches shock waves that always inflict 40 HP damage."
-83,FIRESPIN,FIRE SPIN,2A,15,FIRE,Special,70,15,100,00,0,bef,Beauty,"Traps the foe in a ring of fire for 2 to 5 turns."
-84,THUNDERSHOCK,THUNDERSHOCK,06,40,ELECTRIC,Special,100,30,10,00,0,be,Cool,"An electrical attack that may paralyze the foe."
-85,THUNDERBOLT,THUNDERBOLT,06,95,ELECTRIC,Special,100,15,10,00,0,be,Cool,"A strong electrical attack that may paralyze the foe."
-86,THUNDERWAVE,THUNDER WAVE,43,0,ELECTRIC,Status,100,20,0,00,0,bce,Cool,"A weak jolt of electricity that paralyzes the foe."
-87,THUNDER,THUNDER,98,120,ELECTRIC,Special,70,10,30,00,0,be,Cool,"A lightning attack that may cause paralysis."
-88,ROCKTHROW,ROCK THROW,00,50,ROCK,Physical,90,15,0,00,0,bef,Tough,"Throws small rocks to strike the foe."
-89,EARTHQUAKE,EARTHQUAKE,93,100,GROUND,Physical,100,10,0,20,0,bef,Tough,"A powerful quake, but has no effect on flying foes."
-90,FISSURE,FISSURE,26,1,GROUND,Physical,30,5,0,00,0,be,Tough,"A one-hit KO move that drops the foe in a fissure."
-91,DIG,DIG,9B,60,GROUND,Physical,100,10,0,00,0,abef,Smart,"Digs underground the first turn and strikes next turn."
-92,TOXIC,TOXIC,21,0,POISON,Status,85,10,100,00,0,bce,Smart,"Poisons the foe with an intensifying toxin."
-93,CONFUSION,CONFUSION,4C,50,PSYCHIC,Special,100,25,10,00,0,be,Smart,"A psychic attack that may cause confusion."
-94,PSYCHIC,PSYCHIC,48,90,PSYCHIC,Special,100,10,10,00,0,be,Smart,"A powerful psychic attack that may lower SP. DEF."
-95,HYPNOSIS,HYPNOSIS,01,0,PSYCHIC,Status,60,20,0,00,0,bce,Smart,"A hypnotizing move that may induce sleep."
-96,MEDITATE,MEDITATE,0A,0,PSYCHIC,Status,0,40,0,10,0,d,Beauty,"Meditates in a peaceful fashion to raise ATTACK."
-97,AGILITY,AGILITY,34,0,PSYCHIC,Status,0,30,0,10,0,d,Cool,"Relaxes the body to sharply boost SPEED."
-98,QUICKATTACK,QUICK ATTACK,67,40,NORMAL,Physical,100,30,0,00,1,abef,Cool,"An extremely fast attack that always strikes first."
-99,RAGE,RAGE,51,20,NORMAL,Physical,100,20,0,00,0,abef,Cool,"Raises the user's ATTACK every time it is hit."
-100,TELEPORT,TELEPORT,99,0,PSYCHIC,Status,0,20,0,10,0,,Cool,"A psychic move for fleeing from battle instantly."
-101,NIGHTSHADE,NIGHT SHADE,57,1,GHOST,Special,100,15,0,00,0,bef,Smart,"Inflicts damage identical to the user's level."
-102,MIMIC,MIMIC,52,0,NORMAL,Status,100,10,0,00,0,b,Cute,"Copies a move used by the foe during one battle."
-103,SCREECH,SCREECH,3B,0,NORMAL,Status,85,40,0,00,0,bce,Smart,"Emits a screech to sharply reduce the foe's DEFENSE."
-104,DOUBLETEAM,DOUBLE TEAM,10,0,NORMAL,Status,0,15,0,10,0,d,Cool,"Creates illusory copies to raise evasiveness."
-105,RECOVER,RECOVER,20,0,NORMAL,Status,0,20,0,10,0,d,Smart,"Recovers up to half the user's maximum HP."
-106,HARDEN,HARDEN,0B,0,NORMAL,Status,0,30,0,10,0,d,Tough,"Stiffens the body's  muscles to raise DEFENSE."
-107,MINIMIZE,MINIMIZE,6C,0,NORMAL,Status,0,20,0,10,0,d,Cute,"Minimizes the user's size to raise evasiveness."
-108,SMOKESCREEN,SMOKESCREEN,17,0,NORMAL,Status,100,20,0,00,0,bce,Smart,"Lowers the foe's accuracy using smoke, ink, etc."
-109,CONFUSERAY,CONFUSE RAY,31,0,GHOST,Status,100,10,0,00,0,bce,Smart,"A sinister ray that confuses the foe."
-110,WITHDRAW,WITHDRAW,0B,0,WATER,Status,0,40,0,10,0,d,Cute,"Withdraws the body into its hard shell to raise DEFENSE."
-111,DEFENSECURL,DEFENSE CURL,9C,0,NORMAL,Status,0,40,0,10,0,d,Cute,"Curls up to conceal weak spots and raise DEFENSE."
-112,BARRIER,BARRIER,33,0,PSYCHIC,Status,0,30,0,10,0,d,Cool,"Creates a barrier that sharply raises DEFENSE."
-113,LIGHTSCREEN,LIGHT SCREEN,23,0,PSYCHIC,Status,0,30,0,10,0,d,Beauty,"Creates a wall of light that lowers SP. ATK damage."
-114,HAZE,HAZE,19,0,ICE,Status,0,30,0,10,0,b,Beauty,"Creates a black haze that eliminates all stat changes."
-115,REFLECT,REFLECT,41,0,PSYCHIC,Status,0,20,0,10,0,d,Smart,"Creates a wall of light that weakens physical attacks."
-116,FOCUSENERGY,FOCUS ENERGY,2F,0,NORMAL,Status,0,30,0,10,0,d,Cool,"Focuses power to raise the critical-hit ratio."
-117,BIDE,BIDE,1A,1,NORMAL,Physical,100,10,0,10,0,abf,Tough,"Endures attack for 2 turns to retaliate double."
-118,METRONOME,METRONOME,53,0,NORMAL,Status,0,10,0,01,0,,Cute,"Waggles a finger to use any POKÃ©MON move at random."
-119,MIRRORMOVE,MIRROR MOVE,09,0,FLYING,Status,0,20,0,01,0,,Smart,"Counters the foe's attack with the same move."
-120,SELFDESTRUCT,SELFDESTRUCT,07,200,NORMAL,Physical,100,5,0,20,0,bef,Beauty,"Inflicts severe damage but makes the user faint."
-121,EGGBOMB,EGG BOMB,00,100,NORMAL,Physical,75,10,0,00,0,bef,Tough,"An egg is forcibly hurled at the foe."
-122,LICK,LICK,06,20,GHOST,Physical,100,30,30,00,0,abe,Tough,"Licks with a long tongue to injure. May also paralyze."
-123,SMOG,SMOG,02,20,POISON,Special,70,20,40,00,0,be,Tough,"An exhaust-gas attack that may also poison."
-124,SLUDGE,SLUDGE,02,65,POISON,Special,100,20,30,00,0,be,Tough,"Sludge is hurled to inflict damage. May also poison."
-125,BONECLUB,BONE CLUB,1F,65,GROUND,Physical,85,20,10,00,0,be,Tough,"Clubs the foe with a bone. May cause flinching."
-126,FIREBLAST,FIRE BLAST,04,120,FIRE,Special,85,5,10,00,0,be,Beauty,"A fiery blast that scorches all. May cause a burn."
-127,WATERFALL,WATERFALL,00,80,WATER,Physical,100,15,0,00,0,abef,Tough,"Charges the foe with speed to climb waterfalls."
-128,CLAMP,CLAMP,2A,35,WATER,Physical,75,10,100,00,0,abef,Tough,"Traps and squeezes the foe for 2 to 5 turns."
-129,SWIFT,SWIFT,11,60,NORMAL,Special,0,20,0,08,0,bef,Cool,"Sprays star-shaped rays that never miss."
-130,SKULLBASH,SKULL BASH,91,100,NORMAL,Physical,100,15,0,00,0,abef,Tough,"Tucks in the head, then attacks on the next turn."
-131,SPIKECANNON,SPIKE CANNON,1D,20,NORMAL,Physical,100,15,0,00,0,bef,Cool,"Launches sharp spikes that strike 2 to 5 times."
-132,CONSTRICT,CONSTRICT,46,10,NORMAL,Physical,100,35,10,00,0,abe,Tough,"Constricts to inflict pain. May lower SPEED."
-133,AMNESIA,AMNESIA,36,0,PSYCHIC,Status,0,20,0,10,0,d,Cute,"Forgets about something and sharply raises SP. DEF."
-134,KINESIS,KINESIS,17,0,PSYCHIC,Status,80,15,0,00,0,be,Smart,"Distracts the foe. May lower accuracy."
-135,SOFTBOILED,SOFTBOILED,9D,0,NORMAL,Status,100,10,0,10,0,de,Beauty,"Recovers up to half the user's maximum HP."
-136,HIJUMPKICK,HI JUMP KICK,2D,85,FIGHTING,Physical,90,20,0,00,0,abef,Cool,"A jumping knee kick. If it misses, the user is hurt."
-137,GLARE,GLARE,43,0,NORMAL,Status,75,30,0,00,0,bce,Tough,"Intimidates and frightens the foe into paralysis."
-138,DREAMEATER,DREAM EATER,08,100,PSYCHIC,Special,100,15,0,00,0,be,Smart,"Takes one half the damage inflicted on a sleeping foe."
-139,POISONGAS,POISON GAS,42,0,POISON,Status,55,40,0,00,0,bce,Smart,"Envelops the foe in a toxic gas that may poison."
-140,BARRAGE,BARRAGE,1D,15,NORMAL,Physical,85,20,0,00,0,bef,Tough,"Hurls round objects at the foe 2 to 5 times."
-141,LEECHLIFE,LEECH LIFE,03,20,BUG,Physical,100,15,0,00,0,abe,Smart,"An attack that steals half the damage inflicted."
-142,LOVELYKISS,LOVELY KISS,01,0,NORMAL,Status,75,10,0,00,0,bce,Beauty,"Demands a kiss with a scary face that induces sleep."
-143,SKYATTACK,SKY ATTACK,4B,140,FLYING,Physical,90,5,30,00,0,bef,Cool,"Searches out weak spots, then strikes the next turn."
-144,TRANSFORM,TRANSFORM,39,0,NORMAL,Status,0,10,0,00,0,,Smart,"Alters the user's cells to become a copy of the foe."
-145,BUBBLE,BUBBLE,46,20,WATER,Special,100,30,10,08,0,be,Cute,"An attack using bubbles. May lower the foe's SPEED."
-146,DIZZYPUNCH,DIZZY PUNCH,4C,70,NORMAL,Physical,100,10,20,00,0,abe,Cool,"A rhythmic punch that may confuse the foe."
-147,SPORE,SPORE,01,0,GRASS,Status,100,15,0,00,0,bce,Beauty,"Scatters a cloud of spores that always induce sleep."
-148,FLASH,FLASH,17,0,NORMAL,Status,70,20,0,00,0,bce,Beauty,"Looses a powerful blast of light that cuts accuracy."
-149,PSYWAVE,PSYWAVE,58,1,PSYCHIC,Special,80,15,0,00,0,bef,Smart,"Attacks with a psychic wave of varying intensity."
-150,SPLASH,SPLASH,55,0,NORMAL,Status,0,40,0,10,0,,Cute,"It's just a splash... Has no effect whatsoever."
-151,ACIDARMOR,ACID ARMOR,33,0,POISON,Status,0,40,0,10,0,d,Tough,"Liquifies the user's body to sharply raise DEFENSE."
-152,CRABHAMMER,CRABHAMMER,2B,90,WATER,Physical,85,10,0,00,0,abef,Tough,"Hammers with a pincer. Has a high critical-hit ratio."
-153,EXPLOSION,EXPLOSION,07,250,NORMAL,Physical,100,5,0,20,0,bef,Beauty,"Inflicts severe damage but makes the user faint."
-154,FURYSWIPES,FURY SWIPES,1D,18,NORMAL,Physical,80,15,0,00,0,abef,Tough,"Rakes the foe with sharp claws, etc., 2 to 5 times."
-155,BONEMERANG,BONEMERANG,2C,50,GROUND,Physical,90,10,0,00,0,bef,Tough,"Throws a bone boomerang that strikes twice."
-156,REST,REST,25,0,PSYCHIC,Status,0,10,0,10,0,d,Cute,"The user sleeps for 2 turns, restoring HP and status."
-157,ROCKSLIDE,ROCK SLIDE,1F,75,ROCK,Physical,90,10,30,08,0,be,Tough,"Large boulders are hurled. May cause flinching."
-158,HYPERFANG,HYPER FANG,1F,80,NORMAL,Physical,90,15,10,00,0,abe,Cool,"Attacks with sharp fangs. May cause flinching."
-159,SHARPEN,SHARPEN,0A,0,NORMAL,Status,0,30,0,10,0,d,Cute,"Reduces the polygon count and raises ATTACK."
-160,CONVERSION,CONVERSION,1E,0,NORMAL,Status,0,30,0,10,0,,Beauty,"Changes the user's type into an own move's type."
-161,TRIATTACK,TRI ATTACK,24,80,NORMAL,Special,100,10,20,00,0,be,Beauty,"Fires three types of beams at the same time."
-162,SUPERFANG,SUPER FANG,28,1,NORMAL,Physical,90,10,0,00,0,abe,Tough,"Attacks with sharp fangs and cuts half the foe's HP."
-163,SLASH,SLASH,2B,70,NORMAL,Physical,100,20,0,00,0,abef,Cool,"Slashes with claws, etc. Has a high critical-hit ratio."
-164,SUBSTITUTE,SUBSTITUTE,4F,0,NORMAL,Status,0,10,0,10,0,d,Smart,"Creates a decoy using 1/4 of the user's maximum HP."
-165,STRUGGLE,STRUGGLE,30,50,NORMAL,Physical,100,1,0,00,0,abef,Cool,"Used only if all PP are gone. Also hurts the user a little."
-166,SKETCH,SKETCH,5F,0,NORMAL,Status,0,1,0,00,0,,Smart,"Copies the foe's last move permanently."
-167,TRIPLEKICK,TRIPLE KICK,68,10,FIGHTING,Physical,90,10,0,00,0,abef,Cool,"Kicks the foe 3 times in a row with rising intensity."
-168,THIEF,THIEF,69,40,DARK,Physical,100,10,100,00,0,abe,Tough,"While attacking, it may steal the foe's held item."
-169,SPIDERWEB,SPIDER WEB,6A,0,BUG,Status,100,10,0,00,0,bce,Smart,"Ensnares the foe to stop it from fleeing or switching."
-170,MINDREADER,MIND READER,5E,0,NORMAL,Status,100,5,0,00,0,be,Smart,"Senses the foe's action to ensure the next move's hit."
-171,NIGHTMARE,NIGHTMARE,6B,0,GHOST,Status,100,15,0,00,0,be,Smart,"Inflicts 1/4 damage on a sleeping foe every turn."
-172,FLAMEWHEEL,FLAME WHEEL,7D,60,FIRE,Physical,100,25,10,00,0,abe,Beauty,"A fiery charge attack that may inflict a burn."
-173,SNORE,SNORE,5C,40,NORMAL,Special,100,15,30,00,0,bef,Cute,"A loud attack that can be used only while asleep."
-174,CURSE,CURSE,6D,0,QMARKS,Status,0,10,0,00,0,,Tough,"A move that functions differently for GHOSTS."
-175,FLAIL,FLAIL,63,1,NORMAL,Physical,100,15,0,00,0,abef,Cute,"Inflicts more damage when the user's HP is down."
-176,CONVERSION2,CONVERSION 2,5D,0,NORMAL,Status,100,30,0,10,0,,Beauty,"Makes the user resistant to the last attack's type."
-177,AEROBLAST,AEROBLAST,2B,100,FLYING,Special,95,5,0,00,0,bef,Cool,"Launches a vacuumed blast. High critical-hit ratio."
-178,COTTONSPORE,COTTON SPORE,3C,0,GRASS,Status,85,40,0,00,0,bce,Beauty,"Spores cling to the foe, sharply reducing SPEED."
-179,REVERSAL,REVERSAL,63,1,FIGHTING,Physical,100,15,0,00,0,abef,Cool,"Inflicts more damage when the user's HP is down."
-180,SPITE,SPITE,64,0,GHOST,Status,100,10,0,00,0,be,Tough,"Spitefully cuts the PP of the foe's last move."
-181,POWDERSNOW,POWDER SNOW,05,40,ICE,Special,100,25,10,08,0,be,Beauty,"Blasts the foe with a snowy gust. May cause freezing."
-182,PROTECT,PROTECT,6F,0,NORMAL,Status,0,10,0,10,3,,Cute,"Evades attack, but may fail if used in succession."
-183,MACHPUNCH,MACH PUNCH,67,40,FIGHTING,Physical,100,30,0,00,1,abef,Cool,"A punch is thrown at wicked speed to strike first."
-184,SCARYFACE,SCARY FACE,3C,0,NORMAL,Status,90,10,0,00,0,bce,Tough,"Frightens with a scary face to sharply reduce SPEED."
-185,FAINTATTACK,FAINT ATTACK,11,60,DARK,Physical,0,20,0,00,0,bef,Smart,"Draws the foe close, then strikes without fail."
-186,SWEETKISS,SWEET KISS,31,0,NORMAL,Status,75,10,0,00,0,bce,Cute,"Demands a kiss with a cute look. May cause confusion."
-187,BELLYDRUM,BELLY DRUM,8E,0,NORMAL,Status,0,10,0,10,0,d,Cute,"Maximizes ATTACK while sacrificing HP."
-188,SLUDGEBOMB,SLUDGE BOMB,02,90,POISON,Special,100,10,30,00,0,be,Tough,"Sludge is hurled to inflict damage. May also poison."
-189,MUDSLAP,MUD-SLAP,49,20,GROUND,Special,100,10,100,00,0,be,Cute,"Hurls mud in the foe's face to reduce its accuracy."
-190,OCTAZOOKA,OCTAZOOKA,49,65,WATER,Special,85,10,50,00,0,be,Tough,"Fires a lump of ink to damage and cut accuracy."
-191,SPIKES,SPIKES,70,0,GROUND,Status,0,20,0,40,0,,Smart,"Sets spikes that hurt a  foe switching out."
-192,ZAPCANNON,ZAP CANNON,06,100,ELECTRIC,Special,50,5,100,00,0,be,Cool,"Powerful and sure to cause paralysis, but inaccurate."
-193,FORESIGHT,FORESIGHT,71,0,NORMAL,Status,100,40,0,00,0,be,Smart,"Negates the foe's efforts to heighten evasiveness."
-194,DESTINYBOND,DESTINY BOND,62,0,GHOST,Status,0,5,0,10,0,,Smart,"If the user faints, the foe is also made to faint."
-195,PERISHSONG,PERISH SONG,72,0,NORMAL,Status,0,5,0,10,0,,Beauty,"Any POKÃ©MON hearing this song faints in 3 turns."
-196,ICYWIND,ICY WIND,46,55,ICE,Special,95,15,100,08,0,be,Beauty,"A chilling attack that lowers the foe's SPEED."
-197,DETECT,DETECT,6F,0,FIGHTING,Status,0,5,0,10,3,,Cool,"Evades attack, but may fail if used in succession."
-198,BONERUSH,BONE RUSH,1D,25,GROUND,Physical,80,10,0,00,0,bef,Tough,"Strikes the foe with a bone in hand 2 to 5 times."
-199,LOCKON,LOCK-ON,5E,0,NORMAL,Status,100,5,0,00,0,be,Smart,"Locks on to the foe to ensure the next move hits."
-200,OUTRAGE,OUTRAGE,1B,90,DRAGON,Physical,100,15,100,04,0,abef,Cool,"A rampage of 2 to 3 turns that confuses the user."
-201,SANDSTORM,SANDSTORM,73,0,ROCK,Status,0,10,0,10,0,,Tough,"Causes a sandstorm that rages for several turns."
-202,GIGADRAIN,GIGA DRAIN,03,60,GRASS,Special,100,5,0,00,0,be,Smart,"An attack that steals half the damage inflicted."
-203,ENDURE,ENDURE,74,0,NORMAL,Status,0,10,0,10,3,,Tough,"Endures any attack for 1 turn, leaving at least 1HP."
-204,CHARM,CHARM,3A,0,NORMAL,Status,100,20,0,00,0,bce,Cute,"Charms the foe and sharply reduces its ATTACK."
-205,ROLLOUT,ROLLOUT,75,30,ROCK,Physical,90,20,0,00,0,abef,Tough,"An attack lasting 5 turns with rising intensity."
-206,FALSESWIPE,FALSE SWIPE,65,40,NORMAL,Physical,100,40,0,00,0,abef,Cool,"An attack that leaves the foe with at least 1 HP."
-207,SWAGGER,SWAGGER,76,0,NORMAL,Status,90,15,100,00,0,bce,Cute,"Confuses the foe, but also sharply raises ATTACK."
-208,MILKDRINK,MILK DRINK,9D,0,NORMAL,Status,0,10,0,10,0,bd,Cute,"Recovers up to half the user's maximum HP."
-209,SPARK,SPARK,06,65,ELECTRIC,Physical,100,20,30,00,0,abe,Cool,"An electrified tackle that may paralyze the foe."
-210,FURYCUTTER,FURY CUTTER,77,10,BUG,Physical,95,20,0,00,0,abef,Cool,"An attack that intensifies on each successive hit."
-211,STEELWING,STEEL WING,8A,70,STEEL,Physical,90,25,10,00,0,abef,Cool,"Strikes the foe with hard wings spread wide."
-212,MEANLOOK,MEAN LOOK,6A,0,NORMAL,Status,100,5,0,00,0,bce,Beauty,"Fixes the foe with a mean look that prevents escape."
-213,ATTRACT,ATTRACT,78,0,NORMAL,Status,100,15,0,00,0,bce,Cute,"Makes the opposite gender less likely to attack."
-214,SLEEPTALK,SLEEP TALK,61,0,NORMAL,Status,0,10,0,01,0,,Cute,"Uses an own move randomly while asleep."
-215,HEALBELL,HEAL BELL,66,0,NORMAL,Status,0,5,0,10,0,d,Beauty,"Chimes soothingly to heal all status abnormalities."
-216,RETURN,RETURN,79,1,NORMAL,Physical,100,20,0,00,0,abef,Cute,"An attack that increases in power with friendship."
-217,PRESENT,PRESENT,7A,1,NORMAL,Physical,90,15,0,00,0,be,Cute,"A gift in the form of a bomb. May restore HP."
-218,FRUSTRATION,FRUSTRATION,7B,1,NORMAL,Physical,100,20,0,00,0,abef,Cute,"An attack that is stronger if the TRAINER is disliked."
-219,SAFEGUARD,SAFEGUARD,7C,0,NORMAL,Status,0,25,0,10,0,d,Beauty,"A mystical force prevents all status problems."
-220,PAINSPLIT,PAIN SPLIT,5B,0,NORMAL,Status,100,20,0,00,0,be,Smart,"Adds the user and foe's HP, then shares them equally."
-221,SACREDFIRE,SACRED FIRE,7D,100,FIRE,Physical,95,5,50,00,0,be,Beauty,"A mystical fire attack that may inflict a burn."
-222,MAGNITUDE,MAGNITUDE,7E,1,GROUND,Physical,100,30,0,20,0,bef,Tough,"A ground-shaking attack of random intensity."
-223,DYNAMICPUNCH,DYNAMICPUNCH,4C,100,FIGHTING,Physical,50,5,100,00,0,abe,Cool,"Powerful and sure to cause confusion, but inaccurate."
-224,MEGAHORN,MEGAHORN,00,120,BUG,Physical,85,10,0,00,0,abef,Cool,"A brutal ramming attack using out-thrust horns."
-225,DRAGONBREATH,DRAGONBREATH,06,60,DRAGON,Special,100,20,30,00,0,bef,Cool,"Strikes the foe with an incredible blast of breath."
-226,BATONPASS,BATON PASS,7F,0,NORMAL,Status,0,40,0,10,0,,Cute,"Switches out the user while keeping effects in play."
-227,ENCORE,ENCORE,5A,0,NORMAL,Status,100,5,0,00,0,be,Cute,"Makes the foe repeat its last move over 2 to 6 turns."
-228,PURSUIT,PURSUIT,80,40,DARK,Physical,100,20,0,00,0,abe,Smart,"Inflicts bad damage if used on a foe switching out."
-229,RAPIDSPIN,RAPID SPIN,81,20,NORMAL,Physical,100,40,0,00,0,abef,Cool,"Spins the body at high speed to strike the foe."
-230,SWEETSCENT,SWEET SCENT,18,0,NORMAL,Status,100,20,0,08,0,bce,Cute,"Allures the foe to reduce evasiveness."
-231,IRONTAIL,IRON TAIL,45,100,STEEL,Physical,75,15,30,00,0,abe,Cool,"Attacks with a rock-hard tail. May lower DEFENSE."
-232,METALCLAW,METAL CLAW,8B,50,STEEL,Physical,95,35,10,00,0,abe,Cool,"A claw attack that may raise the user's ATTACK."
-233,VITALTHROW,VITAL THROW,4E,70,FIGHTING,Physical,100,10,0,00,-1,abef,Cool,"Makes the user's move last, but it never misses."
-234,MORNINGSUN,MORNING SUN,84,0,NORMAL,Status,0,5,0,10,0,d,Beauty,"Restores HP. The amount varies with the weather."
-235,SYNTHESIS,SYNTHESIS,85,0,GRASS,Status,0,5,0,10,0,d,Smart,"Restores HP. The amount varies with the weather."
-236,MOONLIGHT,MOONLIGHT,86,0,NORMAL,Status,0,5,0,10,0,d,Beauty,"Restores HP. The amount varies with the weather."
-237,HIDDENPOWER,HIDDEN POWER,87,1,NORMAL,Special,100,15,0,00,0,bef,Smart,"The effectiveness varies with the user."
-238,CROSSCHOP,CROSS CHOP,2B,100,FIGHTING,Physical,80,5,0,00,0,abef,Cool,"A double-chopping attack. High critical-hit ratio."
-239,TWISTER,TWISTER,92,40,DRAGON,Special,100,20,20,08,0,bef,Cool,"Whips up a vicious twister to tear at the foe."
-240,RAINDANCE,RAIN DANCE,88,0,WATER,Status,0,5,0,10,0,,Tough,"Boosts the power of WATER- type moves for 5 turns."
-241,SUNNYDAY,SUNNY DAY,89,0,FIRE,Status,0,5,0,10,0,,Beauty,"Boosts the power of FIRE- type moves for 5 turns."
-242,CRUNCH,CRUNCH,48,80,DARK,Physical,100,15,20,00,0,abe,Tough,"Crunches with sharp fangs. May lower SP. DEF."
-243,MIRRORCOAT,MIRROR COAT,90,1,PSYCHIC,Special,100,20,0,01,-5,e,Beauty,"Counters the foe's special attack at double the power."
-244,PSYCHUP,PSYCH UP,8F,0,NORMAL,Status,0,10,0,00,0,d,Smart,"Copies the foe's effects and gives to the user."
-245,EXTREMESPEED,EXTREMESPEED,67,80,NORMAL,Physical,100,5,0,00,1,abef,Cool,"An extremely fast and powerful attack."
-246,ANCIENTPOWER,ANCIENTPOWER,8C,60,ROCK,Special,100,5,10,00,0,abe,Tough,"An attack that may raise all stats."
-247,SHADOWBALL,SHADOW BALL,48,80,GHOST,Special,100,15,20,00,0,be,Smart,"Hurls a black blob that may lower the foe's SP. DEF."
-248,FUTURESIGHT,FUTURE SIGHT,94,80,PSYCHIC,Special,90,15,0,00,0,,Smart,"Heightens inner power to strike 2 turns later."
-249,ROCKSMASH,ROCK SMASH,45,20,FIGHTING,Physical,100,15,50,00,0,abe,Tough,"A rock-crushing attack that may lower DEFENSE."
-250,WHIRLPOOL,WHIRLPOOL,2A,15,WATER,Special,70,15,100,00,0,bef,Beauty,"Traps and hurts the foe in a whirlpool for 2 to 5 turns."
-251,BEATUP,BEAT UP,9A,10,DARK,Physical,100,10,0,00,0,bef,Smart,"Summons party POKÃ©MON to join in the attack."
-252,FAKEOUT,FAKE OUT,9E,40,NORMAL,Physical,100,10,0,00,1,be,Cute,"A 1st-turn, 1st-strike move that causes flinching."
-253,UPROAR,UPROAR,9F,50,NORMAL,Special,100,10,100,04,0,bef,Cute,"Causes an uproar for 2 to 5 turns and prevents sleep."
-254,STOCKPILE,STOCKPILE,A0,0,NORMAL,Status,0,10,0,10,0,d,Tough,"Charges up power for up to 3 turns."
-255,SPITUP,SPIT UP,A1,100,NORMAL,Special,100,10,0,00,0,bf,Tough,"Releases stockpiled power the more the better."
-256,SWALLOW,SWALLOW,A2,0,NORMAL,Status,0,10,0,10,0,d,Tough,"Absorbs stockpiled power and restores HP."
-257,HEATWAVE,HEAT WAVE,04,100,FIRE,Special,90,10,10,08,0,be,Beauty,"Exhales a hot breath on the foe. May inflict a burn."
-258,HAIL,HAIL,A4,0,ICE,Status,0,10,0,10,0,b,Beauty,"Summons a hailstorm that strikes every turn."
-259,TORMENT,TORMENT,A5,0,DARK,Status,100,15,0,00,0,be,Tough,"Torments the foe and stops successive use of a move."
-260,FLATTER,FLATTER,A6,0,DARK,Status,100,15,0,00,0,bce,Smart,"Confuses the foe, but raises its SP. ATK."
-261,WILLOWISP,WILL-O-WISP,A7,0,FIRE,Status,75,15,0,00,0,bce,Beauty,"Inflicts a burn on the foe with intense fire."
-262,MEMENTO,MEMENTO,A8,0,DARK,Status,100,10,0,00,0,be,Tough,"The user faints and lowers the foe's abilities."
-263,FACADE,FACADE,A9,70,NORMAL,Physical,100,20,0,00,0,abe,Cute,"Boosts ATTACK when burned, paralyzed, or poisoned."
-264,FOCUSPUNCH,FOCUS PUNCH,AA,150,FIGHTING,Physical,100,20,0,00,-3,ab,Tough,"A powerful loyalty attack. The user flinches if hit."
-265,SMELLINGSALT,SMELLINGSALT,AB,60,NORMAL,Physical,100,10,0,00,0,abe,Smart,"Powerful against paralyzed foes, but also heals them."
-266,FOLLOWME,FOLLOW ME,AC,0,NORMAL,Status,100,20,0,10,3,,Cute,"Draws attention to make foes attack only the user."
-267,NATUREPOWER,NATURE POWER,AD,0,NORMAL,Status,95,20,0,01,0,,Beauty,"The type of attack varies depending on the location."
-268,CHARGE,CHARGE,AE,0,ELECTRIC,Status,100,20,0,10,0,d,Smart,"Charges power to boost the electric move used next."
-269,TAUNT,TAUNT,AF,0,DARK,Status,100,20,0,00,0,b,Smart,"Taunts the foe into only using attack moves."
-270,HELPINGHAND,HELPING HAND,B0,0,NORMAL,Status,100,20,0,10,5,,Smart,"Boosts the power of the recipient's moves."
-271,TRICK,TRICK,B1,0,PSYCHIC,Status,100,10,0,00,0,be,Smart,"Tricks the foe into trading held items."
-272,ROLEPLAY,ROLE PLAY,B2,0,PSYCHIC,Status,100,10,0,00,0,,Cute,"Mimics the target and copies its special ability."
-273,WISH,WISH,B3,0,NORMAL,Status,100,10,0,10,0,b,Cute,"A wish that restores HP. It takes time to work."
-274,ASSIST,ASSIST,B4,0,NORMAL,Status,100,20,0,01,0,,Cute,"Attacks randomly with one of the partner's moves."
-275,INGRAIN,INGRAIN,B5,0,GRASS,Status,100,20,0,10,0,d,Smart,"Lays roots that restore HP. The user can't switch out."
-276,SUPERPOWER,SUPERPOWER,B6,120,FIGHTING,Physical,100,5,0,00,0,abe,Tough,"Boosts strength sharply, but lowers abilities."
-277,MAGICCOAT,MAGIC COAT,B7,0,PSYCHIC,Status,100,15,0,01,4,,Beauty,"Reflects special effects back to the attacker."
-278,RECYCLE,RECYCLE,B8,0,NORMAL,Status,100,10,0,10,0,,Smart,"Recycles a used item for one more use."
-279,REVENGE,REVENGE,B9,60,FIGHTING,Physical,100,10,0,00,-4,abef,Tough,"An attack that gains power if injured by the foe."
-280,BRICKBREAK,BRICK BREAK,BA,75,FIGHTING,Physical,100,15,0,00,0,abef,Cool,"Destroys barriers such as REFLECT and causes damage."
-281,YAWN,YAWN,BB,0,NORMAL,Status,100,10,0,00,0,bce,Cute,"Lulls the foe into yawning, then sleeping next turn."
-282,KNOCKOFF,KNOCK OFF,BC,20,DARK,Physical,100,20,100,00,0,abe,Smart,"Knocks down the foe's held item to prevent its use."
-283,ENDEAVOR,ENDEAVOR,BD,1,NORMAL,Physical,100,5,0,00,0,abef,Tough,"Gains power if the user's HP is lower than the foe's HP."
-284,ERUPTION,ERUPTION,BE,150,FIRE,Special,100,5,0,08,0,bef,Beauty,"The higher the user's HP, the more damage caused."
-285,SKILLSWAP,SKILL SWAP,BF,0,PSYCHIC,Status,100,10,0,00,0,be,Smart,"The user swaps special abilities with the target."
-286,IMPRISON,IMPRISON,C0,0,PSYCHIC,Status,100,10,0,10,0,b,Smart,"Prevents foes from using moves known by the user."
-287,REFRESH,REFRESH,C1,0,NORMAL,Status,100,20,0,10,0,d,Cute,"Heals poisoning, paralysis, or a burn."
-288,GRUDGE,GRUDGE,C2,0,GHOST,Status,100,5,0,10,0,be,Tough,"If the user faints, deletes the PP of the final move."
-289,SNATCH,SNATCH,C3,0,DARK,Status,100,10,0,01,4,e,Smart,"Steals the effects of the move the foe uses next."
-290,SECRETPOWER,SECRET POWER,C5,70,NORMAL,Physical,100,20,30,00,0,be,Smart,"An attack with effects that vary by location."
-291,DIVE,DIVE,9B,60,WATER,Physical,100,10,0,00,0,abef,Beauty,"Dives underwater the first turn and strikes next turn."
-292,ARMTHRUST,ARM THRUST,1D,15,FIGHTING,Physical,100,20,0,00,0,abef,Tough,"Straight-arm punches that strike the foe 2 to 5 times."
-293,CAMOUFLAGE,CAMOUFLAGE,D5,0,NORMAL,Status,100,20,0,10,0,d,Smart,"Alters the POKÃ©MON's type depending on the location."
-294,TAILGLOW,TAIL GLOW,35,0,BUG,Status,100,20,0,10,0,d,Beauty,"Flashes a light that sharply raises SP. ATK."
-295,LUSTERPURGE,LUSTER PURGE,48,70,PSYCHIC,Special,100,5,50,00,0,be,Smart,"Attacks with a burst of light. May lower SP. DEF."
-296,MISTBALL,MIST BALL,47,70,PSYCHIC,Special,100,5,50,00,0,be,Smart,"Attacks with a flurry of down. May lower SP. ATK."
-297,FEATHERDANCE,FEATHERDANCE,3A,0,FLYING,Status,100,15,0,00,0,bce,Beauty,"Envelops the foe with down to sharply reduce ATTACK."
-298,TEETERDANCE,TEETER DANCE,C7,0,NORMAL,Status,100,20,0,20,0,b,Cute,"Confuses all POKÃ©MON on the scene."
-299,BLAZEKICK,BLAZE KICK,C8,85,FIRE,Physical,90,10,10,00,0,abe,Beauty,"A kick with a high critical- hit ratio. May cause a burn."
-300,MUDSPORT,MUD SPORT,C9,0,GROUND,Status,100,15,0,10,0,,Cute,"Covers the user in mud to raise electrical resistance."
-301,ICEBALL,ICE BALL,75,30,ICE,Physical,90,20,0,00,0,abef,Beauty,"A 5-turn attack that gains power on successive hits."
-302,NEEDLEARM,NEEDLE ARM,96,60,GRASS,Physical,100,15,30,00,0,abe,Smart,"Attacks with thorny arms. May cause flinching."
-303,SLACKOFF,SLACK OFF,20,0,NORMAL,Status,100,10,0,10,0,d,Cute,"Slacks off and restores half the maximum HP."
-304,HYPERVOICE,HYPER VOICE,00,90,NORMAL,Special,100,10,0,08,0,be,Cool,"A loud attack that uses sound waves to injure."
-305,POISONFANG,POISON FANG,CA,50,POISON,Physical,100,15,30,00,0,abe,Smart,"A sharp-fanged attack. May badly poison the foe."
-306,CRUSHCLAW,CRUSH CLAW,45,75,NORMAL,Physical,95,10,50,00,0,abe,Cool,"Tears at the foe with sharp claws. May lower DEFENSE."
-307,BLASTBURN,BLAST BURN,50,150,FIRE,Special,90,5,0,00,0,bef,Beauty,"Powerful, but leaves the user immobile the next turn."
-308,HYDROCANNON,HYDRO CANNON,50,150,WATER,Special,90,5,0,00,0,bef,Beauty,"Powerful, but leaves the user immobile the next turn."
-309,METEORMASH,METEOR MASH,8B,100,STEEL,Physical,85,10,20,00,0,abef,Cool,"Fires a meteor-like punch. May raise ATTACK."
-310,ASTONISH,ASTONISH,96,30,GHOST,Physical,100,15,30,00,0,abe,Smart,"An attack that may shock the foe into flinching."
-311,WEATHERBALL,WEATHER BALL,CB,50,NORMAL,Special,100,10,0,00,0,bef,Smart,"The move's type and power change with the weather."
-312,AROMATHERAPY,AROMATHERAPY,66,0,GRASS,Status,0,5,0,10,0,d,Smart,"Heals all status problems with a soothing scent."
-313,FAKETEARS,FAKE TEARS,3E,0,DARK,Status,100,20,0,00,0,bce,Smart,"Feigns crying to sharply lower the foe's SP. DEF."
-314,AIRCUTTER,AIR CUTTER,2B,55,FLYING,Special,95,25,0,08,0,bef,Cool,"Hacks with razorlike wind. High critical-hit ratio."
-315,OVERHEAT,OVERHEAT,CC,140,FIRE,Special,90,5,100,00,0,abef,Beauty,"Allows a full-power attack, but sharply lowers SP. ATK."
-316,ODORSLEUTH,ODOR SLEUTH,71,0,NORMAL,Status,100,40,0,00,0,be,Smart,"Negates the foe's efforts to heighten evasiveness."
-317,ROCKTOMB,ROCK TOMB,46,50,ROCK,Physical,80,10,100,00,0,be,Smart,"Stops the foe from moving with rocks and cuts SPEED."
-318,SILVERWIND,SILVER WIND,8C,60,BUG,Special,100,5,10,00,0,bef,Beauty,"A powdery attack that may raise abilities."
-319,METALSOUND,METAL SOUND,3E,0,STEEL,Status,85,40,0,00,0,bce,Smart,"Emits a horrible screech that sharply lowers SP. DEF."
-320,GRASSWHISTLE,GRASSWHISTLE,01,0,GRASS,Status,55,15,0,00,0,bce,Smart,"Lulls the foe into sleep with a pleasant melody."
-321,TICKLE,TICKLE,CD,0,NORMAL,Status,100,20,0,00,0,bcef,Cute,"Makes the foe laugh to lower ATTACK and DEFENSE."
-322,COSMICPOWER,COSMIC POWER,CE,0,PSYCHIC,Status,0,20,0,10,0,d,Cool,"Raises DEFENSE and SP. DEF with a mystic power."
-323,WATERSPOUT,WATER SPOUT,BE,150,WATER,Special,100,5,0,08,0,be,Beauty,"Inflicts more damage if the user's HP is high."
-324,SIGNALBEAM,SIGNAL BEAM,4C,75,BUG,Special,100,15,10,00,0,bef,Beauty,"A strange beam attack that may confuse the foe."
-325,SHADOWPUNCH,SHADOW PUNCH,11,60,GHOST,Physical,0,20,0,00,0,abef,Smart,"An unavoidable punch that is thrown from shadows."
-326,EXTRASENSORY,EXTRASENSORY,96,80,PSYCHIC,Special,100,30,10,00,0,be,Cool,"Attacks with a peculiar power. May cause flinching."
-327,SKYUPPERCUT,SKY UPPERCUT,CF,85,FIGHTING,Physical,90,15,0,00,0,abef,Cool,"An uppercut thrown as if leaping into the sky."
-328,SANDTOMB,SAND TOMB,2A,15,GROUND,Physical,70,15,100,00,0,bef,Smart,"Traps and hurts the foe in quicksand for 2 to 5 turns."
-329,SHEERCOLD,SHEER COLD,26,1,ICE,Special,30,5,0,00,0,be,Beauty,"A chilling attack that causes fainting if it hits."
-330,MUDDYWATER,MUDDY WATER,49,95,WATER,Special,85,10,30,08,0,bef,Tough,"Attacks with muddy water. May lower accuracy."
-331,BULLETSEED,BULLET SEED,1D,10,GRASS,Physical,100,30,0,00,0,bef,Cool,"Shoots 2 to 5 seeds in a row to strike the foe."
-332,AERIALACE,AERIAL ACE,11,60,FLYING,Physical,0,20,0,00,0,abef,Cool,"An extremely speedy and unavoidable attack."
-333,ICICLESPEAR,ICICLE SPEAR,1D,10,ICE,Physical,100,30,0,00,0,bef,Beauty,"Attacks the foe by firing 2 to 5 icicles in a row."
-334,IRONDEFENSE,IRON DEFENSE,33,0,STEEL,Status,0,15,0,10,0,d,Tough,"Hardens the body's surface to sharply raise DEFENSE."
-335,BLOCK,BLOCK,6A,0,NORMAL,Status,100,5,0,00,0,bce,Cute,"Blocks the foe's way to prevent escape."
-336,HOWL,HOWL,0A,0,NORMAL,Status,0,40,0,10,0,d,Cool,"Howls to raise the spirit and boosts ATTACK."
-337,DRAGONCLAW,DRAGON CLAW,00,80,DRAGON,Physical,100,15,0,00,0,abef,Cool,"Slashes the foe with sharp claws."
-338,FRENZYPLANT,FRENZY PLANT,50,150,GRASS,Special,90,5,0,00,0,bef,Cool,"Powerful, but leaves the user immobile the next turn."
-339,BULKUP,BULK UP,D0,0,FIGHTING,Status,0,20,0,10,0,d,Beauty,"Bulks up the body to boost both ATTACK and DEFENSE."
-340,BOUNCE,BOUNCE,9B,85,FLYING,Physical,85,5,30,00,0,abef,Cute,"Bounces up, then down the next turn. May paralyze."
-341,MUDSHOT,MUD SHOT,46,55,GROUND,Special,95,15,100,00,0,bef,Tough,"Hurls mud at the foe and reduces SPEED."
-342,POISONTAIL,POISON TAIL,D1,50,POISON,Physical,100,25,10,00,0,abef,Smart,"Has a high critical-hit ratio. May also poison."
-343,COVET,COVET,69,40,NORMAL,Physical,100,40,100,00,0,be,Cute,"Cutely begs to obtain an item held by the foe."
-344,VOLTTACKLE,VOLT TACKLE,C6,120,ELECTRIC,Physical,100,15,0,00,0,abef,Cool,"A life-risking tackle that slightly hurts the user."
-345,MAGICALLEAF,MAGICAL LEAF,11,60,GRASS,Special,0,20,0,00,0,bef,Beauty,"Attacks with a strange leaf that cannot be evaded."
-346,WATERSPORT,WATER SPORT,D2,0,WATER,Status,100,15,0,10,0,,Cute,"The user becomes soaked to raise resistance to fire."
-347,CALMMIND,CALM MIND,D3,0,PSYCHIC,Status,0,20,0,10,0,d,Smart,"Raises SP. ATK and SP. DEF by focusing the mind."
-348,LEAFBLADE,LEAF BLADE,2B,70,GRASS,Physical,100,15,0,00,0,abef,Cool,"Slashes with a sharp leaf. High critical-hit ratio."
-349,DRAGONDANCE,DRAGON DANCE,D4,0,DRAGON,Status,0,20,0,10,0,d,Cool,"A mystical dance that ups ATTACK and SPEED."
-350,ROCKBLAST,ROCK BLAST,1D,25,ROCK,Physical,80,10,0,00,0,bef,Tough,"Hurls boulders at the foe 2 to 5 times in a row."
-351,SHOCKWAVE,SHOCK WAVE,11,60,ELECTRIC,Special,0,20,0,00,0,bef,Cool,"A fast and unavoidable electric attack."
-352,WATERPULSE,WATER PULSE,4C,60,WATER,Special,100,20,20,00,0,bef,Beauty,"Attacks with ultrasonic waves. May confuse the foe"
-353,DOOMDESIRE,DOOM DESIRE,94,120,STEEL,Special,85,5,0,00,0,,Cool,"Summons strong sunlight to attack 2 turns later."
-354,PSYCHOBOOST,PSYCHO BOOST,CC,140,PSYCHIC,Special,90,5,100,00,0,bef,Smart,"Allows a full-power attack, but sharply lowers SP. ATK."
+1,POUND,Pound,0,40,NORMAL,Physical,100,35,0,0,0,abef,Tough,"The foe is physically pounded with a long tail or a foreleg, etc."
+2,KARATECHOP,Karate Chop,2B,50,FIGHTING,Physical,100,25,0,0,0,abef,Tough,The foe is attacked with a sharp chop. It has a high critical-hit ratio.
+3,DOUBLESLAP,Doubleslap,1D,15,NORMAL,Physical,85,10,0,0,0,abef,Tough,"The foe is slapped repeatedly, back and forth, two to five times in a row."
+4,COMETPUNCH,Comet Punch,1D,18,NORMAL,Physical,85,15,0,0,0,abef,Tough,The foe is hit with a flurry of punches that strike two to five times in a row.
+5,MEGAPUNCH,Mega Punch,0,80,NORMAL,Physical,85,20,0,0,0,abef,Tough,The foe is slugged by a punch thrown with muscle-packed power.
+6,PAYDAY,Pay Day,22,40,NORMAL,Physical,100,20,0,0,0,bef,Smart,Numerous coins are hurled at the foe to inflict damage. Money is earned after battle.
+7,FIREPUNCH,Fire Punch,4,75,FIRE,Physical,100,15,10,0,0,abe,Beauty,The foe is punched with a fiery fist. It may leave the target with a burn.
+8,ICEPUNCH,Ice Punch,5,75,ICE,Physical,100,15,10,0,0,abe,Beauty,The foe is punched with an icy fist. It may leave the target frozen.
+9,THUNDERPUNCH,ThunderPunch,6,75,ELECTRIC,Physical,100,15,10,0,0,abe,Cool,The foe is punched with an electrified fist. It may leave the target with paralysis.
+10,SCRATCH,Scratch,0,40,NORMAL,Physical,100,35,0,0,0,abef,Tough,"Hard, pointed, and sharp claws rake the foe to inflict damage."
+11,VICEGRIP,Vicegrip,0,55,NORMAL,Physical,100,30,0,0,0,abef,Tough,"Huge, impressive pincers grip and squeeze the foe."
+12,GUILLOTINE,Guillotine,26,1,NORMAL,Physical,30,5,0,0,0,abe,Cool,"A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits."
+13,RAZORWIND,Razor Wind,27,80,NORMAL,Physical,100,10,0,8,0,bef,Cool,A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.
+14,SWORDSDANCE,Swords Dance,32,0,NORMAL,Status,0,30,0,10,0,d,Beauty,A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
+15,CUT,Cut,0,50,NORMAL,Physical,95,30,0,0,0,abef,Cool,The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.
+16,GUST,Gust,95,40,FLYING,Physical,100,35,0,0,0,bef,Smart,A gust of wind is whipped up by wings and launched at the foe to inflict damage.
+17,WINGATTACK,Wing Attack,0,60,FLYING,Physical,100,35,0,0,0,abef,Cool,"The foe is struck with large, imposing wings spread wide to inflict damage."
+18,WHIRLWIND,Whirlwind,1C,0,NORMAL,Status,100,20,0,0,-6,be,Smart,"The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends."
+19,FLY,Fly,9B,90,FLYING,Physical,95,15,0,0,0,abef,Smart,"The user soars, then strikes on the second turn. It can also be used for flying to any familiar town."
+20,BIND,Bind,2A,15,NORMAL,Physical,75,20,0,0,0,abef,Tough,A long body or tentacles are used to bind and squeeze the foe for two to five turns.
+21,SLAM,Slam,0,80,NORMAL,Physical,75,20,0,0,0,abef,Tough,"The foe is slammed with a long tail, vines, etc., to inflict damage."
+22,VINEWHIP,Vine Whip,0,35,GRASS,Physical,100,15,0,0,0,abef,Cool,"The foe is struck with slender, whiplike vines to inflict damage."
+23,STOMP,Stomp,96,65,NORMAL,Physical,100,20,30,0,0,abe,Tough,The foe is stomped with a big foot. It may also make the target flinch.
+24,DOUBLEKICK,Double Kick,2C,30,FIGHTING,Physical,100,30,0,0,0,abef,Cool,The foe is quickly kicked twice in succession using both feet.
+25,MEGAKICK,Mega Kick,0,120,NORMAL,Physical,75,5,0,0,0,abef,Cool,The foe is attacked by a kick launched with muscle-packed power.
+26,JUMPKICK,Jump Kick,2D,85,FIGHTING,Physical,95,25,0,0,0,abef,Cool,"The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself."
+27,ROLLINGKICK,Rolling Kick,1F,60,FIGHTING,Physical,85,15,30,0,0,abef,Cool,The user cuts a quick spin and lashes out with a sharp kick.
+28,SANDATTACK,Sand-Attack,17,0,GROUND,Status,100,15,0,0,0,bce,Cute,"Sand is hurled in the foe's face, reducing its accuracy."
+29,HEADBUTT,Headbutt,1F,70,NORMAL,Physical,100,15,30,0,0,abe,Tough,The user sticks its head out and rams straight forward. It may make the foe flinch.
+30,HORNATTACK,Horn Attack,0,65,NORMAL,Physical,100,25,0,0,0,abef,Cool,The foe is jabbed with a sharply pointed horn to inflict damage.
+31,FURYATTACK,Fury Attack,1D,15,NORMAL,Physical,85,20,0,0,0,abef,Cool,The foe is jabbed repeatedly with a horn or beak two to five times in a row.
+32,HORNDRILL,Horn Drill,26,1,NORMAL,Physical,30,5,0,0,0,abe,Cool,The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits.
+33,TACKLE,Tackle,0,35,NORMAL,Physical,95,35,0,0,0,abef,Tough,A physical attack in which the user charges and slams into the foe with its whole body.
+34,BODYSLAM,Body Slam,6,85,NORMAL,Physical,100,15,30,0,0,abe,Tough,The user drops onto the foe with its full body weight. It may leave the foe paralyzed.
+35,WRAP,Wrap,2A,15,NORMAL,Physical,85,20,0,0,0,abef,Tough,A long body or vines are used to wrap and squeeze the foe for two to five turns.
+36,TAKEDOWN,Take Down,30,90,NORMAL,Physical,85,20,0,0,0,abef,Tough,"A reckless, full-body charge attack for slamming into the foe. It also damages the user a little."
+37,THRASH,Thrash,1B,90,NORMAL,Physical,100,20,0,4,0,abef,Tough,"The user rampages and attacks for two to three turns. It then becomes confused, however."
+38,DOUBLEEDGE,Double-Edge,C6,120,NORMAL,Physical,100,15,0,0,0,abef,Tough,"A reckless, life- risking tackle. It also damages the user by a fairly large amount, however."
+39,TAILWHIP,Tail Whip,13,0,NORMAL,Status,100,30,0,8,0,bce,Cute,"The user wags its tail cutely, making the foe less wary. The target's Defense stat is lowered."
+40,POISONSTING,Poison Sting,2,15,POISON,Physical,100,35,30,0,0,be,Smart,The foe is stabbed with a poisonous barb of some sort. It may also poison the target.
+41,TWINEEDLE,Twineedle,4D,25,BUG,Physical,100,20,20,0,0,be,Cool,The foe is stabbed twice by a pair of stingers. It may also poison the target.
+42,PINMISSILE,Pin Missile,1D,14,BUG,Physical,85,20,0,0,0,bef,Cool,Sharp pins are shot at the foe in rapid succession. They hit two to five times in a row.
+43,LEER,Leer,13,0,NORMAL,Status,100,30,0,8,0,bce,Cool,The foe is given an intimidating leer with sharp eyes. The target's Defense stat is reduced.
+44,BITE,Bite,1F,60,DARK,Physical,100,25,30,0,0,abe,Tough,The foe is bitten with viciously sharp fangs. It may make the target flinch.
+45,GROWL,Growl,12,0,NORMAL,Status,100,40,0,8,0,bce,Cute,"The user growls in an endearing way, making the foe less wary. The target's Attack stat is lowered."
+46,ROAR,Roar,1C,0,NORMAL,Status,100,20,0,0,-6,be,Cool,"The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends."
+47,SING,Sing,1,0,NORMAL,Status,55,15,0,0,0,bce,Cute,A soothing lullaby is sung in a calming voice that puts the foe into a deep slumber.
+48,SUPERSONIC,Supersonic,31,0,NORMAL,Status,55,20,0,0,0,bce,Smart,The user generates odd sound waves from its body. It may confuse the target.
+49,SONICBOOM,Sonicboom,82,1,NORMAL,Special,90,20,0,0,0,bef,Cool,The foe is hit with a destructive shock wave that always inflicts 20 HP damage.
+50,DISABLE,Disable,56,0,NORMAL,Status,80,20,0,0,0,be,Smart,"For several turns, this move prevents the foe from using the move it last used."
+51,ACID,Acid,48,40,POISON,Special,100,30,10,8,0,be,Smart,The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.
+52,EMBER,Ember,4,40,FIRE,Special,100,25,10,0,0,be,Beauty,The foe is attacked with small flames. The target may also be left with a burn.
+53,FLAMETHROWER,Flamethrower,4,95,FIRE,Special,100,15,10,0,0,be,Beauty,The foe is scorched with an intense blast of fire. The target may also be left with a burn.
+54,MIST,Mist,2E,0,ICE,Status,0,30,0,10,0,d,Beauty,The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.
+55,WATERGUN,Water Gun,0,40,WATER,Special,100,25,0,0,0,bef,Cute,The foe is blasted with a forceful shot of water. 
+56,HYDROPUMP,Hydro Pump,0,120,WATER,Special,80,5,0,0,0,bef,Beauty,The foe is blasted by a huge volume of water launched under great pressure.
+57,SURF,Surf,101,95,WATER,Special,100,15,0,8,0,bef,Beauty,It swamps the entire battlefield with a giant wave. It can also be used for crossing water.
+58,ICEBEAM,Ice Beam,5,95,ICE,Special,100,10,10,0,0,be,Beauty,The foe is struck with an icy-cold beam of energy. It may also freeze the target solid.
+59,BLIZZARD,Blizzard,104,120,ICE,Special,70,5,10,8,0,be,Beauty,A howling blizzard is summoned to strike the foe. It may also freeze the target solid.
+60,PSYBEAM,Psybeam,4C,65,PSYCHIC,Special,100,20,10,0,0,be,Beauty,The foe is attacked with a peculiar ray. It may also leave the target confused.
+61,BUBBLEBEAM,Bubblebeam,46,65,WATER,Special,100,20,10,0,0,be,Beauty,A spray of bubbles is forcefully ejected at the foe. It may also lower the target's Speed stat.
+62,AURORABEAM,Aurora Beam,44,65,ICE,Special,100,20,10,0,0,be,Beauty,The foe is hit with a rainbow-colored beam. It may also lower the target's Attack stat.
+63,HYPERBEAM,Hyper Beam,50,150,NORMAL,Special,90,5,0,0,0,bef,Cool,The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
+64,PECK,Peck,0,35,FLYING,Physical,100,35,0,0,0,abef,Cool,The foe is jabbed with a sharply pointed beak or horn.
+65,DRILLPECK,Drill Peck,0,80,FLYING,Physical,100,20,0,0,0,abef,Cool,A corkscrewing attack with the sharp beak acting as a drill.
+66,SUBMISSION,Submission,30,80,FIGHTING,Physical,80,25,0,0,0,abef,Cool,The user grabs the foe and recklessly dives for the ground. It also hurts the user slightly.
+67,LOWKICK,Low Kick,C4,1,FIGHTING,Physical,100,20,0,0,0,abef,Tough,A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
+68,COUNTER,Counter,59,1,FIGHTING,Physical,100,20,0,1,-5,ae,Tough,"A retaliation move that counters any physical attack, inflicting double the damage taken."
+69,SEISMICTOSS,Seismic Toss,57,1,FIGHTING,Physical,100,20,0,0,0,abef,Tough,The foe is thrown using the power of gravity. It inflicts damage equal to the user's level.
+70,STRENGTH,Strength,0,80,NORMAL,Physical,100,15,0,0,0,abef,Tough,The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.
+71,ABSORB,Absorb,3,20,GRASS,Special,100,25,0,0,0,be,Smart,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+72,MEGADRAIN,Mega Drain,3,40,GRASS,Special,100,15,0,0,0,be,Smart,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+73,LEECHSEED,Leech Seed,54,0,GRASS,Status,90,10,0,0,0,bce,Smart,A seed is planted on the foe. It steals some HP from the foe to heal the user on every turn.
+74,GROWTH,Growth,0D,0,NORMAL,Status,0,40,0,10,0,d,Beauty,The user's body is forced to grow all at once. It raises the Sp. Atk stat.
+75,RAZORLEAF,Razor Leaf,2B,55,GRASS,Physical,95,25,0,8,0,bef,Cool,A sharp-edged leaf is launched to slash at the foe. It has a high critical-hit ratio.
+76,SOLARBEAM,Solarbeam,97,120,GRASS,Special,100,10,0,0,0,bef,Cool,"A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
+77,POISONPOWDER,PoisonPowder,42,0,POISON,Status,75,35,0,0,0,bce,Smart,A cloud of poisonous dust is scattered on the foe. It may poison the target.
+78,STUNSPORE,Stun Spore,43,0,GRASS,Status,75,30,0,0,0,bce,Smart,The user scatters a cloud of paralyzing powder. It may paralyze the target.
+79,SLEEPPOWDER,Sleep Powder,1,0,GRASS,Status,75,15,0,0,0,bce,Smart,The user scatters a big cloud of sleep- inducing dust around the foe.
+80,PETALDANCE,Petal Dance,1B,90,GRASS,Special,100,20,0,4,0,abef,Beauty,The user attacks by scattering petals for two to three turns. The user then becomes confused.
+81,STRINGSHOT,String Shot,14,0,BUG,Status,95,40,0,8,0,bce,Smart,The foe is bound with silk blown from the user's mouth. It reduces the target's Speed stat.
+82,DRAGONRAGE,Dragon Rage,29,1,DRAGON,Special,100,10,0,0,0,bef,Cool,The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.
+83,FIRESPIN,Fire Spin,2A,15,FIRE,Special,70,15,0,0,0,bef,Beauty,The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.
+84,THUNDERSHOCK,ThunderShock,6,40,ELECTRIC,Special,100,30,10,0,0,be,Cool,A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed.
+85,THUNDERBOLT,Thunderbolt,6,95,ELECTRIC,Special,100,15,10,0,0,be,Cool,A strong electric blast is loosed at the foe. It may also leave the foe paralyzed.
+86,THUNDERWAVE,Thunder Wave,43,0,ELECTRIC,Status,100,20,0,0,0,bce,Cool,A weak electric charge is launched at the foe. It causes paralysis if it hits.
+87,THUNDER,Thunder,98,120,ELECTRIC,Special,70,10,30,0,0,be,Cool,A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.
+88,ROCKTHROW,Rock Throw,0,50,ROCK,Physical,90,15,0,0,0,bef,Tough,The user picks up and throws a small rock at the foe to attack.
+89,EARTHQUAKE,Earthquake,93,100,GROUND,Physical,100,10,0,20,0,bef,Tough,The user sets off an earthquake that hits all the Pokémon in the battle.
+90,FISSURE,Fissure,26,1,GROUND,Physical,30,5,0,0,0,be,Tough,The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.
+91,DIG,Dig,100,80,GROUND,Physical,100,10,0,0,0,abef,Smart,"The user burrows, then attacks on the second turn. It can also be used to exit dungeons."
+92,TOXIC,Toxic,21,0,POISON,Status,85,10,0,0,0,bce,Smart,A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+93,CONFUSION,Confusion,4C,50,PSYCHIC,Special,100,25,10,0,0,be,Smart,The foe is hit by a weak telekinetic force. It may also leave the foe confused.
+94,PSYCHIC,Psychic,48,90,PSYCHIC,Special,100,10,10,0,0,be,Smart,The foe is hit by a strong telekinetic force. It may also reduce the foe's Sp. Def stat.
+95,HYPNOSIS,Hypnosis,1,0,PSYCHIC,Status,70,20,0,0,0,bce,Smart,The user employs hypnotic suggestion to make the target fall into a deep sleep.
+96,MEDITATE,Meditate,0A,0,PSYCHIC,Status,0,40,0,10,0,d,Beauty,The user meditates to awaken the power deep within its body and raise its Attack stat.
+97,AGILITY,Agility,34,0,PSYCHIC,Status,0,30,0,10,0,d,Cool,The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
+98,QUICKATTACK,Quick Attack,67,40,NORMAL,Physical,100,30,0,0,1,abef,Cool,The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.
+99,RAGE,Rage,51,20,NORMAL,Physical,100,20,0,0,0,abef,Cool,"While this move is in use, it gains attack power each time the user is hit in battle."
+100,TELEPORT,Teleport,99,0,PSYCHIC,Status,0,20,0,10,0,,Cool,Use it to flee from any wild Pokémon. It may also be used to warp to the last Poké Center visited.
+101,NIGHTSHADE,Night Shade,57,1,GHOST,Special,100,15,0,0,0,bef,Smart,The user makes the foe see a mirage. It inflicts damage matching the user's level.
+102,MIMIC,Mimic,52,0,NORMAL,Status,0,10,0,0,0,b,Cute,The user copies the move last used by the foe. The move can be used for the rest of the battle.
+103,SCREECH,Screech,3B,0,NORMAL,Status,85,40,0,0,0,bce,Smart,An earsplitting screech is emitted to sharply reduce the foe's Defense stat.
+104,DOUBLETEAM,Double Team,10,0,NORMAL,Status,0,15,0,10,0,d,Cool,"By moving rapidly, the user makes illusory copies of itself to raise its evasiveness."
+105,RECOVER,Recover,20,0,NORMAL,Status,0,10,0,10,0,d,Smart,A self-healing move. The user restores its own HP by up to half of its max HP.
+106,HARDEN,Harden,0B,0,NORMAL,Status,0,30,0,10,0,d,Tough,The user stiffens all the muscles in its body to raise its Defense stat.
+107,MINIMIZE,Minimize,6C,0,NORMAL,Status,0,20,0,10,0,d,Cute,The user compresses its body to make itself look smaller. The user's evasion stat is boosted.
+108,SMOKESCREEN,Smokescreen,17,0,NORMAL,Status,100,20,0,0,0,bce,Smart,The user releases an obscuring cloud of smoke or ink. It reduces the foe's accuracy.
+109,CONFUSERAY,Confuse Ray,31,0,GHOST,Status,100,10,0,0,0,bce,Smart,The foe is exposed to a sinister ray that triggers confusion.
+110,WITHDRAW,Withdraw,0B,0,WATER,Status,0,40,0,10,0,d,Cute,"The user withdraws its body into its hard shell, raising its Defense stat."
+111,DEFENSECURL,Defense Curl,9C,0,NORMAL,Status,0,40,0,10,0,d,Cute,The user curls up to conceal weak spots and raise its Defense stat.
+112,BARRIER,Barrier,33,0,PSYCHIC,Status,0,30,0,10,0,d,Cool,The user throws up a sturdy wall that sharply raises its Defense stat.
+113,LIGHTSCREEN,Light Screen,23,0,PSYCHIC,Status,0,30,0,10,0,d,Beauty,A wondrous wall of light is put up to suppress damage from special attacks for five turns.
+114,HAZE,Haze,19,0,ICE,Status,0,30,0,40,0,b,Beauty,The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.
+115,REFLECT,Reflect,41,0,PSYCHIC,Status,0,20,0,10,0,d,Smart,A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
+116,FOCUSENERGY,Focus Energy,2F,0,NORMAL,Status,0,30,0,10,0,d,Cool,The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.
+117,BIDE,Bide,1A,1,NORMAL,Physical,0,10,0,10,1,abf,Tough,"The user endures attacks for two turns, then strikes back to cause double the damage taken."
+118,METRONOME,Metronome,53,0,NORMAL,Status,0,10,0,1,0,,Cute,The user waggles a finger and stimulates the brain into randomly using nearly any move.
+119,MIRRORMOVE,Mirror Move,9,0,FLYING,Status,0,20,0,1,0,,Smart,The user counters the foe by mimicking the move last used by the foe.
+120,SELFDESTRUCT,SelfDestruct,7,200,NORMAL,Physical,100,5,0,20,0,bef,Beauty,The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
+121,EGGBOMB,Egg Bomb,0,100,NORMAL,Physical,75,10,0,0,0,bef,Tough,A large egg is hurled with maximum force at the foe to inflict damage.
+122,LICK,Lick,6,20,GHOST,Physical,100,30,30,0,0,abe,Tough,"The foe is licked with a long tongue, causing damage. It may also paralyze the target."
+123,SMOG,Smog,2,20,POISON,Special,70,20,40,0,0,be,Tough,The foe is attacked with a discharge of filthy gases. It may also poison the target.
+124,SLUDGE,Sludge,2,65,POISON,Special,100,20,30,0,0,be,Tough,Unsanitary sludge is hurled at the foe. It may also poison the target.
+125,BONECLUB,Bone Club,1F,65,GROUND,Physical,85,20,10,0,0,be,Tough,The user clubs the foe with a bone. It may also make the target flinch.
+126,FIREBLAST,Fire Blast,4,120,FIRE,Special,85,5,10,0,0,be,Beauty,The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.
+127,WATERFALL,Waterfall,1F,80,WATER,Physical,100,15,20,0,0,abef,Tough,The user charges the foe at an awesome speed. It can also be used to climb a waterfall.
+128,CLAMP,Clamp,2A,35,WATER,Physical,75,10,0,0,0,abef,Tough,The foe is clamped and squeezed by the user's very thick and sturdy shell for two to five turns.
+129,SWIFT,Swift,11,60,NORMAL,Special,0,20,0,8,0,bef,Cool,Star-shaped rays are shot at the foe. This attack never misses.
+130,SKULLBASH,Skull Bash,91,100,NORMAL,Physical,100,15,100,0,0,abef,Tough,"The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn."
+131,SPIKECANNON,Spike Cannon,1D,20,NORMAL,Physical,100,15,0,0,0,bef,Cool,Sharp spikes are fired at the foe to strike two to five times in rapid succession.
+132,CONSTRICT,Constrict,46,10,NORMAL,Physical,100,35,10,0,0,abe,Tough,"The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed."
+133,AMNESIA,Amnesia,36,0,PSYCHIC,Status,0,20,0,10,0,d,Cute,The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.
+134,KINESIS,Kinesis,17,0,PSYCHIC,Status,80,15,0,0,0,be,Smart,The user distracts the foe by bending a spoon. It may lower the target's accuracy.
+135,SOFTBOILED,Softboiled,9D,0,NORMAL,Status,0,10,0,10,0,de,Beauty,The user restores its own HP by up to half of its max HP. May be used in the field to heal HP.
+136,HIJUMPKICK,Hi Jump Kick,2D,100,FIGHTING,Physical,90,20,0,0,0,abef,Cool,"The foe is attacked with a knee kick from a jump. If it misses, the user is hurt instead."
+137,GLARE,Glare,43,0,NORMAL,Status,75,30,0,0,0,bce,Tough,The user intimidates the foe with the pattern on its belly to cause paralysis.
+138,DREAMEATER,Dream Eater,8,100,PSYCHIC,Special,100,15,0,0,0,be,Smart,An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user's HP.
+139,POISONGAS,Poison Gas,42,0,POISON,Status,55,40,0,0,0,bce,Smart,A cloud of poison gas is sprayed in the foe's face. It may poison the target.
+140,BARRAGE,Barrage,1D,15,NORMAL,Physical,85,20,0,0,0,bef,Tough,Round objects are hurled at the foe to strike two to five times in a row.
+141,LEECHLIFE,Leech Life,3,20,BUG,Physical,100,15,0,0,0,abe,Smart,A blood-draining attack. The user's HP is restored by half the damage taken by the target.
+142,LOVELYKISS,Lovely Kiss,1,0,NORMAL,Status,75,10,0,0,0,bce,Beauty,"With a scary face, the user forces a kiss on the foe. It may make the target fall asleep."
+143,SKYATTACK,Sky Attack,4B,140,FLYING,Physical,90,5,30,0,0,bef,Cool,A second-turn attack move with a high critical-hit ratio. It may also make the target flinch.
+144,TRANSFORM,Transform,39,0,NORMAL,Status,0,10,0,0,0,,Smart,The user transforms into a copy of the foe right down to having the same move set.
+145,BUBBLE,Bubble,46,20,WATER,Special,100,30,10,8,0,be,Cute,A spray of countless bubbles is jetted at the foe. It may also lower the target's Speed stat.
+146,DIZZYPUNCH,Dizzy Punch,4C,70,NORMAL,Physical,100,10,20,0,0,abe,Cool,The foe is hit with a rhythmically launched punch that may also leave it confused.
+147,SPORE,Spore,1,0,GRASS,Status,100,15,0,0,0,bce,Beauty,The user scatters bursts of spores that induce sleep. 
+148,FLASH,Flash,17,0,NORMAL,Status,100,20,0,0,0,bce,Beauty,The user flashes a light that cuts the foe's accuracy. It can also be used to illuminate caves.
+149,PSYWAVE,Psywave,58,1,PSYCHIC,Special,80,15,0,0,0,bef,Smart,"The foe is attacked with an odd, hot energy wave. The attack varies in intensity."
+150,SPLASH,Splash,55,0,NORMAL,Status,0,40,0,10,0,,Cute,The user just flops and splashes around to no effect at all... 
+151,ACIDARMOR,Acid Armor,33,0,POISON,Status,0,40,0,10,0,d,Tough,"The user alters its cellular structure to liquefy itself, sharply raising its Defense stat."
+152,CRABHAMMER,Crabhammer,2B,90,WATER,Physical,85,10,0,0,0,abef,Tough,The foe is hammered with a large pincer. This move has a high critical-hit ratio.
+153,EXPLOSION,Explosion,7,250,NORMAL,Physical,100,5,0,20,0,bef,Beauty,The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.
+154,FURYSWIPES,Fury Swipes,1D,18,NORMAL,Physical,80,15,0,0,0,abef,Tough,The foe is raked with sharp claws or scythes for two to five times in quick succession.
+155,BONEMERANG,Bonemerang,2C,50,GROUND,Physical,90,10,0,0,0,bef,Tough,"The user throws the bone it holds. The bone loops to hit the foe twice, coming and going."
+156,REST,Rest,25,0,PSYCHIC,Status,0,10,0,10,0,d,Cute,The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
+157,ROCKSLIDE,Rock Slide,1F,75,ROCK,Physical,90,10,30,8,0,be,Tough,Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.
+158,HYPERFANG,Hyper Fang,1F,80,NORMAL,Physical,90,15,10,0,0,abe,Cool,The user bites hard on the foe with its sharp front fangs. It may also make the target flinch.
+159,SHARPEN,Sharpen,0A,0,NORMAL,Status,0,30,0,10,0,d,Cute,"The user reduces its polygon count to make itself more jagged, raising the Attack stat."
+160,CONVERSION,Conversion,1E,0,NORMAL,Status,0,30,0,10,0,,Beauty,The user changes its type to become the same type as one of its moves.
+161,TRIATTACK,Tri Attack,24,80,NORMAL,Special,100,10,20,0,0,be,Beauty,"The user strikes with a simultaneous three- beam attack. May also paralyze, burn, or freeze the target."
+162,SUPERFANG,Super fang,28,1,NORMAL,Physical,90,10,0,0,0,abe,Tough,The user chomps hard on the foe with its sharp front fangs. It cuts the target's HP to half.
+163,SLASH,Slash,2B,70,NORMAL,Physical,100,20,0,0,0,abef,Cool,"The foe is attacked with a slash of claws, etc. It has a high critical-hit ratio."
+164,SUBSTITUTE,Substitute,4F,0,NORMAL,Status,0,10,0,10,0,d,Smart,The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
+165,STRUGGLE,Struggle,FE,50,NORMAL,Physical,0,1,0,0,0,abef,Cool,An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.
+166,SKETCH,Sketch,5F,0,NORMAL,Status,0,1,0,0,0,,Smart,"It enables the user to learn a move used by the foe. Once used, the move Sketch disappears."
+167,TRIPLEKICK,Triple Kick,68,10,FIGHTING,Physical,90,10,0,0,0,abef,Cool,A consecutive three- kick attack that becomes more powerful with each  successive hit.
+168,THIEF,Thief,69,40,DARK,Physical,100,10,0,0,0,abe,Tough,The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.
+169,SPIDERWEB,Spider Web,6A,0,BUG,Status,0,10,0,0,0,bce,Smart,"The user ensnares the foe with a thin, gooey silk so it can't flee from battle."
+170,MINDREADER,Mind Reader,5E,0,NORMAL,Status,0,5,0,0,18,abdf,Smart,The user senses the foe's movements with its mind to ensure its next attack does not miss.
+171,NIGHTMARE,Nightmare,0,0,NORMAL,Status,100,15,0,0,0,be,Smart,A sleeping foe is shown a nightmare that inflicts some damage every turn.
+172,FLAMEWHEEL,Flame Wheel,7D,60,FIRE,Physical,100,25,10,0,0,abe,Beauty,The user cloaks itself in fire and charges at the foe. It may also leave the target with a burn.
+173,SNORE,Snore,5C,40,NORMAL,Special,100,15,30,0,0,bef,Cute,An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.
+174,CURSE,Curse,6D,0,QMARKS,Status,0,10,0,0,0,,Tough,A move that works differently for the Ghost type than for all the other types.
+175,FLAIL,Flail,63,1,NORMAL,Physical,100,15,0,0,0,abef,Cute,The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
+176,CONVERSION2,Conversion 2,5D,0,NORMAL,Status,0,30,0,10,0,,Beauty,The user changes its type to make itself resistant to the type of the attack it last took.
+177,AEROBLAST,Aeroblast,2B,100,FLYING,Special,95,5,0,0,0,bef,Cool,A vortex of air is shot at the foe to inflict damage. It has a high critical-hit ratio.
+178,COTTONSPORE,Cotton Spore,3C,0,GRASS,Status,85,40,0,0,0,bce,Beauty,"The user releases cottonlike spores that cling to the foe, sharply reducing its Speed stat."
+179,REVERSAL,Reversal,63,1,FIGHTING,Physical,100,15,0,0,0,abef,Cool,An all-out attack that becomes more powerful the less HP the user has.
+180,SPITE,Spite,64,0,GHOST,Status,100,10,0,0,0,be,Tough,The user looses its grudge on the move last used by the foe by cutting 4 PP from it.
+181,POWDERSNOW,Powder Snow,5,40,ICE,Special,100,25,10,8,0,be,Beauty,The user attacks with a chilling gust of powdery snow. It may also freeze the target.
+182,PROTECT,Protect,6F,0,NORMAL,Status,0,10,0,10,3,,Cute,It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+183,MACHPUNCH,Mach Punch,67,40,FIGHTING,Physical,100,30,0,0,1,abef,Cool,The user throws a punch at blinding speed. It is certain to strike first.
+184,SCARYFACE,Scary Face,3C,0,NORMAL,Status,90,10,0,0,0,bce,Tough,The user frightens the foe with a scary face to sharply reduce its Speed stat.
+185,FAINTATTACK,Faint Attack,11,60,DARK,Physical,0,20,0,0,0,bef,Smart,"The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail."
+186,SWEETKISS,Sweet Kiss,31,0,NORMAL,Status,75,10,0,0,0,bce,Cute,"The user kisses the foe with a sweet, angelic cuteness that causes confusion."
+187,BELLYDRUM,Belly Drum,8E,0,NORMAL,Status,0,10,0,10,0,d,Cute,The user maximizes its Attack stat in exchange for HP equal to half its max HP.
+188,SLUDGEBOMB,Sludge Bomb,2,90,POISON,Special,100,10,30,0,0,be,Tough,The user attacks by hurling filthy sludge at the foe. It may also poison the target.
+189,MUDSLAP,Mud-Slap,49,20,GROUND,Physical,100,10,100,0,0,be,Cute,The user hurls mud in the foe's face to inflict damage and lower its accuracy.
+190,OCTAZOOKA,Octazooka,49,65,WATER,Special,85,10,50,0,0,be,Tough,The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy.
+191,SPIKES,Spikes,70,0,GROUND,Status,0,20,0,80,0,,Smart,The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle.
+192,ZAPCANNON,Zap Cannon,6,120,ELECTRIC,Special,50,5,100,0,0,be,Cool,The user fires an electric blast like a cannon to inflict damage and cause paralysis.
+193,FORESIGHT,Foresight,71,0,NORMAL,Status,0,40,0,0,0,be,Smart,Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
+194,DESTINYBOND,Destiny Bond,62,0,GHOST,Status,0,5,0,10,0,,Smart,"When this move is used, if the user faints, the foe that landed the knockout hit also faints."
+195,PERISHSONG,Perish Song,72,0,NORMAL,Status,0,5,0,40,0,,Beauty,Any Pokémon that hears this song faints in three turns unless it switches out of battle.
+196,ICYWIND,Icy Wind,46,55,ICE,Special,95,15,100,8,0,be,Beauty,The user attacks with a gust of chilled air. It also lowers the target's Speed stat.
+197,DETECT,Detect,6F,0,FIGHTING,Status,0,5,0,10,3,,Cool,It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+198,BONERUSH,Bone Rush,1D,25,GROUND,Physical,80,10,0,0,0,bef,Tough,The user strikes at the foe with a hard bone two to five times in a row.
+199,LOCKON,Lock-On,5E,0,NORMAL,Status,0,5,0,0,0,be,Smart,The user takes sure aim at the foe. It ensures the next attack does not fail to hit the target.
+200,OUTRAGE,Outrage,1B,120,DRAGON,Physical,100,15,0,4,0,abef,Cool,"The user rampages and attacks for two to three turns. However, it then becomes confused."
+201,SANDSTORM,Sandstorm,73,0,ROCK,Status,0,10,0,40,0,,Tough,"A five-turn sand- storm is summoned to hurt all combatant types except Rock,  Ground, and Steel."
+202,GIGADRAIN,Giga Drain,3,60,GRASS,Special,100,10,0,0,0,be,Smart,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+203,ENDURE,Endure,74,0,NORMAL,Status,0,10,0,10,3,,Tough,"The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession."
+204,CHARM,Charm,3A,0,NORMAL,Status,100,20,0,0,0,bce,Cute,"The user charmingly stares at the foe, making it less wary. The target's Attack is sharply lowered."
+205,ROLLOUT,Rollout,75,30,ROCK,Physical,90,20,0,0,0,abef,Tough,The user continually rolls into the foe over five turns. It becomes stronger each time it hits.
+206,FALSESWIPE,False Swipe,65,40,NORMAL,Physical,100,40,0,0,0,abef,Cool,A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.
+207,SWAGGER,Swagger,76,0,NORMAL,Status,90,15,0,0,0,bce,Cute,"The user enrages the foe into confusion. However, it also sharply raises the foe's Attack stat."
+208,MILKDRINK,Milk Drink,9D,0,NORMAL,Status,0,10,0,10,0,bd,Cute,The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally's HP.
+209,SPARK,Spark,6,65,ELECTRIC,Physical,100,20,30,0,0,abe,Cool,The user throws an electrically charged tackle at the foe. It may also leave the target paralyzed.
+210,FURYCUTTER,Fury Cutter,77,10,BUG,Physical,95,20,0,0,0,abef,Cool,The foe is slashed with scythes or claws. Its power increases if it hits in succession.
+211,STEELWING,Steel Wing,8A,70,STEEL,Physical,90,25,10,0,0,abef,Cool,The foe is hit with wings of steel. It may also raise the user's Defense stat.
+212,MEANLOOK,Mean Look,6A,0,NORMAL,Status,0,5,0,0,0,bce,Beauty,"The user affixes the foe with a dark, arresting look. The target becomes unable to flee."
+213,ATTRACT,Attract,78,0,NORMAL,Status,100,15,0,0,0,bce,Cute,"If it is the opposite gender of the user, the foe becomes infatuated and less likely to attack."
+214,SLEEPTALK,Sleep Talk,61,0,NORMAL,Status,0,10,0,1,0,,Cute,"While it is asleep, the user randomly uses one of the moves it knows."
+215,HEALBELL,Heal Bell,66,0,NORMAL,Status,0,5,0,10,0,d,Beauty,The user makes a soothing bell chime to heal the status problems of all the party Pokémon.
+216,RETURN,Return,79,1,NORMAL,Physical,100,20,0,0,0,abef,Cute,A full-power attack that grows more powerful the more the user likes its Trainer.
+217,PRESENT,Present,7A,1,NORMAL,Physical,90,15,0,0,0,be,Cute,"The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however."
+218,FRUSTRATION,Frustration,7B,1,NORMAL,Physical,100,20,0,0,0,abef,Cute,A full-power attack that grows more powerful the less the user likes its Trainer.
+219,SAFEGUARD,Safeguard,7C,0,NORMAL,Status,0,25,0,10,0,d,Beauty,The user creates a protective field that prevents status problems for five turns.
+220,PAINSPLIT,Pain Split,5B,0,NORMAL,Status,0,20,0,0,0,be,Smart,"The user adds its HP to the foe's HP, then equally shares the combined HP with the foe."
+221,SACREDFIRE,Sacred Fire,7D,100,FIRE,Physical,95,5,50,0,0,be,Beauty,The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn.
+222,MAGNITUDE,Magnitude,7E,1,GROUND,Physical,100,30,0,20,0,bef,Tough,The user looses a ground-shaking quake affecting everyone in battle. Its power varies.
+223,DYNAMICPUNCH,DynamicPunch,4C,100,FIGHTING,Physical,50,5,100,0,0,abe,Cool,"The foe is punched with the user's full, concentrated power. It confuses the foe if it hits."
+224,MEGAHORN,Megahorn,0,120,BUG,Physical,85,10,0,0,0,abef,Cool,"Utilizing its tough and impressive horn, the user rams into the foe  with no letup."
+225,DRAGONBREATH,DragonBreath,6,60,DRAGON,Special,100,20,30,0,0,bef,Cool,The user exhales a mighty gust that inflicts damage. It may also paralyze the target.
+226,BATONPASS,Baton Pass,7F,0,NORMAL,Status,0,40,0,10,0,,Cute,"The user switches places with a party Pokémon in waiting, passing along any stat changes."
+227,ENCORE,Encore,5A,0,NORMAL,Status,100,5,0,0,0,be,Cute,The user compels the foe to keep using only the move it last used for two to six turns.
+228,PURSUIT,Pursuit,80,40,DARK,Physical,100,20,0,0,0,abe,Smart,An attack move that inflicts double damage if used on a foe that is switching out of battle.
+229,RAPIDSPIN,Rapid Spin,81,20,NORMAL,Physical,100,40,0,0,0,abef,Cool,"A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes."
+230,SWEETSCENT,Sweet Scent,18,0,NORMAL,Status,100,20,0,8,0,bce,Cute,"A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc."
+231,IRONTAIL,Iron Tail,45,100,STEEL,Physical,75,15,30,0,0,abe,Cool,The foe is slammed with a steel-hard tail. It may also lower the target's Defense stat.
+232,METALCLAW,Metal Claw,8B,50,STEEL,Physical,95,35,10,0,0,abe,Cool,The foe is raked with steel claws. It may also raise the user's Attack stat.
+233,VITALTHROW,Vital Throw,4E,70,FIGHTING,Physical,0,10,0,0,-1,abef,Cool,"The user allows the foe to attack first. In return, this throw move is guaranteed not to miss."
+234,MORNINGSUN,Morning Sun,84,0,NORMAL,Status,0,5,0,10,0,d,Beauty,The user restores its own HP. The amount of HP regained varies with the weather.
+235,SYNTHESIS,Synthesis,85,0,GRASS,Status,0,5,0,10,0,d,Smart,The user restores its own HP. The amount of HP regained varies with the weather.
+236,MOONLIGHT,Moonlight,86,0,NORMAL,Status,0,5,0,10,0,d,Beauty,The user restores its own HP. The amount of HP regained varies with the weather.
+237,HIDDENPOWER,Hidden Power,87,1,NORMAL,Special,100,15,0,0,0,bef,Smart,A unique attack that varies in type and intensity depending on the Pokémon using it.
+238,CROSSCHOP,Cross Chop,2B,100,FIGHTING,Physical,80,5,0,0,0,abef,Cool,The user delivers a double chop with its forearms crossed. It has a high critical-hit ratio.
+239,TWISTER,Twister,92,40,DRAGON,Special,100,20,20,8,0,bef,Cool,The user whips up a vicious twister to tear at the foe. It may also make the foe flinch.
+240,RAINDANCE,Rain Dance,88,0,WATER,Status,0,5,0,40,0,,Tough,"The user summons a heavy rain that falls for five turns, powering up Water- type moves."
+241,SUNNYDAY,Sunny Day,89,0,FIRE,Status,0,5,0,40,0,,Beauty,"The user intensifies the sun for five turns, powering up Fire-type moves."
+242,CRUNCH,Crunch,48,80,DARK,Physical,100,15,20,0,0,abe,Tough,The user crunches up the foe with sharp fangs. It may also lower the target's Defense stat.
+243,MIRRORCOAT,Mirror Coat,90,1,PSYCHIC,Special,100,20,0,1,-5,e,Beauty,"A retaliation move that counters any special attack, inflicting double the damage taken."
+244,PSYCHUP,Psych Up,8F,0,NORMAL,Status,0,10,0,0,0,d,Smart,The user hypnotizes itself into copying any stat change made by the foe.
+245,EXTREMESPEED,ExtremeSpeed,67,80,NORMAL,Physical,100,5,0,0,1,abef,Cool,The user charges the foe at blinding speed. This attack always goes before any other move.
+246,ANCIENTPOWER,AncientPower,8C,60,ROCK,Special,100,5,10,0,0,abe,Tough,The user attacks with a prehistoric power. It may also raise all the user's stats at once.
+247,SHADOWBALL,Shadow Ball,48,80,GHOST,Special,100,15,20,0,0,be,Smart,The user hurls a shadowy blob at the foe. It may also lower the foe's Sp. Def stat.
+248,FUTURESIGHT,Future Sight,94,80,PSYCHIC,Special,90,15,0,0,0,,Smart,"Two turns after this move is used, the foe is attacked with a hunk of psychic energy."
+249,ROCKSMASH,Rock Smash,45,40,FIGHTING,Physical,100,15,50,0,0,abe,Tough,The user slugs the foe with a shattering punch. It can also smash cracked boulders.
+250,WHIRLPOOL,Whirlpool,105,15,WATER,Special,70,15,0,0,0,bef,Beauty,"The user traps the foe inside a fast, vicious whirlpool that lasts for two to five turns."
+251,BEATUP,Beat Up,9A,10,DARK,Physical,100,10,0,0,0,bef,Smart,"The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage."
+252,FAKEOUT,Fake Out,9E,40,NORMAL,Physical,100,10,100,0,1,be,Cute,An attack that hits first and makes the target flinch. This move works only on the first turn.
+253,UPROAR,Uproar,9F,50,NORMAL,Physical,100,10,0,4,0,bef,Cute,"The user attacks in an uproar for two to five turns. Over that time, no one can fall asleep."
+254,STOCKPILE,Stockpile,A0,0,NORMAL,Status,0,20,0,10,0,d,Tough,"The user charges up power, and raises both its Defense and Sp. Def. The move can be used three times."
+255,SPITUP,Spit Up,A1,1,NORMAL,Physical,100,10,0,0,0,bf,Tough,The power stored using the move Stockpile is released at once in an attack.
+256,SWALLOW,Swallow,A2,0,NORMAL,Status,0,10,0,10,0,d,Tough,The power stored using the move Stockpile is absorbed by the user to heal its HP.
+257,HEATWAVE,Heat Wave,4,100,FIRE,Special,90,10,10,8,0,be,Beauty,The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.
+258,HAIL,Hail,A4,0,ICE,Status,0,10,0,40,0,b,Beauty,The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.
+259,TORMENT,Torment,A5,0,DARK,Status,100,15,0,0,0,be,Tough,"The user torments and enrages the foe, making it incapable of using the same move twice in a row."
+260,FLATTER,Flatter,A6,0,DARK,Status,100,15,0,0,0,bce,Smart,"Flattery is used to confuse the foe. However, it also raises the target's Sp. Atk stat."
+261,WILLOWISP,Will-o-Wisp,A7,0,FIRE,Status,75,15,0,0,0,bce,Beauty,"The user shoots a sinister, bluish white flame at the foe to inflict a burn."
+262,MEMENTO,Memento,A8,0,DARK,Status,100,10,0,0,0,be,Tough,"The user faints upon using this move. In return, it sharply lowers the target's Attack and Sp. Atk."
+263,FACADE,Facade,A9,70,NORMAL,Physical,100,20,0,0,0,abe,Cute,"An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn."
+264,FOCUSPUNCH,Focus Punch,AA,150,FIGHTING,Physical,100,20,0,0,-3,ab,Tough,The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.
+265,SMELLINGSALT,SmellingSalt,AB,60,NORMAL,Physical,100,10,0,0,0,abe,Smart,"This attack inflicts double damage on a paralyzed foe. It also cures the foe's paralysis, however."
+266,FOLLOWME,Follow Me,AC,0,NORMAL,Status,0,20,0,10,3,,Cute,"The user draws attention to itself, making all foes take aim only at the user."
+267,NATUREPOWER,Nature Power,AD,0,NORMAL,Status,0,20,0,1,0,,Beauty,An attack that makes use of nature's power. Its effects vary depending on the user's environment.
+268,CHARGE,Charge,AE,0,ELECTRIC,Status,0,20,0,10,0,d,Smart,The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat.
+269,TAUNT,Taunt,AF,0,DARK,Status,100,20,0,0,0,b,Smart,The foe is taunted into a rage that allows it to use only attack moves for two to four turns.
+270,HELPINGHAND,Helping Hand,B0,0,NORMAL,Status,0,20,0,10,5,,Smart,A move that boosts the power of the ally's attack in a Double Battle.
+271,TRICK,Trick,B1,0,PSYCHIC,Status,100,10,0,0,0,be,Smart,The user catches the foe off guard and swaps the foe's held item with its own.
+272,ROLEPLAY,Role Play,B2,0,PSYCHIC,Status,0,10,0,0,0,,Cute,"The user mimics the foe completely, copying the foe's natural ability."
+273,WISH,Wish,B3,0,NORMAL,Status,0,10,0,10,0,b,Cute,A self-healing move. The user restores its own HP by up to half of its maximum HP in the next turn.
+274,ASSIST,Assist,B4,0,NORMAL,Status,0,20,0,1,0,,Cute,The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
+275,INGRAIN,Ingrain,B5,0,GRASS,Status,0,20,0,10,0,d,Smart,"The user lays roots that restore HP on every turn. Because it is rooted, it can't switch out."
+276,SUPERPOWER,Superpower,B6,120,FIGHTING,Physical,100,5,0,0,0,abe,Tough,"The user attacks the foe with great power. However, it also lowers the user's Attack and Defense."
+277,MAGICCOAT,Magic Coat,B7,0,PSYCHIC,Status,0,15,0,1,4,,Beauty,A barrier reflects back to the foe moves like Leech Seed and moves that damage status.
+278,RECYCLE,Recycle,B8,0,NORMAL,Status,0,10,0,10,0,,Smart,The user recycles a single-use item that has been used in battle so it can be used again.
+279,REVENGE,Revenge,B9,60,FIGHTING,Physical,100,10,0,0,-4,abef,Tough,An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+280,BRICKBREAK,Brick Break,BA,75,FIGHTING,Physical,100,15,0,0,0,abef,Cool,"The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect."
+281,YAWN,Yawn,BB,0,NORMAL,Status,0,10,0,0,0,bce,Cute,The user lets loose a huge yawn that lulls the foe into falling asleep on the next turn.
+282,KNOCKOFF,Knock Off,BC,20,DARK,Physical,100,20,0,0,19,acdef,Smart,"The user slaps down the foe's held item, preventing the item from being used during the battle."
+283,ENDEAVOR,Endeavor,BD,1,NORMAL,Physical,100,5,0,0,0,abef,Tough,An attack move that cuts down the foe's HP to equal the user's HP.
+284,ERUPTION,Eruption,BE,150,FIRE,Special,100,5,0,8,0,bef,Beauty,"The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes."
+285,SKILLSWAP,Skill Swap,BF,0,PSYCHIC,Status,0,10,0,0,0,be,Smart,The user employs its psychic power to exchange abilities with the foe.
+286,IMPRISON,Imprison,C0,0,PSYCHIC,Status,0,10,0,10,0,b,Smart,"If the foe knows any move also known by the user, the foe is prevented from using it."
+287,REFRESH,Refresh,C1,0,NORMAL,Status,0,20,0,10,0,d,Cute,"The user rests to cure itself of a poisoning, burn, or paralysis."
+288,GRUDGE,Grudge,C2,0,GHOST,Status,0,5,0,10,0,be,Tough,"If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out."
+289,SNATCH,Snatch,C3,0,DARK,Status,0,10,0,1,4,e,Smart,The user steals the effects of any healing or status- changing move the foe attempts to use.
+290,SECRETPOWER,Secret Power,C5,70,NORMAL,Physical,100,20,30,0,0,be,Smart,The user attacks with a secret power. Its added effects vary depending on the user's environment.
+291,DIVE,Dive,FF,80,WATER,Special,100,10,0,0,0,abef,Beauty,"A two-turn attack. The user dives underwater on the first turn, then hits on the next turn."
+292,ARMTHRUST,Arm Thrust,1D,15,FIGHTING,Physical,100,20,0,0,0,abef,Tough,The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.
+293,CAMOUFLAGE,Camouflage,D5,0,NORMAL,Status,0,20,0,10,0,d,Smart,"The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave."
+294,TAILGLOW,Tail Glow,35,0,BUG,Status,0,20,0,10,0,d,Beauty,"The user stares at flashing lights to focus its mind, sharply raising its Sp. Atk stat."
+295,LUSTERPURGE,Luster Purge,48,70,PSYCHIC,Special,100,5,50,0,0,be,Smart,The user looses a damaging burst of light. It may also reduce the target's Sp. Def stat.
+296,MISTBALL,Mist Ball,47,70,PSYCHIC,Special,100,5,50,0,0,be,Smart,A mistlike flurry of down envelops and damages the foe. It may also lower the target's Sp. Atk.
+297,FEATHERDANCE,FeatherDance,3A,0,FLYING,Status,100,15,0,0,0,bce,Beauty,The user covers the foe with a mass of down that sharply lowers the Attack stat.
+298,TEETERDANCE,Teeter Dance,C7,0,NORMAL,Status,100,20,0,20,0,b,Cute,The user performs a wobbly dance that confuses all the Pokémon in battle.
+299,BLAZEKICK,Blaze Kick,C8,85,FIRE,Physical,90,10,10,0,0,abe,Beauty,The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.
+300,MUDSPORT,Mud Sport,C9,0,GROUND,Status,0,15,0,40,0,,Cute,The user covers itself with mud. It weakens Electric- type moves while the user is in the battle.
+301,ICEBALL,Ice Ball,75,30,ICE,Physical,90,20,0,0,0,abef,Beauty,The user continually rolls into the foe over five turns. It becomes stronger each time it hits.
+302,NEEDLEARM,Needle Arm,96,60,GRASS,Physical,100,15,30,0,0,abe,Smart,The user attacks by wildly swinging its thorny arms. It may also make the target flinch.
+303,SLACKOFF,Slack Off,20,0,NORMAL,Status,0,10,0,10,0,d,Cute,"The user slacks off, restoring its own HP by up to half of its maximum HP."
+304,HYPERVOICE,Hyper Voice,0,90,NORMAL,Special,100,10,0,8,0,be,Cool,The user lets loose a horribly echoing shout with the power to inflict damage.
+305,POISONFANG,Poison Fang,CA,50,POISON,Physical,100,15,30,0,0,abe,Smart,The user bites the foe with toxic fangs. It may also leave the foe badly poisoned.
+306,CRUSHCLAW,Crush Claw,45,75,NORMAL,Physical,95,10,50,0,0,abe,Cool,The user slashes the foe with hard and sharp claws. It may also lower the target's Defense.
+307,BLASTBURN,Blast Burn,50,150,FIRE,Special,90,5,0,0,0,bef,Beauty,"The foe is razed by a fiery explosion. The user must rest on the next turn, however."
+308,HYDROCANNON,Hydro Cannon,50,150,WATER,Special,90,5,0,0,0,bef,Beauty,"The foe is hit with a watery blast. The user must rest on the next turn, however."
+309,METEORMASH,Meteor Mash,8B,100,STEEL,Physical,85,10,20,0,0,abef,Cool,The foe is hit with a hard punch fired like a meteor. It may also raise the user's Attack.
+310,ASTONISH,Astonish,96,30,GHOST,Physical,100,15,30,0,0,abe,Smart,The user attacks the foe while shouting in a startling fashion. It may also make the target flinch.
+311,WEATHERBALL,Weather Ball,CB,50,NORMAL,Special,100,10,0,0,0,bef,Smart,An attack move that varies in power and type depending on the weather.
+312,AROMATHERAPY,Aromatherapy,66,0,GRASS,Status,0,5,0,10,0,d,Smart,The user releases a soothing scent that heals all status problems affecting the user's party.
+313,FAKETEARS,Fake Tears,3E,0,DARK,Status,100,20,0,0,0,bce,Smart,"The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat."
+314,AIRCUTTER,Air Cutter,2B,55,FLYING,Special,95,25,0,8,0,bef,Cool,The user launches razorlike wind to slash the foe. It has a high critical-hit ratio.
+315,OVERHEAT,Overheat,CC,140,FIRE,Special,90,5,100,0,0,abef,Beauty,The user attacks the foe at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+316,ODORSLEUTH,Odor Sleuth,71,0,NORMAL,Status,0,40,0,0,0,be,Smart,Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
+317,ROCKTOMB,Rock Tomb,46,50,ROCK,Physical,80,10,100,0,0,be,Smart,Boulders are hurled at the foe. It also lowers the foe's Speed by preventing its movement.
+318,SILVERWIND,Silver Wind,8C,60,BUG,Special,100,5,10,0,0,bef,Beauty,The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats.
+319,METALSOUND,Metal Sound,3E,0,STEEL,Status,85,40,0,0,0,bce,Smart,A horrible sound like scraping metal is emitted to sharply reduce the foe's Sp. Def stat.
+320,GRASSWHISTLE,GrassWhistle,1,0,GRASS,Status,55,15,0,0,0,bce,Smart,The user plays a pleasant melody that lulls the foe into a deep sleep.
+321,TICKLE,Tickle,CD,0,NORMAL,Status,100,20,0,0,0,bcef,Cute,"The user tickles the foe into laughing, reducing its Attack and Defense stats."
+322,COSMICPOWER,Cosmic Power,CE,0,PSYCHIC,Status,0,20,0,10,0,d,Cool,The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
+323,WATERSPOUT,Water Spout,BE,150,WATER,Special,100,5,0,8,0,be,Beauty,"The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes."
+324,SIGNALBEAM,Signal Beam,4C,75,BUG,Special,100,15,10,0,0,bef,Beauty,The user attacks with a sinister beam of light. It may also confuse the target.
+325,SHADOWPUNCH,Shadow Punch,11,60,GHOST,Physical,0,20,0,0,0,abef,Smart,The user throws a punch at the foe from the shadows. The punch lands without fail.
+326,EXTRASENSORY,Extrasensory,96,80,PSYCHIC,Special,100,30,10,0,0,be,Cool,"The user attacks with an odd, unseeable power. It may also make the foe flinch."
+327,SKYUPPERCUT,Sky Uppercut,CF,85,FIGHTING,Physical,90,15,0,0,0,abef,Cool,The user attacks the foe with an uppercut thrown skyward with force.
+328,SANDTOMB,Sand Tomb,2A,15,GROUND,Physical,70,15,0,0,0,bef,Smart,The user traps the foe inside a harshly raging sandstorm for two to five turns.
+329,SHEERCOLD,Sheer Cold,26,1,ICE,Special,30,5,0,0,0,be,Beauty,The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.
+330,MUDDYWATER,Muddy Water,49,95,WATER,Special,85,10,30,8,0,bef,Tough,The user attacks by shooting out muddy water. It may also lower the foe's accuracy.
+331,BULLETSEED,Bullet Seed,1D,10,GRASS,Physical,100,30,0,0,0,bef,Cool,The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession.
+332,AERIALACE,Aerial Ace,11,60,FLYING,Physical,0,20,0,0,0,abef,Cool,"The user confounds the foe with speed, then slashes. The attack lands without fail."
+333,ICICLESPEAR,Icicle Spear,1D,10,ICE,Physical,100,30,0,0,0,bef,Beauty,The user launches sharp icicles at the foe. It strikes two to five times in a row.
+334,IRONDEFENSE,Iron Defense,33,0,STEEL,Status,0,15,0,10,0,d,Tough,"The user hardens its body's surface like iron, sharply raising its Defense stat."
+335,BLOCK,Block,6A,0,NORMAL,Status,0,5,0,0,0,bce,Cute,The user blocks the foe's way with arms spread wide to prevent escape.
+336,HOWL,Howl,0A,0,NORMAL,Status,0,40,0,10,0,d,Cool,"The user howls loudly to raise its spirit, boosting its Attack stat."
+337,DRAGONCLAW,Dragon Claw,0,80,DRAGON,Physical,100,15,0,0,0,abef,Cool,"The user slashes the foe with huge, sharp claws."
+338,FRENZYPLANT,Frenzy Plant,50,150,GRASS,Special,90,5,0,0,0,bef,Cool,The foe is slammed with an enormous tree. The user can't move on the next turn.
+339,BULKUP,Bulk Up,D0,0,FIGHTING,Status,0,20,0,10,0,d,Beauty,"The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats."
+340,BOUNCE,Bounce,107,85,FLYING,Physical,85,5,30,0,0,abef,Cute,"The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe."
+341,MUDSHOT,Mud Shot,46,55,GROUND,Special,95,15,100,0,0,bef,Tough,The user attacks by hurling a blob of mud at the foe. It also reduces the target's Speed.
+342,POISONTAIL,Poison Tail,D1,50,POISON,Physical,100,25,10,0,0,abef,Smart,An attack with a high critical-hit ratio. This tail  attack may also  poison the foe.
+343,COVET,Covet,69,40,NORMAL,Physical,100,40,0,0,0,be,Cute,"The user endearingly approaches the foe, then steals the item the foe is holding."
+344,VOLTTACKLE,Volt Tackle,106,120,ELECTRIC,Physical,100,15,10,0,0,abef,Cool,"The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well."
+345,MAGICALLEAF,Magical Leaf,11,60,GRASS,Special,0,20,0,0,0,bef,Beauty,The user scatters curious leaves that chase the foe. This attack will not miss.
+346,WATERSPORT,Water Sport,D2,0,WATER,Status,0,15,0,40,0,,Cute,The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.
+347,CALMMIND,Calm Mind,D3,0,PSYCHIC,Status,0,20,0,10,0,d,Smart,The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+348,LEAFBLADE,Leaf Blade,2B,90,GRASS,Physical,100,15,0,0,0,abef,Cool,The foe is slashed with a sharp leaf. It has a high critical-hit ratio.
+349,DRAGONDANCE,Dragon Dance,D4,0,DRAGON,Status,0,20,0,10,0,d,Cool,"The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats."
+350,ROCKBLAST,Rock Blast,1D,25,ROCK,Physical,80,10,0,0,0,bef,Tough,The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.
+351,SHOCKWAVE,Shock Wave,11,60,ELECTRIC,Special,0,20,0,0,0,bef,Cool,The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.
+352,WATERPULSE,Water Pulse,4C,60,WATER,Special,100,20,20,0,0,bef,Beauty,The user attacks the foe with a pulsing blast of water. It may also confuse the foe.
+353,DOOMDESIRE,Doom Desire,94,120,STEEL,Special,85,5,0,0,0,,Cool,"Two turns after this move is used, the user blasts the foe with a concentrated bundle of light."
+354,PSYCHOBOOST,Psycho Boost,CC,140,PSYCHIC,Special,90,5,100,0,0,bef,Smart,The user attacks the foe at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+355,ROOST,Roost,D6,0,FLYING,Status,0,10,0,10,0,d,Cool,The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+356,GRAVITY,Gravity,D7,0,PSYCHIC,Status,0,5,0,40,0,,Cool,"Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation."
+357,MIRACLEEYE,Miracle Eye,D8,0,PSYCHIC,Status,0,40,0,0,0,be,Cool,Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
+358,WAKEUPSLAP,Wake-Up Slap,D9,60,FIGHTING,Physical,100,10,0,0,0,abef,Cool,"This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however."
+359,HAMMERARM,Hammer Arm,DA,100,FIGHTING,Physical,90,10,0,0,0,abef,Cool,"The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however."
+360,GYROBALL,Gyro Ball,DB,1,STEEL,Physical,100,5,0,0,0,abef,Cool,"The user tackles the foe with a high-speed spin. The slower the user, the greater the damage."
+361,HEALINGWISH,Healing Wish,DC,0,PSYCHIC,Status,0,10,0,10,0,,Cool,"The user faints. In return, the Pokémon taking its place will have its HP restored and status cured."
+362,BRINE,Brine,DD,65,WATER,Special,100,10,0,0,0,bef,Cool,"If the foe's HP is down to about half, this attack will hit with double the power."
+363,NATURALGIFT,Natural Gift,DE,1,NORMAL,Physical,100,15,0,0,0,be,Cool,The user draws power to attack by using its held Berry. The Berry determines its type and power.
+364,FEINT,Feint,DF,50,NORMAL,Physical,100,10,0,0,2,,Cool,An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.
+365,PLUCK,Pluck,E0,60,FLYING,Physical,100,20,0,0,0,abef,Cool,"The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect."
+366,TAILWIND,Tailwind,E1,0,FLYING,Status,0,30,0,20,0,d,Cool,The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for three turns.
+367,ACUPRESSURE,Acupressure,E2,0,NORMAL,Status,0,30,0,0,0,d,Cool,"The user applies pressure to stress points, sharply boosting one of its stats."
+368,METALBURST,Metal Burst,E3,1,STEEL,Physical,100,10,0,0,0,e,Cool,The user retaliates against the foe that last inflicted damage on it with much greater power.
+369,UTURN,U-turn,E4,70,BUG,Physical,100,20,0,0,0,abef,Cool,"After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+370,CLOSECOMBAT,Close Combat,E5,120,FIGHTING,Physical,100,5,0,0,0,abef,Cool,The user fights the foe in close without guarding itself. It also cuts the user's Defense and Sp. Def.
+371,PAYBACK,Payback,E6,50,DARK,Physical,100,10,0,0,0,abef,Cool,"If the user can use this attack after the foe attacks, its power is doubled."
+372,ASSURANCE,Assurance,E7,50,DARK,Physical,100,10,0,0,0,abef,Cool,"If the foe has already taken some damage in the same turn, this attack's power is doubled."
+373,EMBARGO,Embargo,E8,0,DARK,Status,100,15,0,0,0,be,Cool,It prevents the foe from using its held item. Its Trainer is also prevented from using items on it.
+374,FLING,Fling,E9,1,DARK,Physical,100,10,0,0,0,be,Cool,The user flings its held item at the foe to attack. Its power and effects depend on the item.
+375,PSYCHOSHIFT,Psycho Shift,EA,0,PSYCHIC,Status,90,10,0,0,0,be,Cool,"Using its psychic power of suggestion, the user transfers its status problems to the target."
+376,TRUMPCARD,Trump Card,EB,1,NORMAL,Special,0,5,0,0,0,abef,Cool,"The fewer PP this move has, the more power it has for attack."
+377,HEALBLOCK,Heal Block,EC,0,PSYCHIC,Status,100,15,0,0,0,be,Cool,The user prevents the foe from using any HP-recovery moves for five turns.
+378,WRINGOUT,Wring Out,ED,1,NORMAL,Special,100,5,0,0,0,abef,Cool,"The user powerfully wrings the foe. The more HP the foe has, the greater this attack's power."
+379,POWERTRICK,Power Trick,EE,0,PSYCHIC,Status,0,10,0,10,0,,Cool,The user employs its psychic power to switch its Attack with its Defense stat.
+380,GASTROACID,Gastro Acid,EF,0,POISON,Status,100,10,0,0,0,bce,Cool,The user hurls up its stomach acids on the foe. The fluid eliminates the effect of the foe's ability.
+381,LUCKYCHANT,Lucky Chant,F0,0,NORMAL,Status,0,30,0,20,0,,Cool,"The user chants an incantation toward the sky, preventing the foe from landing critical hits."
+382,MEFIRST,Me First,F1,0,NORMAL,Status,0,20,0,0,0,b,Cool,The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
+383,COPYCAT,Copycat,F2,0,NORMAL,Status,0,20,0,1,0,,Cool,The user mimics the move used immediately before it. The move fails if no other move has been used yet.
+384,POWERSWAP,Power Swap,F3,0,PSYCHIC,Status,0,10,0,0,0,be,Cool,The user employs its psychic power to switch changes to its Attack and Sp. Atk with the foe.
+385,GUARDSWAP,Guard Swap,F4,0,PSYCHIC,Status,0,10,0,0,0,be,Cool,The user employs its psychic power to switch changes to its Defense and Sp. Def with the foe.
+386,PUNISHMENT,Punishment,F5,1,DARK,Physical,100,5,0,0,0,abef,Cool,This attack's power increases the more the foe has powered up with stat changes.
+387,LASTRESORT,Last Resort,F6,130,NORMAL,Physical,100,5,0,0,0,abef,Cool,This move can be used only after the user has used all the other moves it knows in the battle.
+388,WORRYSEED,Worry Seed,F7,0,GRASS,Status,100,10,0,0,0,bce,Cool,A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.
+389,SUCKERPUNCH,Sucker Punch,F8,80,DARK,Physical,100,5,0,0,0,abef,Cool,"This move enables the user to attack first. It fails if the foe is not readying an attack, however."
+390,TOXICSPIKES,Toxic Spikes,F9,0,POISON,Status,0,20,0,80,0,,Cool,The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle.
+391,HEARTSWAP,Heart Swap,FA,0,PSYCHIC,Status,0,10,0,0,0,be,Cool,The user employs its psychic power to switch stat changes with the foe.
+392,AQUARING,Aqua Ring,FB,0,WATER,Status,0,20,0,10,0,,Cool,The user envelops itself in a veil made of water. It regains some HP on every turn.
+393,MAGNETRISE,Magnet Rise,FC,0,ELECTRIC,Status,0,10,0,10,0,,Cool,The user levitates using electrically generated magnetism for five turns.
+394,FLAREBLITZ,Flare Blitz,FD,120,FIRE,Physical,100,15,10,0,0,abe,Cool,"The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too."
+395,FORCEPALM,Force Palm,6,60,FIGHTING,Physical,100,10,30,0,0,abef,Cool,The foe is attacked with a shock wave. It may also leave the target paralyzed.
+396,AURASPHERE,Aura Sphere,11,90,FIGHTING,Special,0,20,0,0,0,bef,Cool,The user looses a blast of aura power from deep within its body. This move is certain to hit.
+397,ROCKPOLISH,Rock Polish,34,0,ROCK,Status,0,20,0,10,0,d,Cool,The user polishes its body to reduce drag. It can sharply raise the Speed stat.
+398,POISONJAB,Poison Jab,2,80,POISON,Physical,100,20,30,0,0,abef,Cool,The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe.
+399,DARKPULSE,Dark Pulse,1F,80,DARK,Special,100,15,20,0,0,bef,Cool,The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
+400,NIGHTSLASH,Night Slash,2B,70,DARK,Physical,100,15,0,0,0,abef,Cool,The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.
+401,AQUATAIL,Aqua Tail,0,90,WATER,Physical,90,10,0,0,0,abef,Cool,The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
+402,SEEDBOMB,Seed Bomb,0,80,GRASS,Physical,100,15,0,0,0,bef,Cool,The user slams a barrage of hard- shelled seeds down on the foe from above.
+403,AIRSLASH,Air Slash,1F,75,FLYING,Special,95,20,30,0,0,bef,Cool,The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
+404,XSCISSOR,X-Scissor,0,80,BUG,Physical,100,15,0,0,0,abef,Cool,The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.
+405,BUGBUZZ,Bug Buzz,48,90,BUG,Special,100,10,10,0,0,be,Cool,The user vibrates its wings to generate a damaging sound wave. It may also lower the foe's Sp. Def stat.
+406,DRAGONPULSE,Dragon Pulse,0,90,DRAGON,Special,100,10,0,0,0,bef,Cool,The foe is attacked with a shock wave generated by the user's gaping mouth.
+407,DRAGONRUSH,Dragon Rush,1F,100,DRAGON,Physical,75,10,20,0,0,abef,Cool,The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+408,POWERGEM,Power Gem,0,70,ROCK,Special,100,20,0,0,0,bef,Cool,The user attacks with a ray of light that sparkles as if it were made of gemstones.
+409,DRAINPUNCH,Drain Punch,3,60,FIGHTING,Physical,100,5,0,0,0,abef,Cool,An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+410,VACUUMWAVE,Vacuum Wave,67,40,FIGHTING,Special,100,30,0,0,1,bef,Cool,The user whirls its fists to send a wave of pure vacuum at the foe. This move always goes first.
+411,FOCUSBLAST,Focus Blast,48,120,FIGHTING,Special,70,5,10,0,0,be,Cool,The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.
+412,ENERGYBALL,Energy Ball,48,80,GRASS,Special,100,10,10,0,0,be,Cool,The user draws power from nature and fires it at the foe. It may also lower the target's Sp. Def.
+413,BRAVEBIRD,Brave Bird,C6,120,FLYING,Physical,100,15,0,0,0,abef,Cool,The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
+414,EARTHPOWER,Earth Power,48,90,GROUND,Special,100,10,10,0,0,bef,Cool,The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
+415,SWITCHEROO,Switcheroo,B1,0,DARK,Status,100,10,0,0,0,be,Cool,The user trades held items with the foe faster than the eye can follow.
+416,GIGAIMPACT,Giga Impact,50,150,NORMAL,Physical,90,5,0,0,0,abef,Cool,The user charges at the foe using every bit of its power. The user must rest on the next turn.
+417,NASTYPLOT,Nasty Plot,35,0,DARK,Status,0,20,0,10,0,d,Cool,The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
+418,BULLETPUNCH,Bullet Punch,67,40,STEEL,Physical,100,30,0,0,1,abef,Cool,The user strikes with a tough punch as fast as a bullet. This move always goes first.
+419,AVALANCHE,Avalanche,B9,60,ICE,Physical,100,10,0,0,-4,abef,Cool,An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+420,ICESHARD,Ice Shard,67,40,ICE,Physical,100,30,0,0,1,bef,Cool,The user flash freezes chunks of ice and hurls them. This move always goes first.
+421,SHADOWCLAW,Shadow Claw,2B,70,GHOST,Physical,100,15,0,0,0,abef,Cool,The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.
+422,THUNDERFANG,Thunder Fang,113,65,ELECTRIC,Physical,95,15,10,0,0,abef,Cool,The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.
+423,ICEFANG,Ice Fang,112,65,ICE,Physical,95,15,10,0,0,abef,Cool,The user bites with cold-infused fangs. It may also make the foe flinch or freeze.
+424,FIREFANG,Fire Fang,111,65,FIRE,Physical,95,15,10,0,0,abef,Cool,The user bites with flame-cloaked fangs. It may also make the foe flinch or sustain a burn.
+425,SHADOWSNEAK,Shadow Sneak,67,40,GHOST,Physical,100,30,0,0,1,abef,Cool,The user extends its shadow and attacks the foe from behind. This move always goes first.
+426,MUDBOMB,Mud Bomb,49,65,GROUND,Special,85,10,30,0,0,bef,Cool,The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.
+427,PSYCHOCUT,Psycho Cut,2B,70,PSYCHIC,Physical,100,20,0,0,0,bef,Cool,The user tears at the foe with blades formed by psychic power. It has a high critical-hit ratio.
+428,ZENHEADBUTT,Zen Headbutt,1F,80,PSYCHIC,Physical,90,15,20,0,0,abef,Cool,The user focuses its willpower to its head and rams the foe. It may also make the target flinch.
+429,MIRRORSHOT,Mirror Shot,49,65,STEEL,Special,85,10,30,0,0,bef,Cool,The user looses a flash of energy from its polished body. It may also lower the target's accuracy.
+430,FLASHCANNON,Flash Cannon,48,80,STEEL,Special,100,10,10,0,0,bef,Cool,The user gathers all its light energy and releases it at once. It may also lower the foe's Sp. Def stat.
+431,ROCKCLIMB,Rock Climb,4C,90,NORMAL,Physical,85,20,20,0,0,abef,Cool,A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.
+432,DEFOG,Defog,102,0,FLYING,Status,0,15,0,0,0,be,Cool,"Obstacles are moved, reducing the foe's evasion stat. It can also be used to clear deep fog, etc."
+433,TRICKROOM,Trick Room,103,0,PSYCHIC,Status,0,5,0,40,-7,e,Cool,The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+434,DRACOMETEOR,Draco Meteor,CC,140,DRAGON,Special,90,5,100,0,0,bef,Cool,Comets are summoned down from the sky. The attack's recoil sharply reduces the user's Sp. Atk stat.
+435,DISCHARGE,Discharge,6,80,ELECTRIC,Special,100,15,30,8,0,bef,Cool,A flare of electricity is loosed to strike all Pokémon in battle. It may also cause paralysis.
+436,LAVAPLUME,Lava Plume,4,80,FIRE,Special,100,15,30,8,0,bef,Cool,An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.
+437,LEAFSTORM,Leaf Storm,CC,140,GRASS,Special,90,5,100,0,0,bef,Cool,A storm of sharp leaves is whipped up. The attack's recoil sharply reduces the user's Sp. Atk stat.
+438,POWERWHIP,Power Whip,0,120,GRASS,Physical,85,10,0,0,0,abef,Cool,The user violently whirls its vines or tentacles to harshly lash the foe.
+439,ROCKWRECKER,Rock Wrecker,50,150,ROCK,Physical,90,5,0,0,0,bef,Cool,"The user launches a huge boulder at the foe to attack. It must rest on the next turn, however."
+440,CROSSPOISON,Cross Poison,D1,70,POISON,Physical,100,20,10,0,0,abef,Cool,A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.
+441,GUNKSHOT,Gunk Shot,2,120,POISON,Physical,70,5,30,0,0,bef,Cool,The user shoots filthy garbage at the foe to attack. It may also poison the target.
+442,IRONHEAD,Iron Head,1F,80,STEEL,Physical,100,15,30,0,0,abef,Cool,The foe slams the target with its steel-hard head. It may also make the target flinch.
+443,MAGNETBOMB,Magnet Bomb,11,60,STEEL,Physical,0,20,0,0,0,bef,Cool,The user launches a steel bomb that sticks to the target. This attack will not miss.
+444,STONEEDGE,Stone Edge,2B,100,ROCK,Physical,80,5,0,0,0,bef,Cool,The user stabs the foe with a sharpened stone. It has a high critical-hit ratio.
+445,CAPTIVATE,Captivate,109,0,NORMAL,Status,100,20,0,4,0,bce,Cool,"If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
+446,STEALTHROCK,Stealth Rock,10A,0,ROCK,Status,0,20,0,80,0,,Cool,The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
+447,GRASSKNOT,Grass Knot,C4,1,GRASS,Special,100,20,0,0,0,bef,Cool,"The user snares the foe with grass and trips it. The heavier the foe, the greater the damage."
+448,CHATTER,Chatter,10B,60,FLYING,Special,100,20,0,0,0,b,Cool,The user attacks using a sound wave based on words it has learned. It may also confuse the foe.
+449,JUDGMENT,Judgment,10C,100,NORMAL,Special,100,10,0,0,0,bef,Cool,The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.
+450,BUGBITE,Bug Bite,E0,60,BUG,Physical,100,20,0,0,0,abef,Cool,"The user bites the foe. If the foe is holding a Berry, the user eats it and gains its effect."
+451,CHARGEBEAM,Charge Beam,114,50,ELECTRIC,Special,90,10,70,0,0,bef,Cool,The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.
+452,WOODHAMMER,Wood Hammer,C6,120,GRASS,Physical,100,15,0,0,0,abef,Cool,The user slams its rugged body into the foe to attack. The user also sustains serious damage.
+453,AQUAJET,Aqua Jet,67,40,WATER,Physical,100,20,0,0,1,abef,Cool,The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.
+454,ATTACKORDER,Attack Order,2B,90,BUG,Physical,100,15,0,0,0,bef,Cool,The user calls out its underlings to pummel the foe. It has a high critical-hit ratio.
+455,DEFENDORDER,Defend Order,CE,0,BUG,Status,0,10,0,10,0,d,Cool,"The user calls out its underlings to make a living shield, raising its Defense and Sp. Def stats."
+456,HEALORDER,Heal Order,20,0,BUG,Status,0,10,0,10,0,d,Cool,The user calls out its underlings to heal it. The user regains up to half of its max HP.
+457,HEADSMASH,Head Smash,10D,150,ROCK,Physical,80,5,0,0,0,abef,Cool,The user delivers a life-endangering head butt at full power. The user also takes terrible damage.
+458,DOUBLEHIT,Double Hit,2C,35,NORMAL,Physical,90,10,0,0,0,abef,Cool,"The user slams the foe with a tail, etc. The target is hit twice in a row."
+459,ROAROFTIME,Roar of Time,50,150,DRAGON,Special,90,5,0,0,0,bef,Cool,The user blasts the foe with power that distorts even time. The user must rest on the next turn.
+460,SPACIALREND,Spacial Rend,2B,100,DRAGON,Special,95,5,0,0,0,bef,Cool,The user tears the foe along with the space around it. This move has a high critical-hit ratio.
+461,LUNARDANCE,Lunar Dance,10E,0,PSYCHIC,Status,0,10,0,10,0,,Cool,"The user faints. In return, the Pokémon taking its place will have its status and HP fully restored."
+462,CRUSHGRIP,Crush Grip,ED,1,NORMAL,Physical,100,5,0,0,0,abef,Cool,The foe is crushed with great force. The attack is more powerful the more HP the foe has left.
+463,MAGMASTORM,Magma Storm,2A,120,FIRE,Special,70,5,0,0,0,bef,Cool,The foe becomes trapped within a maelstrom of fire that rages for two to five turns.
+464,DARKVOID,Dark Void,1,0,DARK,Status,80,10,0,4,0,bce,Cool,The foe is dragged into a world of total darkness that puts it to sleep.
+465,SEEDFLARE,Seed Flare,10F,120,GRASS,Special,85,5,40,0,0,bef,Cool,The user generates a shock wave from within its body. It may also lower the target's Sp. Def.
+466,OMINOUSWIND,Ominous Wind,8C,60,GHOST,Special,100,5,10,0,0,bef,Cool,The user creates a gust of repulsive wind. It may also raise all the user's stats at once.
+467,SHADOWFORCE,Shadow Force,110,120,GHOST,Physical,100,5,0,0,0,aef,Cool,"The user disappears, then strikes the foe on the second turn. It hits even if the foe used Protect."
