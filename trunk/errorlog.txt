@@ -2595,3 +2595,15 @@ Scene_Map:109:in `update'
 Scene_Map:65:in `main'
 Scene_Map:62:in `loop'
 Scene_Map:69:in `main'
+Exception: RuntimeError
+Message: Undefined species constant name: NIDORANF
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/encounters.txt, line 889
+NIDORANF,14,17
+
+Compiler:782:in `pbGetConst'
+Compiler:801:in `parseSpecies'
+Compiler:908:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616

@@ -56,6 +56,8 @@
 125,South,0,126,North,0
 # Route 25 (62) - Route 9 (122)
 62,3,65,122,0,0
+# Route 9 (122) - Route 10 (123)
+122,East,0,123,West,0
 # Route 9 (122) - Route 5 (63)
 122,West,27,63,East,0
 # Route 9 (122) - Cerulean City (52)
