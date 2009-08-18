@@ -1,0 +1,296 @@
+[000]
+PlayerA=PkMnTRAINER_Male1,Red,onbikered,trback000,Red,Red,Red
+PlayerB=PkMnTRAINER_Female1,Sapphire,onbikesapphire,trback001,Sapphire,Sapphire,Sapphire
+PlayerC=PkMnTRAINER_Male2,Ruby,onbikeruby,trback099,Red,Red,Red
+TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
+PlayerD=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
+WildVictoryME=Victory-Wild_Pokemon.mid
+TrainerBattleBGM=Pkmn_FRLG_Battle_RS_Trainer.mid
+StorageCreator=LANETTE
+Home=38,8,8,0
+TextSkin=rstextskin.png
+WildBattleBGM=Wildp.mid
+[001]
+# Route 3
+Bicycle=true
+MapPosition=0,9,7
+Outdoor=true
+ShowArea=true
+[002]
+# Cherrygrove City
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[003]
+# Sandgem Town
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[008]
+# Oldale Town
+Bicycle=true
+Outdoor=true
+HealingSpot=8,10,19
+ShowArea=true
+[010]
+# Route 24
+Bicycle=true
+MapPosition=0,19,4
+Outdoor=true
+ShowArea=true
+[011]
+# Mt Moon 1st floor
+Bicycle=true
+MapPosition=0,13,6
+EscapePoint=1,52,2
+[012]
+# Littleroot Town
+Bicycle=true
+Outdoor=true
+HealingSpot=12,13,18
+ShowArea=true
+[013]
+# Prof.Birch's Lab
+Outdoor=false
+ShowArea=false
+[014]
+# Route 101
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[015]
+# Twinleaf Town
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[016]
+# Route 201
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[017]
+# Lake Verity
+Weather=Rain,50
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[018]
+# Mt Moon Basement
+Bicycle=true
+MapPosition=0,13,6
+EscapePoint=1,52,2
+ShowArea=false
+[019]
+# House
+Outdoor=false
+ShowArea=false
+[020]
+# Route 29
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[022]
+# Moonstone Cave
+MapPosition=0,13,6
+EscapePoint=1,52,2
+[023]
+# Navel Island
+Outdoor=true
+ShowArea=true
+[024]
+# Route 2
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[025]
+# Route 4
+Bicycle=true
+MapPosition=0,16,6
+Outdoor=true
+ShowArea=true
+[028]
+# Pallet Town
+Bicycle=true
+Outdoor=true
+HealingSpot=28,16,38
+ShowArea=true
+[029]
+# Route 1
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[030]
+# Viridian City
+Bicycle=true
+Outdoor=true
+HealingSpot=30,26,29
+ShowArea=true
+[031]
+# Viridian Forest
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[032]
+# Pewter City
+Bicycle=true
+Outdoor=true
+HealingSpot=32,18,27
+ShowArea=true
+[034]
+# Rustboro City
+Bicycle=true
+Outdoor=true
+HealingSpot=34,16,38
+ShowArea=true
+[036]
+# New Bark Town
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[042]
+# Navel Mountain
+DarkMap=true
+Outdoor=false
+EscapePoint=23,41,50
+ShowArea=true
+[049]
+# Melanie's House
+MapPosition=0,16,6
+HealingSpot=25,35,23
+[052]
+# Cerulean City
+Bicycle=true
+MapPosition=0,19,6
+Outdoor=true
+HealingSpot=52,20,23
+ShowArea=true
+[062]
+# Route 25
+Bicycle=true
+MapPosition=0,19,6
+Outdoor=true
+ShowArea=true
+[063]
+# Route 5
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[064]
+# Vermillion City
+Bicycle=true
+Outdoor=true
+HealingSpot=64,22,9
+ShowArea=true
+[067]
+# Route 6
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[082]
+# Route 102
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[083]
+# Petalburg City
+Bicycle=true
+Outdoor=true
+HealingSpot=83,20,16
+ShowArea=true
+[086]
+# Route 11
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[087]
+# Diglett's Cave
+Bicycle=true
+ShowArea=true
+[090]
+# Route 104
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[092]
+# Petalburg Forest
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[098]
+# Dewford Town
+Bicycle=true
+Outdoor=true
+HealingSpot=98,2,11
+ShowArea=true
+[100]
+# Slateport City
+Bicycle=true
+Outdoor=true
+HealingSpot=100,19,20
+ShowArea=true
+[104]
+# Route 106
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[105]
+# Route 109
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[106]
+# Route 30
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[107]
+# Route 31
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[108]
+# Violet City
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[113]
+# Route 36
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[114]
+# Route 37
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[115]
+# Ecruteak City
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[122]
+# Route 9
+Bicycle=true
+MapPosition=0,21,6
+Outdoor=true
+ShowArea=true
+[123]
+# Route 10
+Bicycle=true
+MapPosition=0,24,6
+Outdoor=true
+ShowArea=true
+[125]
+# Route 39
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[126]
+# Olivine City
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[140]
+# Granite Cave
+Bicycle=true
+ShowArea=true

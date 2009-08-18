@@ -10,9 +10,264 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Data/Actors.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Actors.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Animations.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Animations.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Armors.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Armors.rxdata</location>
+		</link>
+		<link>
+			<name>Data/CommonEvents.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/CommonEvents.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Constants.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Constants.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Enemies.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Enemies.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Items.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Items.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map001.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map001.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map007.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map007.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map010.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map010.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map011.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map011.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map014.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map014.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map016.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map016.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map023.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map023.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map029.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map029.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map031.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map031.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map033.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map033.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map050.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map050.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map057.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map057.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map061.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map061.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map062.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map062.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map067.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map067.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map068.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map068.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map079.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map079.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map082.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map082.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map086.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map086.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map090.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map090.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map097.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map097.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map103.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map103.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map104.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map104.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map105.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map105.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map116.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map116.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map122.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map122.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Map123.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map123.rxdata</location>
+		</link>
+		<link>
 			<name>Data/Map142.rxdata</name>
 			<type>1</type>
 			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Map142.rxdata</location>
+		</link>
+		<link>
+			<name>Data/MapInfos.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/MapInfos.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Skills.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Skills.rxdata</location>
+		</link>
+		<link>
+			<name>Data/States.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/States.rxdata</location>
+		</link>
+		<link>
+			<name>Data/System.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/System.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Tilesets.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Tilesets.rxdata</location>
+		</link>
+		<link>
+			<name>Data/Weapons.rxdata</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/Weapons.rxdata</location>
+		</link>
+		<link>
+			<name>Data/connections.dat</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/connections.dat</location>
+		</link>
+		<link>
+			<name>Data/encounters.dat</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/encounters.dat</location>
+		</link>
+		<link>
+			<name>Data/messages.dat</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/messages.dat</location>
+		</link>
+		<link>
+			<name>Data/metadata.dat</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/metadata.dat</location>
+		</link>
+		<link>
+			<name>Data/phone.dat</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/Data/phone.dat</location>
+		</link>
+		<link>
+			<name>PBS/abilities.txt</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/PBS/abilities.txt</location>
+		</link>
+		<link>
+			<name>PBS/btpokemon.txt</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/PBS/btpokemon.txt</location>
+		</link>
+		<link>
+			<name>PBS/bttrainers.txt</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/PBS/bttrainers.txt</location>
+		</link>
+		<link>
+			<name>PBS/pokemon.txt</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/PBS/pokemon.txt</location>
+		</link>
+		<link>
+			<name>PBS/trainernames.txt</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/PBS/trainernames.txt</location>
+		</link>
+		<link>
+			<name>PBS/trainers.txt</name>
+			<type>1</type>
+			<location>C:/Documents and Settings/sysop/My Documents/Workspace/GlobalRevolution/PBS/trainers.txt</location>
 		</link>
 	</linkedResources>
 </projectDescription>
