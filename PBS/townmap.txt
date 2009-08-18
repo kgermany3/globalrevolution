@@ -1,18 +1,42 @@
+# This text file contains locations of each area on the region map.
+# The coordinates given in this text file are multiplied by 16 when comparing
+# them to the map's image.  For example, a point on this file with coordinates
+# of 5,3 would correspond to the map image's coordinates of 80,48.
+# This file is divided into sections, one section for each region map in the
+# game.  Each section's title is the ID of the region map.  The section
+# title is enclosed by two square brackets like this:  [2]
+#
+# Each section can have any number of entries.  The entry's name and
+# the entry's value are separated by an equal sign (=).
+#
+# Name - Name of the map.
+# Filename - Filename of the map.  The file must be in Graphics/Pictures and
+#  should have dimensions of 480x320.
+# Point - Describes a point on the map.  This setting consists of several
+# fields separated by commas:
+#    Field 1: X coordinate of a point on the map.
+#    Field 2: Y coordinate of a point on the map.
+#    Field 3: Name of the location described by this point.
+#    Field 4: Name of a point of interest described by this point.  Optional.
+#    Field 5, 6, 7: These fields specify the map ID and the X and Y
+#        coordinates of the entrance of a healing spot, such as a Pokemon Center.
+#        This location is where the player will travel to when Fly is used and
+#        if the map indicated by the map ID was visited before.  These fields
+#        are generally set only if the location is a city or town.
+#   Field 8: Number of a switch (in RPG Maker XP).  If this is set, the point 
+#        will not be shown until the switch is on.  This field is generally set for
+#        locations outside of the main storyline, where special Pokemon can be found.
 [0]
 Name=SAMPLE REGION
 Filename=simplemap.png
-Point=10,5,Testing Town,,34,31,17,
-Point=6,4,Area 3,,,,,
-Point=6,5,Area 3,,,,,
-Point=11,5,Test Map,,11,9,8,
-Point=10,4,czcxc,,,,,
-Point=7,5,,,,,,
+Point=10,5,"Test Map",,011,9,8,
+Point=6,4,"Area 1",,,,,
+Point=6,5,"Area 3",,,,,
+Point=11,5,"Test Map",,011,9,8,
 [1]
 Name=SAMPLE REGION 2
 Filename=map.png
-Point=10,5,Test Map,,11,9,8,
-Point=6,4,Area 3,,,,,
-Point=6,5,Area 3,,,,,
-Point=11,5,Test Map,,11,9,8,
-Point=10,4,czcxc,,,,,
-Point=7,5,,,,,,
+Point=10,5,"Test Map",,011,9,8,
+Point=6,4,"Area 1",,,,,
+Point=6,5,"Area 3",,,,,
+Point=11,5,"Test Map",,011,9,8,

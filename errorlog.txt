@@ -2607,3 +2607,27 @@ Compiler:801:in `parseSpecies'
 Compiler:908:in `pbCompileEncounters'
 Compiler:2568:in `pbCompileAllData'
 Compiler:2616
+Exception: RuntimeError
+Message: Script error within event 2, map 57 (Cerulean Gym):
+Section061:861:in `pbFromPBMove'undefined method `new' for nil:NilClass
+Section017:238:in `pbExecuteScript'
+Section065:336:in `initialize'
+Section088:286:in `new'
+Section088:286:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
