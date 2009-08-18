@@ -361,7 +361,7 @@
 361,HEALINGWISH,HEALING WISH,DC,0,PSYCHIC,Status,0,10,0,10,0,,Cute,"The user faints. In return, the Pokémon taking its place will have its HP restored and status cured."
 362,BRINE,BRINE,DD,65,WATER,Special,100,10,0,00,0,bef,Smart,"If the foe's HP is down to about half, this attack will hit with double the power."
 363,NATURALGIFT,NATURAL GIFT,DE,1,NORMAL,Physical,100,15,0,00,0,be,Cool,"The user draws power to attack by using its held Berry. The Berry determines its type and power."
-364,FEINT,FEINT,DF,50,NORMAL,Physical,100,10,0,00,2,,Beauty,"An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves."
+364,FEINT,FEINT,DF,50,NORMAL,Physical,100,10,0,00,2,bef,Beauty,"An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves."
 365,PLUCK,PLUCK,E0,60,FLYING,Physical,100,20,0,00,0,abef,Cute,"The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect."
 366,TAILWIND,TAILWIND,E1,0,FLYING,Status,0,30,0,200,0,d,Smart,"The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for three turns."
 367,ACUPRESSURE,ACUPRESSURE,E2,0,NORMAL,Status,0,30,0,200,0,d,Cool,"The user applies pressure to stress points, sharply boosting one of its stats."
