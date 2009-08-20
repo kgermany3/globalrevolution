@@ -1,0 +1,10 @@
+PGR TO-DO LIST
+
+-All outdoor maps needed enlargening so player cannot see past the edge (ie. no black bits)
+-Swap all Pokecenter and Mart doorways with a glass animation doorway.
+-Add the following Maps for Kanto - Rock Tunnel, Lavender Town, Pokemon Tower, Route 12
+-Add the following Maps for Johto - Burned Tower, Route 32, Route 33, Azalea Town, Union Cave (Do not require basements for now), Gyms & Interiors
+-Add the following Maps for Hoenn - Route 103, Route 110, Mauville, Route 117, Verdanturf Town, Rusturf Tunnel, Route 116, Missing interiors.
+-Add the following Maps for Sinnoh - Jubilife City, Canalave City, Route 218, Route 202, Interiors.
+-2nd Gen Berry system added to Johto. Expand for newer Berries and place in other 3 regions.
+-Daycare System?

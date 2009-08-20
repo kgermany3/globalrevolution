@@ -2631,3 +2631,455 @@ Scene_Map:98:in `update'
 Scene_Map:96:in `loop'
 Scene_Map:109:in `update'
 Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Undefined value Fighting in PBTypes (section File PBS/moves.txt, line 358
+Fighting,Physical,100,10,0,00,0,abef,Smart,"This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however."
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value Fighting in PBTypes (section File PBS/moves.txt, line 358
+Fighting,Physical,100,10,0,00,0,abef,Smart,"This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however."
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Field 0abef is not an integer
+File PBS/moves.txt, line 365
+Cute,"The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Undefined value Dark in PBTypes (section File PBS/moves.txt, line 372
+Dark,Physical,100,10,0,00,0,abef,Beauty,"If the foe has already taken some damage in the same turn, this attack's power is doubled."
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value Dark in PBTypes (section File PBS/moves.txt, line 373
+Dark,Status,100,15,0,40,0,be,Cute,"It prevents the foe from using its held item. Its Trainer is also prevented from using items on it."
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value The user flings its held item at the foe to attack. Its power and effects depend on the item. (expected one of: CoolBeautyCuteSmartTough) (section File PBS/moves.txt, line 374
+"The user flings its held item at the foe to attack. Its power and effects depend on the item."
+, key )
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value Psychic in PBTypes (section File PBS/moves.txt, line 377
+Psychic,Status,100,15,0,00,0,be,Cute,"The user prevents the foe from using any HP-recovery moves for five turns."
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value Psychic in PBTypes (section File PBS/moves.txt, line 377
+Psychic,Status,100,15,0,00,0,be,Cute,"The user prevents the foe from using any HP-recovery moves for five turns."
+, key )
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Field abef is not an integer
+File PBS/moves.txt, line 407
+Cool,"The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field bef is not an integer
+File PBS/moves.txt, line 434
+Smart,"Comets are summoned down from the sky. The attack's recoil sharply reduces the user's Sp. Atk stat."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field ELECTRIC is not a positive integer
+File PBS/moves.txt, line 435
+Special,100,15,30,00,0,bef,Cool,"A flare of electricityis released to strike all Pokémon in battle. It may also cause paralysis."
+
+Compiler:173:in `csvPosInt!'
+Compiler:367:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field ELECTRIC is not a positive integer
+File PBS/moves.txt, line 435
+Special,100,15,30,00,0,bef,Cool,"A flare of electricityis released to strike all Pokémon in battle. It may also cause paralysis."
+
+Compiler:173:in `csvPosInt!'
+Compiler:367:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field bef is not an integer
+File PBS/moves.txt, line 437
+Cute,"A storm of sharp leaves is whipped up. The attack's recoil sharply reduces the user's Sp. Atk stat."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field bef is not an integer
+File PBS/moves.txt, line 437
+Cute,"A storm of sharp leaves is whipped up. The attack's recoil sharply reduces the user's Sp. Atk stat."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field POISON is not a positive integer
+File PBS/moves.txt, line 441
+Physical,70,5,30,00,0,bef,Cool,"The user shoots filthy garbage at the foe to attack. It may also poison the target."
+
+Compiler:173:in `csvPosInt!'
+Compiler:367:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field  is not a hexadecimal number
+File PBS/moves.txt, line 441
+D1,120,POISON,Physical,70,5,30,00,0,bef,Cool,"The user shoots filthy garbage at the foe to attack. It may also poison the target."
+
+Compiler:382:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Compiler:970:in `pbCompileMoves'
+Exception: RuntimeError
+Message: Undefined value bce (expected one of: CoolBeautyCuteSmartTough) (section File PBS/moves.txt, line 445
+bce,Beauty,"If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
+, key )
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Field bef is not an integer
+File PBS/moves.txt, line 449
+Smart,"The user releases countless shots of light. Its type varies with the kind of Plate the user is holding."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field ROCK is not a positive integer
+File PBS/moves.txt, line 457
+Physical,80,5,100,00,0,abef,Tough,"The user delivers a life-endangering head butt at full power. The user also takes terrible damage."
+
+Compiler:173:in `csvPosInt!'
+Compiler:367:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Field Cool is not an integer
+File PBS/moves.txt, line 459
+"The user blasts the foe with power that distorts even time. The user must rest on the next turn."
+
+Compiler:181:in `csvInt!'
+Compiler:369:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Exception: RuntimeError
+Message: Undefined value The user generates a shock wave from within its body. It may also lower the target's Sp. Def. (expected one of: CoolBeautyCuteSmartTough) (section File PBS/moves.txt, line 465
+"The user generates a shock wave from within its body. It may also lower the target's Sp. Def."
+, key )
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value The user creates a gust of repulsive wind. It may also raise all the user's stats at once. (expected one of: CoolBeautyCuteSmartTough) (section File PBS/moves.txt, line 466
+"The user creates a gust of repulsive wind. It may also raise all the user's stats at once."
+, key )
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:397:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:971:in `pbCompileMoves'
+Compiler:970:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: NameError
+Message: uninitialized constant PBMoves::PLUCK
+Compiler:691:in `const_get'
+Compiler:691:in `pbCompileItems'
+Compiler:674:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Compiler:477:in `pbCompilerEachCommentedLine'
+Compiler:674:in `pbCompileItems'
+Compiler:2547:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value PLUCK1 in PBMoves (section 22, key Moves)
+Compiler:1717:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:2003:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
