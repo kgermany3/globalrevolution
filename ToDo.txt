@@ -13,3 +13,23 @@ From rei_hunter
 -Oak'sLab:ProfessorOakSprite - Why has he become a nerd? sure he's a 'nerd' but eh.. lol.
 -ViridianForest:Near BugCatcherSamurai, is there some sort of path way in there? i didnt remove it though.
 -PewterCityGym: The Helper's Text needs revamping. Brock too, he sounded so ero D:
+
+From rei_hunter (Again)
+REV40
+-PewterCity:Exit/Entrance to Route 2 - O_O it's gone D:
+-Game Error:
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Icons/item506.png
+BitmapCache:243:in `load_bitmap'
+SpriteWindow:2222:in `setBitmap'
+PokemonBag:500:in `pbRefresh'
+PokemonBag:443:in `pbStartScene'
+PokemonBag:1012:in `pbStartScreen'
+PokemonMenu:168:in `pbStartPokemonMenu'
+PokemonMenu:167:in `pbFadeOutIn'
+PokemonMenu:167:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+-ViridianCity:Exit/Entrance to Route 2 - It's gone O_O;
+
+Game Crash : When a player runs down a ledge. Happened on Route 1 False Alarm?
