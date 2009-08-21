@@ -3083,3 +3083,15 @@ Compiler:2054:in `pbCompilePokemonData'
 Compiler:1969:in `each'
 Compiler:1969:in `pbCompilePokemonData'
 Compiler:1968:in `each'
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Audio:200:in `Audio_bgm_play'
+Audio:328:in `bgm_play'
+Game_System:31:in `audioBgmPlay'
+Game_System:51:in `bgm_play_ex'
+Game_System:64:in `bgm_play'
+Scene_Intro:38:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
