@@ -54,15 +54,15 @@
 124,South,4,125,North,0
 # Route 39 (125) - Olivine City (126)
 125,South,0,126,North,0
-# Route 25 (62) - Route 9 (122)
-62,3,65,122,0,0
+# Route 25 (62) - Route 24 (10)
+62,West,0,10,East,0
 # Route 9 (122) - Route 10 (123)
 122,East,0,123,West,0
-# Route 9 (122) - Route 5 (63)
-122,West,27,63,East,0
+# Cerulean City (52) - Route 5 (63)
+52,South,0,63,North,0
 # Route 9 (122) - Cerulean City (52)
 122,West,0,52,East,13
-# Route 9 (122) - Route 4 (25)
-122,0,0,25,90,3
-# Route 9 (122) - Route 24 (10)
-122,0,0,10,28,65
+# Cerulean City (52) - Route 4 (25)
+52,West,10,25,East,0
+# Cerulean City (52) - Route 24 (10)
+52,North,12,10,South,0
