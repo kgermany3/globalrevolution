@@ -8,3 +8,11 @@ PGR TO-DO LIST
 -Add the following Maps for Sinnoh - Jubilife City, Canalave City, Route 218, Route 202, Interiors.
 -2nd Gen Berry system added to Johto. Expand for newer Berries and place in other 3 regions.
 -Daycare System?
+
+From rei_hunter
+-ViridianCity:PokeMart, it should be instant fade like Pallet Town:KetchumResidence, so the player doesnt go to the black bits.
+-ALL, Lamp Shades, lol. For some VERY odd reason it seems as if YOU'RE WALKING on the lampshade, i tried fixing it but no luck
+-ViridianForest:BugCatcherSamurai - It isnt very "Bug Catcher"-like as the sprite is Team Rocket Male
+-Oak'sLab:ProfessorOakSprite - Why has he become a nerd? sure he's a 'nerd' but eh.. lol.
+-ViridianForest:Near BugCatcherSamurai, is there some sort of path way in there? i didnt remove it though.
+-PewterCityGym: The Helper's Text needs revamping. Brock too, he sounded so ero D:
