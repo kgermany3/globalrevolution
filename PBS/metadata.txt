@@ -294,3 +294,13 @@ ShowArea=true
 # Granite Cave
 Bicycle=true
 ShowArea=true
+[124]
+# Route 38
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[147]
+# Ruins of Alph Exterior
+Bicycle=true
+Outdoor=true
+ShowArea=true

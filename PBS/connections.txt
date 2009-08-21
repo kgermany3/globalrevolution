@@ -10,10 +10,6 @@
 24,North,0,32,South,8
 # Vermillion City (64) - Route 6 (67)
 64,North,19,67,South,0
-# New Bark Town (36) - Cherrygrove City (2)
-36,0,4,2,81,0
-# Cherrygrove City (2) - Route 29 (20)
-2,East,0,20,West,8
 # Petalburg City (83) - Route 102 (82)
 83,East,8,82,West,0
 # Route 101 (14) - Littleroot Town (12)
@@ -34,26 +30,8 @@
 90,North,0,34,South,0
 # Route 106 (104) - Dewford Town (98)
 104,South,55,98,North,0
-# Cherrygrove City (2) - Route 30 (106)
-2,North,0,106,South,0
-# Route 30 (106) - Route 31 (107)
-106,North,0,107,South,20
-# Violet City (108) - Route 31 (107)
-108,East,21,107,West,0
-# Route 36 (113) - Violet City (108)
-113,East,0,108,West,0
-# Route 36 (113) - Route 37 (114)
-113,North,7,114,South,0
-# Route 37 (114) - Ecruteak City (115)
-114,North,0,115,South,14
 # Route 109 (105) - Slateport City (100)
 105,North,1,100,South,0
-# Route 38 (124) - Ecruteak City (115)
-124,East,0,115,West,8
-# Route 38 (124) - Route 39 (125)
-124,South,4,125,North,0
-# Route 39 (125) - Olivine City (126)
-125,South,0,126,North,0
 # Route 25 (62) - Route 24 (10)
 62,West,0,10,East,0
 # Route 9 (122) - Route 10 (123)
@@ -66,3 +44,27 @@
 52,West,10,25,East,0
 # Cerulean City (52) - Route 24 (10)
 52,North,12,10,South,0
+#New Bark Town (36) - Route 29 (20)
+36,West,0,20,East,4
+#Route 29 (20) - Cherrygrove City (2)
+20,West,8,2,East,0
+#Cherrygrove City (2) - Route 30 (106)
+2,North,9,106,South,0
+#Route 30 (106) - Route 31 (107)
+106,North,0,107,South,17
+#Route 31 (107) - Violet City (108)
+107,West,0,108,East,20
+#Violet City (108) - Route 36 (113)
+108,West,5,113,East,0
+#Route 36 (113) - Ruins of Alph Exterior (147)
+113,South,25,147,North,0
+#Route 36 (113) - Route 37 (114)
+113,North,4,114,South,0
+#Route 37 (114) - Ecruteak City  (115)
+114,North,0,115,South,11
+#Ecruteak City (115) - Route 38 (124)
+115,West,9,124,East,0
+#Route 38 (124) - Route 39 (125)
+124,South,4,125,North,0
+#Route 39 (125) - Olivine City (126)
+125,South,0,126,North,0
