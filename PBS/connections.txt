@@ -1,13 +1,13 @@
 # Route 3 (1) - Pewter City (32)
-1,West,0,32,East,14
+1,West,0,32,East,16
 # Pallet Town (28) - Route 1 (29)
 28,North,0,29,South,0
 # Viridian City (30) - Route 2 (24)
-30,North,12,24,South,0
+30,North,7,24,South,0
 # Route 1 (29) - Viridian City (30)
 29,North,0,30,South,7
 # Route 2 (24) - Pewter City (32)
-24,North,0,32,South,12
+24,North,0,32,South,8
 # Vermillion City (64) - Route 6 (67)
 64,North,19,67,South,0
 # New Bark Town (36) - Cherrygrove City (2)
