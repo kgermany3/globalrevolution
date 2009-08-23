@@ -1,13 +1,3 @@
-# Route 3 (1) - Pewter City (32)
-1,West,0,32,East,16
-# Pallet Town (28) - Route 1 (29)
-28,North,0,29,South,0
-# Viridian City (30) - Route 2 (24)
-30,North,7,24,South,0
-# Route 1 (29) - Viridian City (30)
-29,North,0,30,South,7
-# Route 2 (24) - Pewter City (32)
-24,North,0,32,South,8
 # Vermillion City (64) - Route 6 (67)
 64,North,19,67,South,0
 # Petalburg City (83) - Route 102 (82)
@@ -44,27 +34,37 @@
 52,West,10,25,East,0
 # Cerulean City (52) - Route 24 (10)
 52,North,12,10,South,0
-#New Bark Town (36) - Route 29 (20)
+# New Bark Town (36) - Route 29 (20)
 36,West,0,20,East,4
-#Route 29 (20) - Cherrygrove City (2)
+# Route 29 (20) - Cherrygrove City (2)
 20,West,8,2,East,0
-#Cherrygrove City (2) - Route 30 (106)
+# Cherrygrove City (2) - Route 30 (106)
 2,North,9,106,South,0
-#Route 30 (106) - Route 31 (107)
+# Route 30 (106) - Route 31 (107)
 106,North,0,107,South,17
-#Route 31 (107) - Violet City (108)
+# Route 31 (107) - Violet City (108)
 107,West,0,108,East,20
-#Violet City (108) - Route 36 (113)
+# Violet City (108) - Route 36 (113)
 108,West,5,113,East,0
-#Route 36 (113) - Ruins of Alph Exterior (147)
+# Route 36 (113) - Ruins of Alph Exterior (147)
 113,South,25,147,North,0
-#Route 36 (113) - Route 37 (114)
+# Route 36 (113) - Route 37 (114)
 113,North,4,114,South,0
-#Route 37 (114) - Ecruteak City  (115)
+# Route 37 (114) - Ecruteak City (115)
 114,North,0,115,South,11
-#Ecruteak City (115) - Route 38 (124)
+# Ecruteak City (115) - Route 38 (124)
 115,West,9,124,East,0
-#Route 38 (124) - Route 39 (125)
+# Route 38 (124) - Route 39 (125)
 124,South,4,125,North,0
-#Route 39 (125) - Olivine City (126)
+# Route 39 (125) - Olivine City (126)
 125,South,0,126,North,0
+# Route 3 (1) - Pallet Town (28)
+1,0,192,28,41,0
+# Pallet Town (28) - Route 1 (29)
+28,North,0,29,South,0
+# Pallet Town (28) - Route 2 (24)
+28,0,0,24,0,162
+# Pallet Town (28) - Viridian City (30)
+28,0,0,30,7,82
+# Pallet Town (28) - Pewter City (32)
+28,0,0,32,8,208
