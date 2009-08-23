@@ -19,3 +19,54 @@ REV40
 -PewterCity:Exit/Entrance to Route 2 - O_O it's gone D:
 -ViridianCity:Exit/Entrance to Route 2 - It's gone O_O;
 -Game Crash : When a player runs down a ledge. Happened on Route 1 False Alarm?
+
+SVN 45 - Error Checking (rei_hunter)
+Item : DEEPSEATOOTH, why is it all capitallized?
+Item : DEEPSEASCALE, why is it all capitallized? o_o
+Item : BLACKGLASSES, some kind of Syndrome?
+Item : NEVERMELTICE, Some kind of Syndrome? o_o
+ITEM : TWISTEDSPOON, Some kind of Syndrome?
+
+ITEM : Some Item Details, "I'm lustorous???" <- Lol
+Namely
+Power Lens - An Extra '.'
+Power Weight
+Adamant Orb
+Damp Rock
+Heat Rock
+Lustrous Orb
+and more (can't list them all)
+
+Cursor on "Heavy Ball"
+Error: Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Icons/item508.png
+BitmapCache:243:in `load_bitmap'
+SpriteWindow:2222:in `setBitmap'
+PokemonBag:519:in `pbChooseItem'
+PokemonBag:512:in `loop'
+PokemonBag:542:in `pbChooseItem'
+PokemonBag:1015:in `pbStartScreen'
+PokemonBag:1014:in `loop'
+PokemonBag:1103:in `pbStartScreen'
+PokemonMenu:168:in `pbstartPokemonMenu'
+Pokemon Menu:167:in `pbFadeOutIn'
+-Logged in Errorlog.txt
+
+ViridianCity:PokemonCenter:Exit Animation - I saw a "Door" Swinging Close, Also aint them close on sided slide?
+ViridianCity:PokemonMart:Exit Animation - The Door i saw was of a different Color o_o (Yellow)
+Lampshades Broke down again.
+ViridianCity:PokemonMart:Exit - It makes the players walk to Black Tiles.
+ViridianCity:PokemonMart:The Cashier Register : Is missing it's top sprite (Similar to the Lamshades)
+
+Some Changes
+Route2:Replaced Ledges with Rocks.
+PewterCity:PokemonCenter Exit Spawn - 1 to the Right, 7 Down.
+PewterCity:Pokemart and Pokecenter, PokeGym Exits - Fixed.
+ViridianCity:House:Entrances - PlayerMovement, rather than interaction
+
+Some Notes
+Some places in Kanto region isnt 'that' forested, they're more like grassy xD (I'll try to fix that/Though i do wish we had pokemon sprites that could roam around or something)
+Johto is pretty forestted (Since it's Forest/Mountain Area)
+Orange Island, some were very forestetted, while others are grassy and while others are 'plain'
+Hoenn was a mixed of Forestted and Grassy.
+Sinnoh was pretty forestted (For a big island lol)
