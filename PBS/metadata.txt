@@ -1,9 +1,11 @@
 [000]
-PlayerA=PkMnTRAINER_Male1,Red,onbikered,trback000,Red,Red,Red
+PlayerA=PkMnTRAINER_Male1,Red,onbikered,trbacka,Red,Red,Red
 PlayerB=PkMnTRAINER_Female1,Sapphire,onbikesapphire,trback001,Sapphire,Sapphire,Sapphire
 PlayerC=PkMnTRAINER_Male2,Ruby,onbikeruby,trback099,Red,Red,Red
-TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
 PlayerD=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
+PlayerE=PkMnTRAINER_Female2,Crystal,onbikecrystal,trback100,Crystal,Crystal,Crystal
+PlayerF=PkMnTRAINER_Female3,Leaf,onbikeleaf,trback102,Leaf,Leaf,Leaf
+TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
 WildVictoryME=Victory-Wild_Pokemon.mid
 TrainerBattleBGM=Pkmn_FRLG_Battle_RS_Trainer.mid
 StorageCreator=LANETTE
@@ -301,6 +303,11 @@ Bicycle=true
 ShowArea=true
 [147]
 # Ruins of Alph Exterior
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[148]
+# Route 12
 Bicycle=true
 Outdoor=true
 ShowArea=true

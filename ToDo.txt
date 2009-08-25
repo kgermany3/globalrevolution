@@ -1,24 +1,47 @@
 PGR TO-DO LIST
+(Add a '#' at beginning of entry for completed tasks, '%' if it requires testing)
+
 
 -Swap all Pokecenter and Mart doorways with a glass animation doorway.
--Add the following Maps for Kanto - Rock Tunnel, Lavender Town, Pokemon Tower, Route 12
--Add the following Maps for Johto - Burned Tower, Route 32, Route 33, Azalea Town, Union Cave (Do not require basements for now), Gyms & Interiors
--Add the following Maps for Hoenn - Route 103, Route 110, Mauville, Route 117, Verdanturf Town, Rusturf Tunnel, Route 116, Missing interiors.
--Add the following Maps for Sinnoh - Jubilife City, Canalave City, Route 218, Route 202, Interiors.
+-Rock Tunnel
+-Lavender Town
+-Pokemon Tower
+-Route 12
+-Saffron City
+-Burned Tower
+-Route 32
+-Route 33
+-Azalea Town
+-Union Cave (Do not require basements for now)
+-Missing Johto Gyms & Interiors
+-Route 103
+-Route 110
+-Mauville
+-Route 117
+-Verdanturf Town
+-Rusturf Tunnel
+-Route 116
+-Missing Hoenn interiors.
+-Jubilife City
+-Canalave City
+-Route 218
+-Route 202
+-Missing Sinnoh interiors
 -2nd Gen Berry system added to Johto. Expand for newer Berries and place in other 3 regions.
+-Fix Item Details (Includes Power Lens, Power Weight, Adamant Orb, Damp Rock, Heat Rock, Lustrous Orb)
+-Fix Item icons.
+%-Breeding
+#-Daycare
+-Tiles needed for Pokemon Tower in Lavender Town (External)
 
-From rei_hunter
+
+ERRORS
+(Remove once fixed)
+
 -ViridianCity:PokeMart, it should be instant fade like Pallet Town:KetchumResidence, so the player doesnt go to the black bits.
 -ViridianForest:BugCatcherSamurai - It isnt very "Bug Catcher"-like as the sprite is Team Rocket Male
--Oak'sLab:ProfessorOakSprite - Why has he become a nerd? sure he's a 'nerd' but eh.. lol.
--ViridianForest:Near BugCatcherSamurai, is there some sort of path way in there? i didnt remove it though.
 -PewterCityGym: The Helper's Text needs revamping. Brock too, he sounded so ero D:
-
-From rei_hunter (Again)
-REV40
--PewterCity:Exit/Entrance to Route 2 - O_O it's gone D:
--ViridianCity:Exit/Entrance to Route 2 - It's gone O_O;
--Game Crash : When a player runs down a ledge. Happened on Route 1 False Alarm?
+-
 
 SVN 45 - Error Checking (rei_hunter)
 Item : DEEPSEATOOTH, why is it all capitallized?
@@ -26,47 +49,23 @@ Item : DEEPSEASCALE, why is it all capitallized? o_o
 Item : BLACKGLASSES, some kind of Syndrome?
 Item : NEVERMELTICE, Some kind of Syndrome? o_o
 ITEM : TWISTEDSPOON, Some kind of Syndrome?
+(Note:Firefly - Not sure what the problem is here. But most item names were capatalized like the originals, we can add in lowercase letters as we go along.)
 
-ITEM : Some Item Details, "I'm lustorous???" <- Lol
-Namely
-Power Lens - An Extra '.'
-Power Weight
-Adamant Orb
-Damp Rock
-Heat Rock
-Lustrous Orb
-and more (can't list them all)
-
-Cursor on "Heavy Ball"
-Error: Exception: RuntimeError
-Message: Failed to load bitmap: Graphics/Icons/item508.png
-BitmapCache:243:in `load_bitmap'
-SpriteWindow:2222:in `setBitmap'
-PokemonBag:519:in `pbChooseItem'
-PokemonBag:512:in `loop'
-PokemonBag:542:in `pbChooseItem'
-PokemonBag:1015:in `pbStartScreen'
-PokemonBag:1014:in `loop'
-PokemonBag:1103:in `pbStartScreen'
-PokemonMenu:168:in `pbstartPokemonMenu'
-Pokemon Menu:167:in `pbFadeOutIn'
--Logged in Errorlog.txt
 
 ViridianCity:PokemonCenter:Exit Animation - I saw a "Door" Swinging Close, Also aint them close on sided slide?
-ViridianCity:PokemonMart:Exit Animation - The Door i saw was of a different Color o_o (Yellow)
+ViridianCity:PokemonMart:Exit Animation - The Door i saw was of a different Color o_o (Yellow) 
 Lampshades Broke down again.
-ViridianCity:PokemonMart:Exit - It makes the players walk to Black Tiles.
+ViridianCity:PokemonMart:Exit - It makes the players walk to Black Tiles. (That's supposed to happen)
 ViridianCity:PokemonMart:The Cashier Register : Is missing it's top sprite (Similar to the Lamshades)
 
-Some Changes
-Route2:Replaced Ledges with Rocks.
-PewterCity:PokemonCenter Exit Spawn - 1 to the Right, 7 Down.
-PewterCity:Pokemart and Pokecenter, PokeGym Exits - Fixed.
-ViridianCity:House:Entrances - PlayerMovement, rather than interaction
 
-Some Notes
+NOTES
+
+Firefly: I have added a backup connection file as the connections keep needing a repoint. This I think is due to use of the visual map editor connection function, which fails to connect maps properly.
+
 Some places in Kanto region isnt 'that' forested, they're more like grassy xD (I'll try to fix that/Though i do wish we had pokemon sprites that could roam around or something)
 Johto is pretty forestted (Since it's Forest/Mountain Area)
 Orange Island, some were very forestetted, while others are grassy and while others are 'plain'
 Hoenn was a mixed of Forestted and Grassy.
 Sinnoh was pretty forestted (For a big island lol)
+(Note:Firefly - For now leave maps as they appear in the games. We can move on to customisations later, excepting the current extras already present.)
