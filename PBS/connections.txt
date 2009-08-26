@@ -58,13 +58,16 @@
 124,South,4,125,North,0
 # Route 39 (125) - Olivine City (126)
 125,South,0,126,North,0
-# Route 3 (1) - Pallet Town (28)
-1,0,192,28,41,0
+# Route 3 (1) - Pewter City (32)
+1,West,0,32,East,14
 # Pallet Town (28) - Route 1 (29)
 28,North,0,29,South,0
-# Pallet Town (28) - Route 2 (24)
-28,0,0,24,0,162
-# Pallet Town (28) - Viridian City (30)
-28,0,0,30,7,82
-# Pallet Town (28) - Pewter City (32)
-28,0,0,32,8,208
+# Viridian City (30) - Route 2 (24)
+30,North,12,24,South,0
+# Route 1 (29) - Viridian City (30)
+29,North,0,30,South,7
+# Route 2 (24) - Pewter City (32)
+24,North,0,32,South,12
+# Route 11 (86) - Route 12 (148)
+86,East,0,148,West,55
+
