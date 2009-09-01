@@ -68,6 +68,4 @@
 29,North,0,30,South,7
 # Route 2 (24) - Pewter City (32)
 24,North,0,32,South,12
-# Route 11 (86) - Route 12 (148)
-86,East,0,148,West,55
 
