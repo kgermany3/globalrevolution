@@ -1,5 +1,5 @@
 # Vermillion City (64) - Route 6 (67)
-64,North,19,67,South,0
+64,North,14,67,South,0
 # Petalburg City (83) - Route 102 (82)
 83,East,8,82,West,0
 # Route 101 (14) - Littleroot Town (12)
@@ -23,17 +23,17 @@
 # Route 109 (105) - Slateport City (100)
 105,North,1,100,South,0
 # Route 25 (62) - Route 24 (10)
-62,West,0,10,East,0
+62,West,1,10,East,0
 # Route 9 (122) - Route 10 (123)
-122,East,0,123,West,0
+122,East,6,123,West,0
 # Cerulean City (52) - Route 5 (63)
 52,South,0,63,North,0
 # Route 9 (122) - Cerulean City (52)
-122,West,0,52,East,13
+122,West,0,52,East,7
 # Cerulean City (52) - Route 4 (25)
-52,West,10,25,East,0
+52,West,5,25,East,0
 # Cerulean City (52) - Route 24 (10)
-52,North,12,10,South,0
+52,North,8,10,South,0
 # New Bark Town (36) - Route 29 (20)
 36,West,0,20,East,4
 # Route 29 (20) - Cherrygrove City (2)
@@ -59,17 +59,15 @@
 # Route 39 (125) - Olivine City (126)
 125,South,0,126,North,0
 # Route 3 (1) - Pewter City (32)
-1,West,0,32,East,14
+1,West,0,32,East,16
 # Pallet Town (28) - Route 1 (29)
 28,North,0,29,South,0
 # Viridian City (30) - Route 2 (24)
-30,North,12,24,South,0
+30,North,7,24,South,0
 # Route 1 (29) - Viridian City (30)
 29,North,0,30,South,7
 # Route 2 (24) - Pewter City (32)
-24,North,0,32,South,12
-# Route 11 (86) - Route 12 (148)
-86,East,0,148,West,55
+24,North,0,32,South,8
 # Saffron City (149) - Route 5 (63)
 149,North,4,63,South,0
 # Saffron City (149) - Route 6 (67)
