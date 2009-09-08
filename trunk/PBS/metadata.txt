@@ -309,3 +309,8 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+[149]
+# Saffron City
+Bicycle=true
+Outdoor=true
+ShowArea=true

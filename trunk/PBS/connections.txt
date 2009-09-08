@@ -68,4 +68,8 @@
 29,North,0,30,South,7
 # Route 2 (24) - Pewter City (32)
 24,North,0,32,South,12
+# Saffron City (149) - Route 5 (63)
+149,North,4,63,South,0
+# Saffron City (149) - Route 6 (67)
+149,South,7,67,North,0
 
