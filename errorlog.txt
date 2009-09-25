@@ -3395,3 +3395,17 @@ WindowAndTilemap:1080:in `each'
 WindowAndTilemap:1080:in `refreshLayer0'
 WindowAndTilemap:1233:in `refresh'
 WindowAndTilemap:667:in `update'
+Exception: RuntimeError
+Message: Two trainer types (Leader_Brawly2 and Leader_Misty2) have the same ID (105), which is not allowed.
+File PBS/trainernames.txt, line 108
+
+
+Compiler:1136:in `pbCompileTrainers'
+Compiler:1124:in `pbCompilerEachPreppedLine'
+Compiler:497:in `each_line'
+Compiler:497:in `pbCompilerEachPreppedLine'
+Compiler:494:in `open'
+Compiler:494:in `pbCompilerEachPreppedLine'
+Compiler:1124:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
