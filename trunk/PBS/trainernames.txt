@@ -103,3 +103,8 @@
 101,PkMnTRAINER_Male3,PkMn Trainer,100,,,,Male
 102,PkMnTRAINER_Female3,PkMn Trainer,100,,,,Female
 103,Gamer,Gamer,40,,,,Male
+104,Leader_Roxanne2,Leader,100,,,,Female
+105,Leader_Brawly2,Leader,100,,,,Male
+106,Leader_Misty2,Leader,100,,,,Female
+107,Leader_Surge2,Leader,100,,,,Male
+108,Leader_Brock2,Leader,100,,,,Male
