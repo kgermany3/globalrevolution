@@ -314,3 +314,8 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+[152]
+# Goldenrod City
+Bicycle=true
+Outdoor=true
+ShowArea=true
