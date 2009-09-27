@@ -72,4 +72,6 @@
 149,North,4,63,South,0
 # Saffron City (149) - Route 6 (67)
 149,South,7,67,North,0
+# Route 10 (123) - Lavender Town (157)
+123,South,7,157,North,0
 

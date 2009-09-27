@@ -784,5 +784,37 @@ MEDITITE,26
 MACHOKE,28
 HITMONTOP,28
 HARIYAMA,30
+#-------------------
+BLACKBELT
+Mike
+3
+MANKEY,31
+MANKEY,31
+PRIMEAPE,31
+#-------------------
+BLACKBELT
+Hitoshi
+3
+MACHOP,31
+MANKEY,31
+PRIMEAPE,31
+#-------------------
+BLACKBELT
+Aaron
+1
+PRIMEAPE,36
+#-------------------
+BLACKBELT
+Taiki
+2
+MACHOP,32
+MACHOKE,32
+#-------------------
+BLACKBELT
+Koichi
+2
+HITMONLEE,30
+HITMONCHAN,30
+
 
 

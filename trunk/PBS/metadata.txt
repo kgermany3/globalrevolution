@@ -319,3 +319,16 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+[157]
+# Lavender Town
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[158]
+# Rock Tunnel
+Bicycle=true
+ShowArea=true
+[159]
+# Rock Tunnel
+Bicycle=true
+ShowArea=true
