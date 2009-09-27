@@ -1,12 +1,14 @@
 [000]
-PlayerA=PkMnTRAINER_Male1,Red,onbikered,trbacka,Red,Red,Red
+PlayerA=PkMnTRAINER_Male1,Red,onbikered,trback000,Red,Red,Red
 PlayerB=PkMnTRAINER_Female1,Sapphire,onbikesapphire,trback001,Sapphire,Sapphire,Sapphire
-PlayerC=PkMnTRAINER_Male2,Ruby,onbikeruby,trback099,Red,Red,Red
+PlayerC=PkMnTRAINER_Male2,Ruby,onbikeruby,trback099,Ruby,Ruby,Ruby
 TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
 PlayerD=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
+PlayerE=PkMnTRAINER_Female2,Crystal,onbikecrystal,trback100,Crystal,Crystal,Crystal
+PlayerF=PkMnTRAINER_Female3,Leaf,onbikeleaf,trback102,Leaf,Leaf,Leaf
 WildVictoryME=Victory-Wild_Pokemon.mid
 TrainerBattleBGM=Pkmn_FRLG_Battle_RS_Trainer.mid
-StorageCreator=LANETTE
+StorageCreator=Bill
 Home=38,8,8,0
 TextSkin=rstextskin.png
 WildBattleBGM=Wildp.mid
@@ -111,8 +113,9 @@ ShowArea=true
 [028]
 # Pallet Town
 Bicycle=true
+MapPosition=0,6,15
 Outdoor=true
-HealingSpot=28,16,38
+HealingSpot=28,17,9
 ShowArea=true
 [029]
 # Route 1
@@ -325,10 +328,10 @@ Bicycle=true
 Outdoor=true
 ShowArea=true
 [158]
-# Rock Tunnel
+# Rock Tunnel 1F
 Bicycle=true
 ShowArea=true
 [159]
-# Rock Tunnel
+# Rock Tunnel 2F
 Bicycle=true
 ShowArea=true
