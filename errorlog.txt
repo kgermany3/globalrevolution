@@ -3433,3 +3433,425 @@ WindowAndTilemap:1080:in `each'
 WindowAndTilemap:1080:in `refreshLayer0'
 WindowAndTilemap:1233:in `refresh'
 WindowAndTilemap:667:in `update'
+Exception: NoMethodError
+Message: undefined method `y=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `y=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `y=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `y=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: RuntimeError
+Message: Bitmap's width (64) is not a multiple of frame width (50)
+SpriteWindow:2136:in `initialize'
+Pokegear:53:in `new'
+Pokegear:53:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Exception: RuntimeError
+Message: Bitmap's width (64) is not a multiple of frame width (50)
+SpriteWindow:2136:in `initialize'
+Pokegear:53:in `new'
+Pokegear:53:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:135:in `update'
+Pokegear:96:in `main'
+Pokegear:93:in `loop'
+Pokegear:100:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `bitmap=' for nil:NilClass
+Pokegear:118:in `update'
+Pokegear:88:in `main'
+Pokegear:85:in `loop'
+Pokegear:92:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `bitmap=' for nil:NilClass
+Pokegear:118:in `update'
+Pokegear:88:in `main'
+Pokegear:85:in `loop'
+Pokegear:92:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `bitmap=' for nil:NilClass
+Pokegear:119:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `bitmap=' for nil:NilClass
+Pokegear:119:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `bitmap=' for nil:NilClass
+Pokegear:119:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `bitmap=' for nil:NilClass
+Pokegear:119:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:117:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:117:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:117:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:117:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:117:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Exception: NoMethodError
+Message: undefined method `x=' for nil:NilClass
+Pokegear:117:in `update'
+Pokegear:89:in `main'
+Pokegear:86:in `loop'
+Pokegear:93:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Characters/Graphics/Characters/trainer000.png
+BitmapCache:83:in `load_bitmap'
+BitmapCache:118:in `character'
+Pokegear:66:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Characters/Graphics/Characters/trainer000.png
+BitmapCache:83:in `load_bitmap'
+BitmapCache:118:in `character'
+Pokegear:66:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Exception: NoMethodError
+Message: undefined method `dispose' for nil:NilClass
+Pokegear:96:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `dispose' for nil:NilClass
+Pokegear:96:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `z=' for nil:NilClass
+Pokegear Map:45:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `z=' for nil:NilClass
+Pokegear Map:45:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `z=' for nil:NilClass
+Pokegear Map:45:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `z=' for nil:NilClass
+Pokegear Map:45:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `z=' for nil:NilClass
+Pokegear Map:45:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `z=' for nil:NilClass
+Pokegear Map:45:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: RuntimeError
+Message: Script error within event 3, map 2 (Cherrygrove City):
+(eval):1:in `pbExecuteScript'uninitialized constant PBItems::BERRYCASE
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'

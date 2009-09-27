@@ -27,14 +27,28 @@
 #        will not be shown until the switch is on.  This field is generally set for
 #        locations outside of the main storyline, where special Pokemon can be found.
 [0]
-Name=SAMPLE REGION
+Name=Kanto
 Filename=simplemap.png
-Point=10,5,"Test Map",,011,9,8,
+Point=10,5,"Pallet Town",,028,017,010,
 Point=6,4,"Area 1",,,,,
 Point=6,5,"Area 3",,,,,
 Point=11,5,"Test Map",,011,9,8,
 [1]
-Name=SAMPLE REGION 2
+Name=Johto
+Filename=map.png
+Point=10,5,"Test Map",,011,9,8,
+Point=6,4,"Area 1",,,,,
+Point=6,5,"Area 3",,,,,
+Point=11,5,"Test Map",,011,9,8,
+[2]
+Name=Hoenn
+Filename=map.png
+Point=10,5,"Test Map",,011,9,8,
+Point=6,4,"Area 1",,,,,
+Point=6,5,"Area 3",,,,,
+Point=11,5,"Test Map",,011,9,8,
+[3]
+Name=Sinnoh
 Filename=map.png
 Point=10,5,"Test Map",,011,9,8,
 Point=6,4,"Area 1",,,,,

@@ -815,6 +815,11 @@ Koichi
 2
 HITMONLEE,30
 HITMONCHAN,30
+#-------------------
+YOUNGSTER
+Joseph
+1
+HOOTHOOT,3
 
 
 
