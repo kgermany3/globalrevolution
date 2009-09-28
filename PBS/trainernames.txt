@@ -108,3 +108,6 @@
 106,Leader_Misty2,Leader,100,,,,Female
 107,Leader_Surge2,Leader,100,,,,Male
 108,Leader_Brock2,Leader,100,,,,Male
+109,Leader_Falkner,Leader,100,,,,Male
+110,Leader_Falkner2,Leader,100,,,,Male
+111,Sage,Sage,30,,,,Male
