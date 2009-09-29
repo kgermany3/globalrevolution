@@ -1,11 +1,9 @@
 [000]
 PlayerA=PkMnTRAINER_Male1,Red,onbikered,trback000,Red,Red,Red
 PlayerB=PkMnTRAINER_Female1,Sapphire,onbikesapphire,trback001,Sapphire,Sapphire,Sapphire
-PlayerC=PkMnTRAINER_Male2,Ruby,onbikeruby,trback099,Ruby,Ruby,Ruby
+PlayerC=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
 TrainerVictoryME=Pkmn_FRLG_BattleVictory_Trainer.mid
-PlayerD=PkMnTRAINER_Male3,Gold,onbikegold,trback101,Gold,Gold,Gold
-PlayerE=PkMnTRAINER_Female2,Crystal,onbikecrystal,trback100,Crystal,Crystal,Crystal
-PlayerF=PkMnTRAINER_Female3,Leaf,onbikeleaf,trback102,Leaf,Leaf,Leaf
+PlayerD=PkMnTRAINER_Female3,Leaf,onbikeleaf,trback102,Leaf,Leaf,Leaf
 WildVictoryME=Victory-Wild_Pokemon.mid
 TrainerBattleBGM=Pkmn_FRLG_Battle_RS_Trainer.mid
 StorageCreator=Bill
@@ -21,7 +19,9 @@ ShowArea=true
 [002]
 # Cherrygrove City
 Bicycle=true
+MapPosition=1,17,13
 Outdoor=true
+HealingSpot=2,33,5
 ShowArea=true
 [003]
 # Sandgem Town
@@ -113,7 +113,7 @@ ShowArea=true
 [028]
 # Pallet Town
 Bicycle=true
-MapPosition=0,6,15
+MapPosition=0,6,13
 Outdoor=true
 HealingSpot=28,17,9
 ShowArea=true
@@ -125,6 +125,7 @@ ShowArea=true
 [030]
 # Viridian City
 Bicycle=true
+MapPosition=0,6,10
 Outdoor=true
 HealingSpot=30,26,29
 ShowArea=true
@@ -136,8 +137,9 @@ ShowArea=true
 [032]
 # Pewter City
 Bicycle=true
+MapPosition=0,6,6
 Outdoor=true
-HealingSpot=32,18,27
+HealingSpot=32,19,32
 ShowArea=true
 [034]
 # Rustboro City
@@ -148,7 +150,9 @@ ShowArea=true
 [036]
 # New Bark Town
 Bicycle=true
+MapPosition=1,23,13
 Outdoor=true
+HealingSpot=36,11,14
 ShowArea=true
 [042]
 # Navel Mountain
@@ -163,7 +167,7 @@ HealingSpot=25,35,23
 [052]
 # Cerulean City
 Bicycle=true
-MapPosition=0,19,6
+MapPosition=0,17,5
 Outdoor=true
 HealingSpot=52,20,23
 ShowArea=true
@@ -181,6 +185,7 @@ ShowArea=true
 [064]
 # Vermillion City
 Bicycle=true
+MapPosition=0,17,11
 Outdoor=true
 HealingSpot=64,22,9
 ShowArea=true
@@ -254,7 +259,9 @@ ShowArea=true
 [108]
 # Violet City
 Bicycle=true
+MapPosition=1,15,7
 Outdoor=true
+HealingSpot=108,36,33
 ShowArea=true
 [113]
 # Route 36
@@ -315,17 +322,23 @@ ShowArea=true
 [149]
 # Saffron City
 Bicycle=true
+MapPosition=0,17,8
 Outdoor=true
+HealingSpot=149,14,36
 ShowArea=true
 [152]
 # Goldenrod City
 Bicycle=true
+MapPosition=1,10,11
 Outdoor=true
+HealingSpot=152,19,32
 ShowArea=true
 [157]
 # Lavender Town
 Bicycle=true
+MapPosition=0,22,8
 Outdoor=true
+HealingSpot=157,6,6
 ShowArea=true
 [158]
 # Rock Tunnel 1F
