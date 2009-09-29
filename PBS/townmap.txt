@@ -29,24 +29,29 @@
 [0]
 Name=Kanto
 Filename=simplemap.png
-Point=10,5,"Pallet Town",,028,017,010,
-Point=6,4,"Area 1",,,,,
-Point=6,5,"Area 3",,,,,
-Point=11,5,"Test Map",,011,9,8,
+Point=7,13,"Pallet Town",,028,017,010,080
+Point=7,10,"Viridian City",,030,026,029,076
+Point=7,6,"Pewter City",,032,019,032,077
+Point=18,5,"Cerulean City",,052,020,029,078
+Point=23,8,"Lavender Town",,157,006,006,081
+Point=18,11,"Vermillion City",,064,022,009,079
+Point=18,8,"Saffron City",,149,014,036,082
 [1]
 Name=Johto
-Filename=map.png
-Point=10,5,"Test Map",,011,9,8,
-Point=6,4,"Area 1",,,,,
-Point=6,5,"Area 3",,,,,
-Point=11,5,"Test Map",,011,9,8,
+Filename=Map1.png
+Point=23,13,"New Bark Town",,036,011,014,083
+Point=17,13,"Cherrygrove City",,002,033,005,084
+Point=15,7,"Violet City",,108,014,006,085
+Point=10,11,"Goldenrod City",,152,009,010,086
 [2]
 Name=Hoenn
-Filename=map.png
-Point=10,5,"Test Map",,011,9,8,
-Point=6,4,"Area 1",,,,,
-Point=6,5,"Area 3",,,,,
-Point=11,5,"Test Map",,011,9,8,
+Filename=Map2.png
+Point=7,13,"Littleroot Town",,012,019,013,087
+Point=7,13,"Oldale Town",,008,010,019,088
+Point=7,13,"Petalburg City",,083,020,021,089
+Point=7,13,"Rustboro City",,034,016,038,090
+Point=7,13,"Dewford Town",,098,009,011,091
+Point=7,13,"Slateport City",,100,024,020,092
 [3]
 Name=Sinnoh
 Filename=map.png

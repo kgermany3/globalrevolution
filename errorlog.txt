@@ -3855,3 +3855,71 @@ Scene_Map:98:in `update'
 Scene_Map:96:in `loop'
 Scene_Map:109:in `update'
 Scene_Map:65:in `main'
+Exception: TypeError
+Message: cannot convert Fixnum into String
+BitmapCache:60:in `+'
+BitmapCache:60:in `load_bitmap'
+BitmapCache:118:in `character'
+Sprite_Character:48:in `update_or'
+PerspectiveTilemap:406:in `shadow_update'
+Shadow:169:in `update'
+PerspectiveTilemap:402:in `shadow_initialize'
+Shadow:145:in `initialize'
+Spriteset_Map:31:in `new'
+Spriteset_Map:31:in `_animationSprite_initialize'
+Exception: TypeError
+Message: cannot convert Fixnum into String
+BitmapCache:60:in `+'
+BitmapCache:60:in `load_bitmap'
+BitmapCache:118:in `character'
+Sprite_Character:48:in `update_or'
+PerspectiveTilemap:406:in `shadow_update'
+Shadow:169:in `update'
+PerspectiveTilemap:402:in `shadow_initialize'
+Shadow:145:in `initialize'
+Spriteset_Map:31:in `new'
+Spriteset_Map:31:in `_animationSprite_initialize'
+Exception: RuntimeError
+Message: Field #080 is not a positive integer
+File PBS/townmap.txt, line 42
+Point=25,14,"New Bark Town",,036,011,014, #080
+
+
+Compiler:375:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:574:in `pbCompileTownMap'
+Compiler:559:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Compiler:477:in `pbCompilerEachCommentedLine'
+Compiler:559:in `pbCompileTownMap'
+Exception: RuntimeError
+Message: Field #080 is not a positive integer
+File PBS/townmap.txt, line 42
+Point=25,14,"New Bark Town",,036,011,014, #080
+
+
+Compiler:375:in `pbGetCsvRecord'
+Compiler:363:in `each'
+Compiler:363:in `pbGetCsvRecord'
+Compiler:574:in `pbCompileTownMap'
+Compiler:559:in `pbCompilerEachCommentedLine'
+Compiler:480:in `each_line'
+Compiler:480:in `pbCompilerEachCommentedLine'
+Compiler:477:in `open'
+Compiler:477:in `pbCompilerEachCommentedLine'
+Compiler:559:in `pbCompileTownMap'
+Exception: NoMethodError
+Message: undefined method `x=' for #<BitmapWrapper:0x50d6310>
+PokemonRegionMap:6:in `initialize'
+PokemonRegionMap:85:in `new'
+PokemonRegionMap:85:in `pbStartScene'
+PokemonRegionMap:224:in `pbStartScreen'
+Pokegear Map:171:in `update_command'
+Pokegear Map:168:in `pbFadeOutIn'
+Pokegear Map:168:in `update_command'
+Pokegear Map:148:in `update'
+Pokegear Map:82:in `main'
+Pokegear Map:79:in `loop'
