@@ -3974,3 +3974,299 @@ Scene_Map:98:in `update'
 Scene_Map:96:in `loop'
 Scene_Map:109:in `update'
 Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `[]=' for nil:NilClass
+Pokegear:60:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `[]=' for nil:NilClass
+Pokegear:60:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `bitmap' for nil:NilClass
+Pokegear:106:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<Scene_Pokegear:0x5793ca0>
+Pokegear:147:in `pbDrawTrainerCardFront'
+Pokegear:39:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<Scene_Pokegear:0x5793ca0>
+Pokegear:147:in `pbDrawTrainerCardFront'
+Pokegear:39:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NameError
+Message: undefined local variable or method `baseColor' for #<Scene_Pokegear:0x50ad978 @menu_index=0>
+Pokegear:41:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: undefined local variable or method `baseColor' for #<Scene_Pokegear:0x50ad978 @menu_index=0>
+Pokegear:41:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NameError
+Message: undefined local variable or method `baseColor' for #<Scene_Pokegear:0x50f6a10 @menu_index=0>
+Pokegear:42:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: undefined local variable or method `baseColor' for #<Scene_Pokegear:0x50f6a10 @menu_index=0>
+Pokegear:42:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NameError
+Message: undefined local variable or method `baseColor' for #<Scene_Pokegear:0x507a930 @menu_index=0>
+Pokegear:42:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NameError
+Message: undefined local variable or method `baseColor' for #<Scene_Pokegear:0x507a930 @menu_index=0>
+Pokegear:42:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `each' for nil:NilClass
+SpriteWindow:126:in `pbUpdateSpriteHash'
+Pokegear:144:in `update'
+Pokegear:98:in `main'
+Pokegear:95:in `loop'
+Pokegear:102:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Exception: NoMethodError
+Message: undefined method `each' for nil:NilClass
+SpriteWindow:126:in `pbUpdateSpriteHash'
+Pokegear:144:in `update'
+Pokegear:98:in `main'
+Pokegear:95:in `loop'
+Pokegear:102:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:109:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:109:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:112:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:113:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+Pokegear:113:in `pbDrawTrainerCardFront'
+Pokegear:21:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<Scene_Pokegear:0x506ab20>
+Pokegear:137:in `pbDrawTrainerCardFront'
+Pokegear:27:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Exception: NameError
+Message: undefined local variable or method `imagePositions' for #<Scene_Pokegear:0x506ab20>
+Pokegear:137:in `pbDrawTrainerCardFront'
+Pokegear:27:in `main'
+Main:18:in `mainFunction'
+Main:7:in `pbCriticalCode'
+Main:21:in `mainFunction'
+Main:25
+Main:24:in `loop'
+Main:33
