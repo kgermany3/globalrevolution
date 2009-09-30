@@ -76,4 +76,6 @@
 123,South,7,157,North,0
 # Route 11 (086) - Vermillion City (64)
 86,West,0,64,East,7
+# Azalea Town (176) - Route 33 (177)
+176,East,7,177,West,0
 
