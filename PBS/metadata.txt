@@ -348,3 +348,15 @@ ShowArea=true
 # Rock Tunnel 2F
 Bicycle=true
 ShowArea=true
+[176]
+# Azalea Town
+MapPosition=1,12,17
+HealingSpot=176,16,17
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[177]
+#Route 33
+Bicycle=true
+Outdoor=true
+ShowArea=true

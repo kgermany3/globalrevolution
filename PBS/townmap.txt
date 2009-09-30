@@ -43,15 +43,16 @@ Point=23,13,"New Bark Town",,036,011,014,083
 Point=17,13,"Cherrygrove City",,002,033,005,084
 Point=15,7,"Violet City",,108,014,006,085
 Point=10,11,"Goldenrod City",,152,009,010,086
+Point=12,17,"Azalea Town",,176,016,017,087
 [2]
 Name=Hoenn
 Filename=Map2.png
-Point=7,13,"Littleroot Town",,012,019,013,087
-Point=7,13,"Oldale Town",,008,010,019,088
-Point=7,13,"Petalburg City",,083,020,021,089
-Point=7,13,"Rustboro City",,034,016,038,090
-Point=7,13,"Dewford Town",,098,009,011,091
-Point=7,13,"Slateport City",,100,024,020,092
+Point=7,13,"Littleroot Town",,012,019,013,088
+Point=7,13,"Oldale Town",,008,010,019,089
+Point=7,13,"Petalburg City",,083,020,021,090
+Point=7,13,"Rustboro City",,034,016,038,091
+Point=7,13,"Dewford Town",,098,009,011,092
+Point=7,13,"Slateport City",,100,024,020,093
 [3]
 Name=Sinnoh
 Filename=map.png
