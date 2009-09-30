@@ -4270,3 +4270,15 @@ Main:21:in `mainFunction'
 Main:25
 Main:24:in `loop'
 Main:33
+Exception: NameError
+Message: undefined local variable or method `cmdTrainer' for #<PokemonMenu:0x52d6a70>
+PokemonMenu:179:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Scene_Map:62:in `loop'
+Scene_Map:69:in `main'
