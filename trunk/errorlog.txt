@@ -3935,3 +3935,42 @@ PokemonBag:1014:in `loop'
 PokemonBag:1103:in `pbStartScreen'
 PokemonMenu:168:in `pbStartPokemonMenu'
 PokemonMenu:167:in `pbFadeOutIn'
+Exception: Errno::ENOENT
+Message: File Data/map178.rxdata not found.
+Compiler:2322:in `load_data'
+Compiler:2322:in `pbCompileTrainerEvents'
+Compiler:2320:in `each'
+Compiler:2320:in `pbCompileTrainerEvents'
+Compiler:2577:in `pbCompileAllData'
+Compiler:2616
+Exception: Hangup
+Message: The script is taking too long.  The game will restart.
+Compiler:2322:in `pbCompileTrainerEvents'
+Compiler:2320:in `each'
+Compiler:2320:in `pbCompileTrainerEvents'
+Compiler:2577:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Script error within event 5, map 162 (Fighting Dojo):
+Section066:352:in `initialize'Party 1 has no Pokemon.
+Section017:238:in `pbExecuteScript'
+Section089:286:in `new'
+Section089:286:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Section017:754:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:754:in `command_111'
+Section017:293:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
