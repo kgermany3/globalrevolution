@@ -292,7 +292,7 @@
 355,TM67,TM67,3,0,"",4,0,,RECYCLE
 356,TM68,TM68,3,0,"",4,0,,GIGAIMPACT
 357,TM69,TM69,3,0,"",4,0,,ROCKPOLISH
-358,TM70,TM70,3,0,"",4,0,,FLASH
+358,TM70,TM70,3,2000,"Blinds the foe to reduce accuracy.",3,0,,FLASH
 359,TM71,TM71,3,0,"",4,0,,STONEEDGE
 360,TM72,TM72,3,0,"",4,0,,AVALANCHE
 361,TM73,TM73,3,0,"",4,0,,THUNDERWAVE
@@ -323,6 +323,7 @@
 386,HM06,HM06,3,0,"An attack that may also cut DEFENSE. It can also smash cracked boulders.",4,0,,ROCKSMASH
 387,HM07,HM07,3,0,"A powerful charge attack. It can also be used to climb a waterfall.",4,0,,WATERFALL
 388,HM08,HM08,3,0,"",4,0,,ROCKCLIMB
+389,TM93,TM93,3,3000,"Hurls mud in the foe's face to reduce its accuracy.",3,0,,MUDSLAP
 400,TOWNMAP,Town Map,5,0,"A very convenient map that can be viewed anytime. It even shows your present location.",2,0
 500,LABKEY,Lab Key,5,0,"This is a custom Key Item.",0,0
 501,POKeRADAR,Poké Radar,5,0,"This device helps you find a defeated wild Pokemon more easily.",2,0
@@ -441,3 +442,4 @@
 614,WIDELENS,Wide Lens,1,1200,"",0,0
 615,WISEGLASSES,Wise Glasses,1,1200,"",0,0
 616,ZOOMLENS,Zoom Lens,1,1200,"",0,0
+617,Boatpass,Boat Pass,5,0,"A ticket required for the use of cross-region ferries.",0,0

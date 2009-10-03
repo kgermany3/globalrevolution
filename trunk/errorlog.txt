@@ -4330,3 +4330,271 @@ Pokegear Map:168:in `pbFadeOutIn'
 Pokegear Map:168:in `update_command'
 Pokegear Map:148:in `update'
 Pokegear Map:82:in `main'
+Exception: NoMethodError
+Message: undefined method `dispose' for {"overlay"=>#<Sprite:0x56acf58>}:Hash
+Pokegear:110:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `dispose' for {"overlay"=>#<Sprite:0x5410a50>}:Hash
+Pokegear:110:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: NoMethodError
+Message: undefined method `dispose' for {"overlay"=>#<Sprite:0x561ff10>}:Hash
+Pokegear:110:in `main'
+PokemonUtilities:814:in `pbLoadRpgxpScene'
+PokemonMenu:145:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Scene_Map:182:in `call_menu'
+Scene_Map:179:in `logonerr'
+Scene_Map:179:in `call_menu'
+Scene_Map:155:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Pictures/mapborder.png
+BitmapCache:243:in `load_bitmap'
+PokemonRegionMap:5:in `initialize'
+PokemonRegionMap:84:in `new'
+PokemonRegionMap:84:in `pbStartScene'
+PokemonRegionMap:223:in `pbStartScreen'
+Pokegear:204:in `update_command'
+Pokegear:201:in `pbFadeOutIn'
+Pokegear:201:in `update_command'
+Pokegear:179:in `update'
+Pokegear:94:in `main'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Pictures/mapborder.png
+BitmapCache:243:in `load_bitmap'
+PokemonRegionMap:5:in `initialize'
+PokemonRegionMap:84:in `new'
+PokemonRegionMap:84:in `pbStartScene'
+PokemonRegionMap:223:in `pbStartScreen'
+Pokegear:204:in `update_command'
+Pokegear:201:in `pbFadeOutIn'
+Pokegear:201:in `update_command'
+Pokegear:179:in `update'
+Pokegear:94:in `main'
+Exception: RuntimeError
+Message: Undefined value Moves (expected one of: UnknownHappinessHappinessDayHappinessNightLevelTradeTradeItemItemAttackGreaterAtkDefEqualDefenseGreaterSilcoonCascoonNinjaskShedinjaBeautyItemMaleItemFemaleDayHoldItemNightHoldItemHasMoveHasInPartyLevelMaleLevelFemaleSpecial1Special2Special3Custom1Custom2Custom3Custom4Custom5Custom6Custom7) (section 193, key Evolutions)
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:1994:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Undefined value Hasmove (expected one of: UnknownHappinessHappinessDayHappinessNightLevelTradeTradeItemItemAttackGreaterAtkDefEqualDefenseGreaterSilcoonCascoonNinjaskShedinjaBeautyItemMaleItemFemaleDayHoldItemNightHoldItemHasMoveHasInPartyLevelMaleLevelFemaleSpecial1Special2Special3Custom1Custom2Custom3Custom4Custom5Custom6Custom7) (section 193, key Evolutions)
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:1994:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: NameError
+Message: uninitialized constant PBItems::PARLYZHEAL
+PokemonItems:557:in `pbUseItemOnPokemon'
+PokemonItems:919:in `pbUseItem'
+PokemonItems:912:in `pbFadeOutIn'
+PokemonItems:912:in `pbUseItem'
+PokemonBag:1063:in `pbStartScreen'
+PokemonBag:1014:in `loop'
+PokemonBag:1103:in `pbStartScreen'
+PokemonMenu:168:in `pbStartPokemonMenu'
+PokemonMenu:167:in `pbFadeOutIn'
+PokemonMenu:167:in `pbStartPokemonMenu'
+Exception: NameError
+Message: uninitialized constant PBItems::PARALYZHEAL
+PokemonItems:557:in `pbUseItemOnPokemon'
+PokemonItems:919:in `pbUseItem'
+PokemonItems:912:in `pbFadeOutIn'
+PokemonItems:912:in `pbUseItem'
+PokemonBag:1063:in `pbStartScreen'
+PokemonBag:1014:in `loop'
+PokemonBag:1103:in `pbStartScreen'
+PokemonMenu:168:in `pbStartPokemonMenu'
+PokemonMenu:167:in `pbFadeOutIn'
+PokemonMenu:167:in `pbStartPokemonMenu'
+Exception: RuntimeError
+Message: Undefined value map181 (expected one of: UnknownHappinessHappinessDayHappinessNightLevelTradeTradeItemItemAttackGreaterAtkDefEqualDefenseGreaterSilcoonCascoonNinjaskShedinjaBeautyItemMaleItemFemaleDayHoldItemNightHoldItemHasMoveHasInPartyLevelMaleLevelFemaleSpecial1Special2Special3Custom1Custom2Custom3Custom4Custom5Custom6Custom7) (section 152, key Evolutions)
+Compiler:1723:in `checkEnumField'
+Compiler:1739:in `csvEnumField!'
+Compiler:1994:in `pbCompilePokemonData'
+Compiler:1982:in `each'
+Compiler:1982:in `pbCompilePokemonData'
+Compiler:1980:in `loop'
+Compiler:2054:in `pbCompilePokemonData'
+Compiler:1969:in `each'
+Compiler:1969:in `pbCompilePokemonData'
+Compiler:1968:in `each'
+Exception: RuntimeError
+Message: Field map181 is not a positive integer
+File PBS/pokemon.txt, section 0, key Evolutions
+
+
+Compiler:173:in `csvPosInt!'
+Compiler:2105:in `pbCompilePokemonData'
+Compiler:2085:in `each'
+Compiler:2085:in `pbCompilePokemonData'
+Compiler:2082:in `each'
+Compiler:2082:in `pbCompilePokemonData'
+Compiler:2550:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Field Route 34 is not a positive integer
+File PBS/pokemon.txt, section 0, key Evolutions
+
+
+Compiler:173:in `csvPosInt!'
+Compiler:2105:in `pbCompilePokemonData'
+Compiler:2085:in `each'
+Compiler:2085:in `pbCompilePokemonData'
+Compiler:2082:in `each'
+Compiler:2082:in `pbCompilePokemonData'
+Compiler:2550:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Field Route 34 is not a positive integer
+File PBS/pokemon.txt, section 0, key Evolutions
+
+
+Compiler:173:in `csvPosInt!'
+Compiler:2105:in `pbCompilePokemonData'
+Compiler:2085:in `each'
+Compiler:2085:in `pbCompilePokemonData'
+Compiler:2082:in `each'
+Compiler:2082:in `pbCompilePokemonData'
+Compiler:2550:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Field map181 is not a positive integer
+File PBS/pokemon.txt, section 0, key Evolutions
+
+
+Compiler:173:in `csvPosInt!'
+Compiler:2105:in `pbCompilePokemonData'
+Compiler:2085:in `each'
+Compiler:2085:in `pbCompilePokemonData'
+Compiler:2082:in `each'
+Compiler:2082:in `pbCompilePokemonData'
+Compiler:2550:in `pbCompileAllData'
+Compiler:2616
+Exception: NameError
+Message: uninitialized constant PBItems::BoatPass
+PokemonItems:191:in `pbUseItemFromBag'
+PokemonItems:931:in `pbUseItem'
+PokemonBag:1063:in `pbStartScreen'
+PokemonBag:1014:in `loop'
+PokemonBag:1103:in `pbStartScreen'
+PokemonMenu:168:in `pbStartPokemonMenu'
+PokemonMenu:167:in `pbFadeOutIn'
+PokemonMenu:167:in `pbStartPokemonMenu'
+PokemonMenu:134:in `loop'
+PokemonMenu:244:in `pbStartPokemonMenu'
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Animations/
+BitmapCache:243:in `load_bitmap'
+BitmapCache:264:in `animation'
+PokemonAnimEditor:1034:in `loadAnimation'
+PokemonAnimEditor:1006:in `initialize'
+PokemonAnimEditor:2555:in `new'
+PokemonAnimEditor:2555:in `animationEditorMain'
+PokemonAnimEditor:2734:in `pbAnimationEditor'
+PokemonDebug:872:in `pbDebugMenu'
+PokemonDebug:872:in `pbFadeOutIn'
+PokemonDebug:872:in `pbDebugMenu'
+Exception: RuntimeError
+Message: Minimum level is greater than maximum level: PIDGEY,18,10
+File PBS/encounters.txt, line 1098
+PIDGEY,18,10
+
+Compiler:906:in `pbCompileEncounters'
+Compiler:2568:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Undefined item constant name: SCREECH
+Name must consist only of letters, numbers, and
+underscores and can't begin with a number.
+File PBS/trainers.txt, line 137
+ONIX,14,BIDE,SCREECH,BIND,ROCKTHROW
+
+Compiler:782:in `pbGetConst'
+Compiler:790:in `parseItem'
+Compiler:1217:in `pbCompileTrainers'
+Compiler:1198:in `each'
+Compiler:1198:in `pbCompileTrainers'
+Compiler:1171:in `loop'
+Compiler:1231:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Script error within event 6, map 175 (3rd Floor):
+Section062:861:in `pbFromPBMove'undefined method `new' for nil:NilClass
+Section017:238:in `pbExecuteScript'
+Section061:164:in `pbInitPokemon'
+Section061:336:in `pbInitialize'
+Section066:686:in `pbStartBattleCore'
+Section066:542:in `pbStartBattle'
+Section089:315:in `pbTrainerBattle'
+Section089:314:in `pbBattleAnimation'
+Section089:314:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Section017:754:in `eval'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
+Exception: RuntimeError
+Message: Script error within event 6, map 175 (3rd Floor):
+Section062:861:in `pbFromPBMove'undefined method `new' for nil:NilClass
+Section017:238:in `pbExecuteScript'
+Section061:164:in `pbInitPokemon'
+Section061:336:in `pbInitialize'
+Section066:686:in `pbStartBattleCore'
+Section066:542:in `pbStartBattle'
+Section089:315:in `pbTrainerBattle'
+Section089:314:in `pbBattleAnimation'
+Section089:314:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Section017:754:in `eval'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:754:in `command_111'
+Interpreter:293:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
