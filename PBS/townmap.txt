@@ -47,12 +47,12 @@ Point=12,17,"Azalea Town",,176,016,017,087
 [2]
 Name=Hoenn
 Filename=Map2.png
-Point=7,13,"Littleroot Town",,012,019,013,088
-Point=7,13,"Oldale Town",,008,010,019,089
-Point=7,13,"Petalburg City",,083,020,021,090
-Point=7,13,"Rustboro City",,034,016,038,091
-Point=7,13,"Dewford Town",,098,009,011,092
-Point=7,13,"Slateport City",,100,024,020,093
+Point=5,13,"Littleroot Town",,012,019,015,088
+Point=5,11,"Oldale Town",,008,010,019,089
+Point=2,11,"Petalburg City",,083,020,021,090
+Point=1,7,"Rustboro City",,034,016,038,091
+Point=3,16,"Dewford Town",,098,009,011,092
+Point=9,12,"Slateport City",,100,024,020,093
 [3]
 Name=Sinnoh
 Filename=map.png

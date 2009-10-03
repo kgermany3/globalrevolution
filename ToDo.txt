@@ -3,15 +3,15 @@ PGR TO-DO LIST
 
 
 -Swap all Pokecenter and Mart doorways with a glass animation doorway.
--Rock Tunnel
--Lavender Town
+-Rock Tunnel (Map Done)
+-Lavender Town (Map Done)
 -Pokemon Tower
 -Route 12
--Saffron City
+-Saffron City (Map Done)
 -Burned Tower
 -Route 32
--Route 33
--Azalea Town
+-Route 33 (Map Done)
+-Azalea Town (Map Done)
 -Union Cave (Do not require basements for now)
 -Missing Johto Gyms & Interiors
 -Route 103
@@ -32,7 +32,7 @@ PGR TO-DO LIST
 -Fix Item icons.
 %-Breeding
 #-Daycare
--Tiles needed for Pokemon Tower in Lavender Town (External)
+#-Tiles needed for Pokemon Tower in Lavender Town (Done)
 
 
 ERRORS
