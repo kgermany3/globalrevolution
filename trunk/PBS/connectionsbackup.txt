@@ -74,6 +74,25 @@
 149,South,7,67,North,0
 # Route 10 (123) - Lavender Town (157)
 123,South,7,157,North,0
+# Lavender Town (157) - Route 12 (187)
+157,South,0,187,North,0
+# Route 12 (143) - Route 12 (187)
+148,North,0,187,South,0
 # Route 11 (086) - Vermillion City (64)
 86,West,0,64,East,7
-
+# Azalea Town (176) - Route 33 (177)
+176,East,7,177,West,0
+# Goldenrod City (152) - Route 35 (186)
+152,North,14,186,South,0
+# Goldenrod City (152) - Route 34 (181)
+152,South,7,181,North,0
+# Route 35 (186) - Route 34 (113)
+186,North,17,113,South,0
+# Route 11 (86) - Route 12 (187)
+86,East,0,187,West,57
+# Route 11 (86) - Route 12 (148)
+86,East,0,148,West,59
+# Lavender Town (157) - Route 8 (183)
+157,West,0,183,East,3
+# Saffron City (149) - Route 8 (183)
+149,East,12,183,West,0

@@ -119,11 +119,13 @@ HealingSpot=28,17,9
 ShowArea=true
 [029]
 # Route 1
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [030]
 # Viridian City
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,6,10
 Outdoor=true
@@ -136,6 +138,7 @@ Outdoor=true
 ShowArea=true
 [032]
 # Pewter City
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,6,6
 Outdoor=true
@@ -143,12 +146,14 @@ HealingSpot=32,19,32
 ShowArea=true
 [034]
 # Rustboro City
+Weather=Rain,20
 Bicycle=true
 Outdoor=true
 HealingSpot=34,16,38
 ShowArea=true
 [036]
 # New Bark Town
+Weather=Rain,10
 Bicycle=true
 MapPosition=1,23,13
 Outdoor=true
@@ -160,12 +165,9 @@ DarkMap=true
 Outdoor=false
 EscapePoint=23,41,50
 ShowArea=true
-[049]
-# Melanie's House
-MapPosition=0,16,6
-HealingSpot=25,35,23
 [052]
 # Cerulean City
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,17,5
 Outdoor=true
@@ -173,17 +175,20 @@ HealingSpot=52,20,23
 ShowArea=true
 [062]
 # Route 25
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,19,6
 Outdoor=true
 ShowArea=true
 [063]
 # Route 5
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [064]
 # Vermillion City
+Weather=Rain,30
 Bicycle=true
 MapPosition=0,17,11
 Outdoor=true
@@ -191,22 +196,26 @@ HealingSpot=64,22,9
 ShowArea=true
 [067]
 # Route 6
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [082]
 # Route 102
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [083]
 # Petalburg City
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 HealingSpot=83,20,16
 ShowArea=true
 [086]
 # Route 11
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
@@ -216,6 +225,7 @@ Bicycle=true
 ShowArea=true
 [090]
 # Route 104
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
@@ -226,38 +236,45 @@ Outdoor=true
 ShowArea=true
 [098]
 # Dewford Town
+Weather=Rain,30
 Bicycle=true
 Outdoor=true
 HealingSpot=98,2,11
 ShowArea=true
 [100]
 # Slateport City
+Weather=Rain,30
 Bicycle=true
 Outdoor=true
 HealingSpot=100,19,20
 ShowArea=true
 [104]
 # Route 106
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [105]
 # Route 109
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [106]
 # Route 30
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [107]
 # Route 31
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [108]
 # Violet City
+Weather=Rain,10
 Bicycle=true
 MapPosition=1,15,7
 Outdoor=true
@@ -265,43 +282,51 @@ HealingSpot=108,36,33
 ShowArea=true
 [113]
 # Route 36
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [114]
 # Route 37
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [115]
 # Ecruteak City
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [122]
 # Route 9
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,21,6
 Outdoor=true
 ShowArea=true
 [123]
 # Route 10
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,24,6
 Outdoor=true
 ShowArea=true
 [124]
 # Route 38
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [125]
 # Route 39
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [126]
 # Olivine City
+Weather=Rain,30
 Bicycle=true
 Outdoor=true
 ShowArea=true
@@ -311,16 +336,19 @@ Bicycle=true
 ShowArea=true
 [147]
 # Ruins of Alph Exterior
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [148]
 # Route 12
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [149]
 # Saffron City
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,17,8
 Outdoor=true
@@ -328,6 +356,7 @@ HealingSpot=149,14,36
 ShowArea=true
 [152]
 # Goldenrod City
+Weather=Rain,30
 Bicycle=true
 MapPosition=1,10,11
 Outdoor=true
@@ -335,6 +364,7 @@ HealingSpot=152,19,32
 ShowArea=true
 [157]
 # Lavender Town
+Weather=Rain,10
 Bicycle=true
 MapPosition=0,22,8
 Outdoor=true
@@ -350,23 +380,39 @@ Bicycle=true
 ShowArea=true
 [176]
 # Azalea Town
-MapPosition=1,12,17
-HealingSpot=176,16,17
+Weather=Rain,10
 Bicycle=true
+MapPosition=1,12,17
 Outdoor=true
+HealingSpot=176,16,17
 ShowArea=true
 [177]
-#Route 33
+# Route 33
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [181]
-#Route 34
+# Route 34
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
 [183]
-#Route 8
+# Route 8
+Weather=Rain,10
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[186]
+# Route 35
+Weather=Rain,10
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[187]
+# Route 12
+Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
