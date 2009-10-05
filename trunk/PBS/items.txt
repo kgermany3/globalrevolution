@@ -324,6 +324,7 @@
 387,HM07,HM07,3,0,"A powerful charge attack. It can also be used to climb a waterfall.",4,0,,WATERFALL
 388,HM08,HM08,3,0,"",4,0,,ROCKCLIMB
 389,TM93,TM93,3,3000,"Hurls mud in the foe's face to reduce its accuracy.",3,0,,MUDSLAP
+390,TM94,TM94,3,3000,"Throws coins at the foe. Money is recovered after.",3,0,,PAYDAY
 400,TOWNMAP,Town Map,5,0,"A very convenient map that can be viewed anytime. It even shows your present location.",2,0
 500,LABKEY,Lab Key,5,0,"This is a custom Key Item.",0,0
 501,POKeRADAR,Poké Radar,5,0,"This device helps you find a defeated wild Pokemon more easily.",2,0
