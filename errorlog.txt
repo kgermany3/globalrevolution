@@ -4826,3 +4826,13 @@ Scene_Map:98:in `update'
 Scene_Map:96:in `loop'
 Scene_Map:109:in `update'
 Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):118:in `pbCompileTrainers'compile error
+(eval):112: syntax error
+=110
+ ^
+Compiler:1148:in `pbCompileTrainers'
+Compiler:2556:in `eval'
+Compiler:1148:in `pbCompileTrainers'
+Compiler:2556:in `pbCompileAllData'
+Compiler:2616
