@@ -847,13 +847,13 @@ WEEDLE,3
 CATERPIE,3
 #-------------------
 Leader_Falkner
-Falkner
+Falkner,1
 2
 PIDGEY,9
 PIDGEOTTO,13,,,TACKLE,MUDSLAP,GUST,QUICKATTACK
 #-------------------
-Leader_Falkner2
-Falkner
+Leader_Falkner
+Falkner,2
 4
 PIDGEOTTO,20,,,WHIRLWIND,MUDSLAP,GUST,QUICKATTACK
 PIDGEOTTO,20,,,WHIRLWIND,MUDSLAP,GUST,QUICKATTACK
