@@ -444,3 +444,4 @@
 615,WISEGLASSES,Wise Glasses,1,1200,"",0,0
 616,ZOOMLENS,Zoom Lens,1,1200,"",0,0
 617,Boatpass,Boat Pass,5,0,"A ticket required for the use of cross-region ferries.",0,0
+618,PokeChoc,Poke'Choc,1,150,"Chocolate made specifically for Pokemon. It restores the HP of one Pokémon by 40 points.",1,1

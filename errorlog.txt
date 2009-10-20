@@ -4836,3 +4836,24 @@ Compiler:2556:in `eval'
 Compiler:1148:in `pbCompileTrainers'
 Compiler:2556:in `pbCompileAllData'
 Compiler:2616
+Exception: SyntaxError
+Message: (eval):446:in `pbCompileItems'compile error
+(eval):446: unterminated string meets end of file
+(eval):446: syntax error
+Compiler:702:in `pbCompileItems'
+Compiler:2547:in `eval'
+Compiler:702:in `pbCompileItems'
+Compiler:2547:in `pbCompileAllData'
+Compiler:2616
+Exception: RuntimeError
+Message: Failed to load bitmap: Graphics/Animations/
+BitmapCache:243:in `load_bitmap'
+BitmapCache:264:in `animation'
+PokemonAnimEditor:1034:in `loadAnimation'
+PokemonAnimEditor:1006:in `initialize'
+PokemonAnimEditor:2555:in `new'
+PokemonAnimEditor:2555:in `animationEditorMain'
+PokemonAnimEditor:2734:in `pbAnimationEditor'
+PokemonDebug:872:in `pbDebugMenu'
+PokemonDebug:872:in `pbFadeOutIn'
+PokemonDebug:872:in `pbDebugMenu'

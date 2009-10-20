@@ -47,7 +47,7 @@
 # Violet City (108) - Route 36 (113)
 108,West,5,113,East,0
 # Route 36 (113) - Ruins of Alph Exterior (147)
-113,South,25,147,North,0
+113,South,27,147,North,0
 # Route 36 (113) - Route 37 (114)
 113,North,4,114,South,0
 # Route 37 (114) - Ecruteak City (115)
@@ -85,7 +85,7 @@
 # Goldenrod City (152) - Route 34 (181)
 152,South,7,181,North,0
 # Route 35 (186) - Route 36 (113)
-186,North,17,113,South,0
+186,North,15,113,South,0
 # Route 11 (86) - Route 12 (187)
 86,East,0,187,West,57
 # Route 11 (86) - Route 12 lower (148)
