@@ -411,9 +411,18 @@ Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
-[187]
+[190]
 # Route 12
 Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
+[193]
+# National Park
+Weather=Rain,10
+Bicycle=true
+Outdoor=true
+ShowArea=true
+# National Park (Bug Contest)
+Weather=Rain,10
+Outdoor=true
