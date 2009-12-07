@@ -423,6 +423,13 @@ Weather=Rain,10
 Bicycle=true
 Outdoor=true
 ShowArea=true
+[192]
 # National Park (Bug Contest)
 Weather=Rain,10
 Outdoor=true
+[194]
+# Route 32
+Weather=Rain,10
+Bicycle=true
+Outdoor=true
+ShowArea=true

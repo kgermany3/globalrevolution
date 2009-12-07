@@ -96,3 +96,7 @@
 149,East,12,183,West,0
 # Route 33 (177) - Azalea Town (176)
 177,West,0,176,East,7
+#Route 32 (194) - Violet City (108)
+194,North,0,108,South,2
+# Route 32 (194) - Ruins of Alph Exterior (147)
+194,West,0,147,East,18
