@@ -273,9 +273,9 @@
 336,TM48,TM48,3,3000,"The user employs its psychic power to swap abilities with the foe.",3,0,,SKILLSWAP
 337,TM49,TM49,3,3000,"Steals the effects of the foe's healing or status- changing move.",3,0,,SNATCH
 338,TM50,TM50,3,3000,"An intense attack that also sharply reduces the user's SP. ATK stat.",3,0,,OVERHEAT
-339,TM51,TM51,3,0,"The user lands and rests its body. It restores the user's HP by up to half of its max HP.",4,0,,ROOST
-340,TM52,TM52,3,0,"The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",4,0,,FOCUSBLAST
-341,TM53,TM53,3,0,"The user draws power from nature and fires it at the foe. It may also lower the target's Sp. Def",4,0,,ENERGYBALL
+339,TM51,TM51,3,2000,"The user lands and rests its body. It restores the user's HP by up to half of its max HP.",4,0,,ROOST
+340,TM52,TM52,3,5500,"The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",4,0,,FOCUSBLAST
+341,TM53,TM53,3,2000,"The user draws power from nature and fires it at the foe. It may also lower the target's Sp. Def",4,0,,ENERGYBALL
 342,TM54,TM54,3,0,"A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",3,0,,FALSESWIPE
 343,TM55,TM55,3,0,"Power is doubled if Pokemon's HP is less than half.",3,0,,BRINE
 344,TM56,TM56,3,0,"",4,0,,FLING
@@ -305,7 +305,7 @@
 368,TM80,TM80,3,0,"",4,0,,ROCKSLIDE
 369,TM81,TM81,3,0,"",4,0,,XSCISSOR
 370,TM82,TM82,3,0,"",4,0,,SLEEPTALK
-371,TM83,TM83,3,0,"",4,0,,NATURALGIFT
+371,TM83,TM83,3,0,"",4,2000,,NATURALGIFT
 372,TM84,TM84,3,0,"",4,0,,POISONJAB
 373,TM85,TM85,3,0,"",4,0,,DREAMEATER
 374,TM86,TM86,3,0,"",4,0,,GRASSKNOT
