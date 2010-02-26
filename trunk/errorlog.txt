@@ -4881,3 +4881,61 @@ Scene_Map:98:in `update'
 Scene_Map:96:in `loop'
 Scene_Map:109:in `update'
 Scene_Map:65:in `main'
+Exception: SyntaxError
+Message: (eval):7:in `pbExecuteScript'compile error
+(eval):7: syntax error
+PBItems::TM15])
+       ^
+(eval):7: syntax error
+PBItems::TM15])
+              ^
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: SyntaxError
+Message: (eval):6:in `pbExecuteScript'compile error
+(eval):6: syntax error
+PBItems::Poke'Choc])
+              ^
+(eval):6: unterminated string meets end of file
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `eval'
+Interpreter:238:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Exception: RuntimeError
+Message: Script error within event 3, map 201 (Mart: Rooftop):
+(eval):6:in `pbExecuteScript'uninitialized constant PBItems::POKeCHOC
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `eval'
+Section017:238:in `pbExecuteScript'
+Section017:1615:in `command_355'
+Section017:467:in `execute_command'
+Section017:190:in `update'
+Section017:104:in `loop'
+Section017:195:in `update'
+Section019:98:in `update'
+Section019:96:in `loop'
+
+Interpreter:249:in `pbExecuteScript'
+Interpreter:1615:in `command_355'
+Interpreter:467:in `execute_command'
+Interpreter:190:in `update'
+Interpreter:104:in `loop'
+Interpreter:195:in `update'
+Scene_Map:98:in `update'
+Scene_Map:96:in `loop'
+Scene_Map:109:in `update'
+Scene_Map:65:in `main'
