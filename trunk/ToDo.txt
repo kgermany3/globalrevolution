@@ -1,6 +1,6 @@
 PGR TO-DO LIST
 (Add a '#' at beginning of entry for completed tasks, '%' if it requires testing)
-
+##
 
 -Swap all Pokecenter and Mart doorways with a glass animation doorway.
 -Rock Tunnel (Map Done)
