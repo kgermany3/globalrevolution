@@ -1,0 +1,1 @@
+We're a fan-made RPG which is currently being developed. This game will bring an experience similar to that of the original Pokemon games, while adding cool new features, such as online battles and trading.  Visit our main website for more details: http://pokeglobal.org/
